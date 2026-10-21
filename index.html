@@ -1,0 +1,476 @@
+<title>RepoList</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: iOS inset-grouped list. Large title, sticky search + segmented control, one rounded group per collection, edit mode for multi-select with a translucent bottom toolbar. */
+:root {
+  --bg: #F2F2F7;
+  --cell: #FFFFFF;
+  --label: #000000;
+  --label-2: rgba(60, 60, 67, 0.60);
+  --label-3: rgba(60, 60, 67, 0.30);
+  --sep: rgba(60, 60, 67, 0.29);
+  --fill: rgba(118, 118, 128, 0.12);
+  --seg-thumb: #FFFFFF;
+  --tint: #007AFF;
+  --orange: #C93400;
+  --bar: rgba(249, 249, 249, 0.82);
+  --hud: rgba(30, 30, 32, 0.88);
+  --hud-fg: #FFFFFF;
+  --notice: #FFF6E0;
+  --green: #248A3D;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", "Microsoft YaHei", system-ui, sans-serif;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000; --cell: #1C1C1E; --label: #FFFFFF;
+    --label-2: rgba(235, 235, 245, 0.60); --label-3: rgba(235, 235, 245, 0.30);
+    --sep: rgba(84, 84, 88, 0.65); --fill: rgba(118, 118, 128, 0.24); --seg-thumb: #636366;
+    --tint: #0A84FF; --orange: #FF9F0A; --bar: rgba(22, 22, 24, 0.82);
+    --hud: rgba(58, 58, 60, 0.92); --hud-fg: #FFFFFF; --notice: #2C2410; --green: #30D158;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #000000; --cell: #1C1C1E; --label: #FFFFFF;
+  --label-2: rgba(235, 235, 245, 0.60); --label-3: rgba(235, 235, 245, 0.30);
+  --sep: rgba(84, 84, 88, 0.65); --fill: rgba(118, 118, 128, 0.24); --seg-thumb: #636366;
+  --tint: #0A84FF; --orange: #FF9F0A; --bar: rgba(22, 22, 24, 0.82);
+  --hud: rgba(58, 58, 60, 0.92); --hud-fg: #FFFFFF; --notice: #2C2410; --green: #30D158;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body {
+  background: var(--bg); color: var(--label); font-family: var(--font);
+  font-size: 17px; line-height: 1.35; letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--bg);
+}
+button { font: inherit; color: inherit; background: none; border: none; padding: 0; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+:focus-visible { outline: 2px solid var(--tint); outline-offset: 2px; border-radius: 4px; }
+
+.wrap {
+  max-width: 600px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 140px;
+}
+
+/* Navigation */
+.nav { display: flex; justify-content: flex-end; height: 44px; align-items: center; }
+.nav button { color: var(--tint); font-size: 17px; }
+.large-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.large-title h1 { margin: 0; font-size: 34px; font-weight: 700; letter-spacing: 0.01em; line-height: 1.2; }
+.large-title .sub { font-size: 15px; color: var(--label-2); font-variant-numeric: tabular-nums; }
+
+.controls {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); padding-block: 4px 12px; display: flex; flex-direction: column; gap: 10px;
+}
+.search {
+  display: flex; align-items: center; gap: 6px; height: 36px; padding: 0 8px;
+  background: var(--fill); border-radius: 10px; color: var(--label-2);
+}
+.search svg { width: 16px; height: 16px; flex: none; }
+.search input {
+  flex: 1; min-width: 0; height: 100%; border: none; background: transparent; outline: none;
+  font: inherit; font-size: 17px; color: var(--label);
+}
+.search input::placeholder { color: var(--label-2); }
+.search input::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+.seg {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+  background: var(--fill); border-radius: 9px; padding: 2px; height: 32px;
+}
+.seg button {
+  border-radius: 7px; font-size: 13px; font-weight: 500; color: var(--label);
+  transition: background .2s, box-shadow .2s;
+}
+.seg button[aria-pressed="true"] {
+  background: var(--seg-thumb); font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0,0,0,.12), 0 3px 1px rgba(0,0,0,.04);
+}
+
+/* Groups */
+.notice {
+  background: var(--notice); border-radius: 10px; padding: 10px 14px;
+  font-size: 13px; line-height: 1.4; color: var(--label); margin-bottom: 4px;
+}
+.group { margin-top: 22px; }
+.group-head {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;
+  padding: 0 16px 7px; font-size: 13px;
+}
+.group-head .title { color: var(--label-2); text-transform: uppercase; letter-spacing: 0; }
+.group-head .title b { font-weight: 400; color: var(--label-3); margin-left: 4px; font-variant-numeric: tabular-nums; }
+.group-head .acts { display: flex; gap: 16px; flex: none; }
+.group-head .acts > * { color: var(--tint); font-size: 13px; }
+
+.list { list-style: none; margin: 0; padding: 0; background: var(--cell); border-radius: 10px; overflow: hidden; }
+.row { position: relative; display: flex; align-items: center; padding-left: 16px; }
+.row:active { background: var(--fill); }
+.row .check {
+  flex: none; width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(--label-3);
+  margin-right: 12px; display: none; place-items: center;
+}
+.row .check svg { width: 12px; height: 12px; opacity: 0; color: #FFFFFF; }
+.editing .row .check { display: grid; }
+.row.selected .check { background: var(--tint); border-color: var(--tint); }
+.row.selected .check svg { opacity: 1; }
+.row .body {
+  flex: 1; min-width: 0; padding: 11px 16px 10px 0;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.row + .row .body { border-top: 0.5px solid var(--sep); }
+.line1 { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; min-width: 0; }
+.name { font-size: 16px; font-weight: 600; letter-spacing: -0.02em; flex: none; max-width: 55%; overflow-wrap: anywhere; }
+.url {
+  font-family: var(--mono); font-size: 11px; color: var(--label-2); letter-spacing: -0.01em;
+  text-align: right; min-width: 0; overflow-wrap: anywhere;
+}
+.url .http { color: var(--orange); }
+.line2 { display: flex; align-items: baseline; justify-content: space-between; gap: 4px 10px; flex-wrap: wrap; }
+.note { font-size: 13px; color: var(--label-2); line-height: 1.35; min-width: 0; }
+.note.none { color: var(--label-3); }
+.meta {
+  display: inline-flex; align-items: center; gap: 5px; margin-left: auto;
+  font-size: 11.5px; color: var(--label-2); font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex: none; transform: translateY(-0.5px); }
+.dot.warn { background: var(--orange); }
+.dot.dead { background: var(--label-3); }
+.meta .stale, .meta.dead { color: var(--label-3); }
+.legend { display: inline-flex; align-items: center; gap: 5px; margin-right: 10px; }
+.acts-row { display: flex; gap: 14px; margin-top: 4px; font-size: 12px; }
+.acts-row > * { color: var(--tint); padding-block: 2px; }
+.editing .acts-row { display: none; }
+
+.empty { text-align: center; color: var(--label-2); font-size: 15px; padding: 48px 0; }
+
+.help { margin-top: 28px; }
+.help .list { padding: 12px 16px; font-size: 13px; color: var(--label-2); line-height: 1.5; display: flex; flex-direction: column; gap: 6px; }
+.help b { color: var(--label); font-weight: 600; }
+.foot { text-align: center; font-size: 12px; color: var(--label-3); margin-top: 20px; }
+
+/* Toolbar (edit mode) */
+.toolbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 8;
+  background: var(--bar); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  border-top: 0.5px solid var(--sep);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-top: 12px; padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+}
+.toolbar .in { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; }
+.toolbar .in > :first-child { justify-self: start; }
+.toolbar .in > :last-child { justify-self: end; }
+.toolbar button, .toolbar a { color: var(--tint); font-size: 17px; }
+.toolbar .count { font-size: 13px; font-weight: 600; color: var(--label); }
+.toolbar .off { color: var(--label-3); pointer-events: none; }
+
+/* HUD */
+.hud {
+  position: fixed; left: 50%; bottom: calc(88px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  transform: translateX(-50%); width: max-content; max-width: min(88vw, 360px);
+  background: var(--hud); color: var(--hud-fg);
+  -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
+  border-radius: 14px; padding: 12px 16px; font-size: 14px; line-height: 1.4; text-align: center;
+}
+.hud strong { display: block; font-size: 15px; margin-bottom: 2px; }
+
+/* Manual copy sheet */
+.scrim { position: fixed; inset: 0; z-index: 30; background: rgba(0,0,0,.4); display: grid; align-items: end; }
+.sheet {
+  max-width: 600px; width: 100%; margin: 0 auto;
+  padding: 0 max(8px, env(safe-area-inset-left, 0px)) calc(8px + env(safe-area-inset-bottom, 0px));
+  display: flex; flex-direction: column; gap: 8px;
+}
+.sheet .card { background: var(--cell); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.sheet .card strong { font-size: 15px; text-align: center; }
+.sheet .card p { margin: 0; font-size: 13px; color: var(--label-2); text-align: center; }
+.sheet textarea {
+  width: 100%; height: 160px; font-family: var(--mono); font-size: 12px; color: var(--label);
+  background: var(--fill); border: none; border-radius: 8px; padding: 10px; resize: none;
+}
+.sheet .close { background: var(--cell); border-radius: 14px; height: 56px; color: var(--tint); font-size: 20px; font-weight: 600; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .hud { animation: hud-in .22s cubic-bezier(.2,.9,.3,1.2); }
+  @keyframes hud-in { from { opacity: 0; transform: translate(-50%, 10px) scale(.96); } }
+}
+</style>
+
+<div class="wrap" id="app">
+  <nav class="nav"><button type="button" id="edit">选择</button></nav>
+  <div class="large-title">
+    <h1>RepoList</h1>
+    <span class="sub" id="count"></span>
+  </div>
+
+  <div class="controls">
+    <label class="search">
+      <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="搜索源、插件或作者" autocomplete="off" aria-label="搜索">
+    </label>
+    <div class="seg" id="seg" role="group" aria-label="分组"></div>
+  </div>
+
+  <div class="notice" id="sample" hidden>预览版：插件数量和更新时间是示例数据。部署后会换成每日检测脚本生成的真实数据。</div>
+  <div class="notice" id="inapp" hidden>当前在微信或 QQ 中打开，跳转到 Sileo、Zebra、Irisin 可能无效。请点右上角「…」选择在 Safari 中打开，复制功能不受影响。</div>
+
+  <main id="list"></main>
+
+  <section class="help">
+    <div class="group-head"><span class="title">添加方法</span></div>
+    <div class="list">
+      <div><b>Sileo</b>　复制后打开 Sileo → 软件源 → 点 ＋，会自动识别剪贴板里的全部地址。</div>
+      <div><b>Irisin</b>　点“Irisin 添加”，整组一次性加入。</div>
+      <div><b>Zebra</b>　复制后在添加源界面粘贴。</div>
+      <div><b>Cydia</b>　请复制地址后逐个添加。</div>
+    </div>
+  </section>
+  <section class="help">
+    <div class="group-head"><span class="title">状态说明</span></div>
+    <div class="list">
+      <div><span class="legend"><span class="dot"></span>正常</span><span class="legend"><span class="dot warn"></span>检测异常</span><span class="legend"><span class="dot dead"></span>已失效</span></div>
+      <div>每天检测一次。更新时间指源里最近一次有插件发布新版本的日期，一年以上没有更新会标为“可能停更”。连续三天无法访问才会标为已失效。</div>
+      <div id="checked"></div>
+    </div>
+  </section>
+  <section class="help">
+    <div class="group-head"><span class="title">关于与支持</span></div>
+    <div class="list">
+      <div><b>作者</b>　<a href="https://mjh.im/" target="_blank" rel="noopener noreferrer" style="color:var(--tint)">Junhong (mjh.im)</a></div>
+      <div><b>个人源</b>　<a href="https://apt.mjh.im/" target="_blank" rel="noopener noreferrer" style="color:var(--tint)">apt.mjh.im</a></div>
+      <div><b>赏杯咖啡</b>　<a href="alipays://platformapi/startapp?saId=10000007&qrcode=https%3A%2F%2Fqr.alipay.com%2Ffkx180736inoxop5mkbqh83%3F_s%3Dweb-other&launchKey=c7f8d186-3e05-4668-a7eb-8cf336c2108f-1780370320745" style="color:var(--tint)">支付宝赞助</a></div>
+    </div>
+  </section>
+  <p class="foot">源不一定多，够用就好，按需添加</p>
+</div>
+
+<div class="toolbar" id="toolbar" hidden>
+  <div class="in">
+    <button type="button" id="selcopy">复制</button>
+    <span class="count" id="selcount"></span>
+    <a id="selirisin" href="#">Irisin 添加</a>
+  </div>
+</div>
+
+<div class="hud" id="hud" role="status" hidden></div>
+
+<div class="scrim" id="scrim" hidden>
+  <div class="sheet">
+    <div class="card">
+      <strong>请手动复制</strong>
+      <p>浏览器拦截了自动复制，长按下方文本全选后复制。</p>
+      <textarea id="sheettext" readonly aria-label="源地址"></textarea>
+    </div>
+    <button class="close" type="button" id="sheetclose">完成</button>
+  </div>
+</div>
+
+<script>
+let GROUPS = [];
+let ALL = [];
+let filter = "all", query = "", editing = false;
+const selected = new Set();
+const $ = id => document.getElementById(id);
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CHECK = '<svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 6.3l2.3 2.3 4.7-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+if (/MicroMessenger|QQ\//i.test(navigator.userAgent)) $("inapp").hidden = false;
+
+const irisin = urls => "irisin://repository/add?" + urls.map(u => "url=" + encodeURIComponent(u)).join("&");
+const showUrl = u => u.startsWith("http://")
+  ? `<span class="http">http://</span>${esc(u.slice(7))}`
+  : esc(u.replace(/^https:\/\//, "").replace(/\/$/, ""));
+const matches = s => !query || (s.name + " " + s.note + " " + s.url).toLowerCase().includes(query);
+
+let STATUS = {};
+
+function ago(iso) {
+  const days = Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+  if (days < 1) return "今天";
+  if (days < 30) return `${days} 天前`;
+  if (days < 365) return `${Math.floor(days / 30)} 个月前`;
+  return `${Math.floor(days / 365)} 年前`;
+}
+
+function metaHtml(st) {
+  if (!st) return "";
+  if (st.status === "dead") return `<span class="meta dead"><span class="dot dead"></span>已失效</span>`;
+  const dot = `<span class="dot${st.status === "warn" ? " warn" : ""}"></span>`;
+  const parts = [];
+  if (st.packages != null) parts.push(`${st.packages} 个插件`);
+  if (st.updated) {
+    const old = Date.now() - new Date(st.updated).getTime() > 365 * 86400000;
+    parts.push(old ? `<span class="stale">可能停更</span>` : `${ago(st.updated)}更新`);
+  }
+  if (st.status === "warn" && !parts.length) parts.push("检测异常");
+  return `<span class="meta">${dot}${parts.join(" · ")}</span>`;
+}
+
+// Preview only: deterministic example figures, replaced by status.json once the checker runs.
+function sampleStatus() {
+  const out = {};
+  ALL.forEach((s, i) => {
+    let h = 0;
+    for (const c of s.url) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    const days = [1, 3, 6, 12, 25, 48, 90, 160, 420][h % 9];
+    out[s.url] = {
+      status: i === 9 ? "warn" : "ok",
+      packages: 6 + (h % 180),
+      updated: new Date(Date.now() - days * 86400000).toISOString()
+    };
+  });
+  return out;
+}
+
+async function loadStatus() {
+  try {
+    const r = await fetch("status.json", { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    const data = await r.json();
+    STATUS = data.repos || {};
+    if (data.generated) $("checked").textContent = `上次检测：${new Date(data.generated).toLocaleString("zh-CN", { hour12: false })}`;
+  } catch (e) {
+    STATUS = sampleStatus();
+    $("sample").hidden = false;
+    $("checked").textContent = "上次检测：尚未运行";
+  }
+}
+
+function renderSeg() {
+  const opts = [{ id: "all", title: "全部" }, ...GROUPS];
+  $("seg").innerHTML = opts.map(o =>
+    `<button type="button" data-f="${o.id}" aria-pressed="${filter === o.id}">${o.title}</button>`).join("");
+}
+
+function render() {
+  $("app").classList.toggle("editing", editing);
+  const groups = GROUPS.filter(g => filter === "all" || g.id === filter)
+    .map(g => ({ ...g, list: g.sources.filter(matches) })).filter(g => g.list.length);
+  if (!groups.length) { $("list").innerHTML = `<div class="empty">没有找到“${esc(query)}”</div>`; return; }
+  $("list").innerHTML = groups.map(g => `
+    <section class="group">
+      <div class="group-head">
+        <span class="title">${g.title}<b>${g.list.length}</b></span>
+        <span class="acts">
+          <a href="${esc(irisin(g.list.map(s => s.url)))}">Irisin 添加</a>
+          <button type="button" data-copygroup="${g.id}">复制全部</button>
+        </span>
+      </div>
+      <ul class="list">
+        ${g.list.map(s => `
+        <li class="row${selected.has(s.url) ? " selected" : ""}" data-url="${esc(s.url)}">
+          <span class="check">${CHECK}</span>
+          <div class="body">
+            <div class="line1">
+              <span class="name">${esc(s.name)}</span>
+              <span class="url">${showUrl(s.url)}</span>
+            </div>
+            <div class="line2">
+              <span class="note${s.note ? "" : " none"}">${s.note ? esc(s.note) : "暂无介绍"}</span>
+              ${metaHtml(STATUS[s.url])}
+            </div>
+            <div class="acts-row">
+              <button type="button" data-copy="${esc(s.url)}">复制</button>
+              <a href="sileo://source/${esc(s.url)}">Sileo</a>
+              <a href="zbra://sources/add/${esc(s.url)}">Zebra</a>
+              <a href="${esc(irisin([s.url]))}">Irisin</a>
+            </div>
+          </div>
+        </li>`).join("")}
+      </ul>
+    </section>`).join("");
+}
+
+function renderBar() {
+  $("toolbar").hidden = !editing;
+  $("edit").textContent = editing ? "完成" : "选择";
+  const n = selected.size;
+  $("selcount").textContent = n ? `已选 ${n} 个` : "选择源";
+  $("selcopy").classList.toggle("off", !n);
+  $("selirisin").classList.toggle("off", !n);
+  if (n) $("selirisin").href = irisin(ALL.filter(s => selected.has(s.url)).map(s => s.url));
+}
+
+let hudTimer;
+function hud(title, sub) {
+  $("hud").innerHTML = `<strong>${esc(title)}</strong>${sub ? esc(sub) : ""}`;
+  $("hud").hidden = false;
+  clearTimeout(hudTimer);
+  hudTimer = setTimeout(() => { $("hud").hidden = true; }, 2800);
+}
+
+function fallbackCopy(text) {
+  const ta = document.createElement("textarea");
+  ta.value = text; ta.setAttribute("readonly", "");
+  ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+  ta.remove();
+  return ok;
+}
+
+function copy(urls) {
+  if (!urls.length) return;
+  const text = urls.join("\n");
+  const done = () => urls.length > 1
+    ? hud(`已复制 ${urls.length} 个源`, "打开 Sileo → 软件源 → 点 ＋")
+    : hud("已复制");
+  const fail = () => {
+    if (fallbackCopy(text)) return done();
+    $("sheettext").value = text; $("scrim").hidden = false;
+    setTimeout(() => $("sheettext").select(), 50);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fail);
+  else fail();
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("button");
+  if (b && b.dataset.f) { filter = b.dataset.f; renderSeg(); render(); return; }
+  if (b && b.dataset.copy) { copy([b.dataset.copy]); return; }
+  if (b && b.dataset.copygroup) {
+    const g = GROUPS.find(x => x.id === b.dataset.copygroup);
+    copy(g.sources.filter(matches).map(s => s.url)); return;
+  }
+  if (editing) {
+    const row = e.target.closest(".row");
+    if (row) {
+      const u = row.dataset.url;
+      selected.has(u) ? selected.delete(u) : selected.add(u);
+      row.classList.toggle("selected", selected.has(u));
+      renderBar();
+    }
+  }
+});
+
+$("edit").onclick = () => { editing = !editing; if (!editing) selected.clear(); render(); renderBar(); };
+$("selcopy").onclick = () => copy(ALL.filter(s => selected.has(s.url)).map(s => s.url));
+$("sheetclose").onclick = () => { $("scrim").hidden = true; };
+$("q").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); render(); });
+
+async function boot() {
+  try {
+    const r = await fetch("repos.json", { cache: "no-store" });
+    GROUPS = await r.json();
+  } catch (e) {
+    $("list").innerHTML = `<div class="empty">源列表加载失败，请刷新重试</div>`;
+    return;
+  }
+  ALL = GROUPS.flatMap(g => g.sources);
+  $("count").textContent = `${ALL.length} 个源`;
+  renderSeg(); render(); renderBar();
+  await loadStatus();
+  render();
+}
+boot();
+</script>

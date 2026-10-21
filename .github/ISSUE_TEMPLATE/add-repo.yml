@@ -1,0 +1,41 @@
+name: 推荐新源
+description: 推荐一个越狱源加入 RepoList
+title: "推荐新源："
+labels: ["推荐新源"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 源名称
+      placeholder: 例如：刀刀源
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 源地址
+      placeholder: https://example.github.io/repo/
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: 代表作或作者介绍
+      placeholder: 例如：汉化插件、多巴胺越狱开发者
+  - type: dropdown
+    id: group
+    attributes:
+      label: 建议分组
+      options:
+        - 精选常用
+        - 开发者源
+        - 不确定
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: 确认
+      options:
+        - label: 这个源不包含盗版、破解或付费插件的分发
+          required: true
+        - label: 我在 Sileo、Zebra 或 Irisin 中测试过，可以正常添加
+          required: true

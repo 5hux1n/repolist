@@ -1,0 +1,161 @@
+# ========================================================
+# 越狱软件源合集（去重清洗并经可用性校验）
+# 总计收录：144 个有效源
+# 支持 Sileo、Zebra、Cydia、Irisin 等包管理器一键添加
+# ========================================================
+
+## 【精选常用】 (共 13 个)
+https://opa334.github.io/    # opa334 - 多巴胺越狱开发者
+https://xiangfeidexiaohuo.github.io/    # 刀刀源 - 汉化、为爱发电
+http://apt.htv123.com/    # 电话助手源
+https://jailrepo.initnil.com/    # Netskao 新源 - DumpDecrypter、AppData 等插件
+https://rootless.002599.xyz/    # 真皮源 - Hello 系列插件
+https://laileld.github.io/repo/    # 来了老弟源 - FT、ST 等
+https://lclrc.github.io/repo/    # 乌贼力量源 - 锤子、剪切板、DockX 等
+https://flyx099.github.io/repo/    # 学习交流源 - 图层插件
+https://lenglengyu.com/    # 冷冷雨源
+https://flex2areo.github.io/    # aReo 源 - AppTools 官方源
+https://invalidunit.github.io/repo/    # 赵楠源
+https://apt.25mao.com/    # 老牌猫源 - 微信助手
+https://apt.82flex.com/    # 82Flex - 乌龙工作室
+
+## 【开发者源】 (共 15 个)
+https://skypain.github.io/repo/    # Skypain - 控制中心模块
+https://34306.github.io/    # 34306 - 越南开发者
+https://p2kdev.github.io/repo/    # P2KDev - 各种小功能插件
+https://poomsmart.github.io/repo/    # PoomSmart - YTUHD、YouPiP 开发者
+https://alias20.gitlab.io/apt/    # alias20 - 曾经的 FlyJB 开发者
+http://sparkdev.me/    # SparkDev - Snowboard 滑雪板
+https://dcsyhi1998.github.io/    # Dcsyhi1998 - Zetsu 作者个人源
+https://repo.anamy.gay/    # Amy - Sileo 维护者、Aemulo
+https://cydiageek.yourepo.com/    # CydiaGeek - 各种小功能
+https://0xkuj.yourepo.com/    # 0xkuj - SafariX 插件
+http://tigisoftware.com/repo/    # Filza 官方源
+https://ios.jjolano.me/    # jjolano - Shadow 插件
+https://lizynz.github.io/    # Lizynz - FolderX 插件
+https://miro92.com/repo/    # MiRO92 - uYou 插件
+https://nathan4s.lol/repo/    # Nathan - NathanLR 半越狱开发者
+
+## 【主流大源与基础源】 (共 10 个)
+https://repo.chariz.com/    # Chariz - 国外主流综合商业软件源
+https://getzbra.com/repo/    # Zebra 官方源 - 斑马包管理器官方源
+https://ellekit.space/    # ElleKit - 无根越狱核心 Hook 注入框架官方源
+https://havoc.app/    # Havoc - 主流付费与知名插件软件源
+https://roothide.github.io/    # RootHide - RootHide 隐蔽越狱与兼容层官方源
+https://repo.cypwn.xyz/    # Cypwn - 经典越狱插件归档与社区源
+https://build.frida.re/    # Frida - 动态插桩与安全分析工具官方源
+https://apt.alfhaily.me/    # Rocket APT
+https://apt.fouadraheb.com/    # Fouad's Repo - WhatsApp tweaks and more
+https://repo.palera.in/    # palera1n - palera1n 越狱官方基础源
+
+## 【中文社区与常用源】 (共 26 个)
+https://yttxcs.com/    # 壹筒天下源 - 常用实用插件源
+https://c1d3r.com/repo/    # c1d3r - PullOver Pro 分屏悬浮窗插件作者源
+http://getdelta.co/    # Delta - Flex 3 补丁制作工具作者源
+https://rpetri.ch/repo/    # rpetrich - RocketBootstrap 等核心依赖作者源
+https://akusio.github.io/    # akusio - MilkyWay 窗口多任务分屏插件作者源
+https://ryleyangus.com/repo/    # Ryley Angus - Liberty Lite 屏蔽越狱检测作者源
+https://cokepokes.github.io/    # CokePokes - AppStore++、CrashReporter 作者源
+http://repo.cydiabc.top/    # 小苹果源 - 国内知名常用插件源
+https://repo.snailovet.com/    # 蜗牛源 - 微信助手等功能优化插件
+https://byg.iosios.net/    # 搬运工源 - 搬运工精选插件源
+https://apt.cydia.pro/    # Ant 蚂蚁源
+https://apt.cydiakk.com/    # Cydiakk中文源
+https://trollstorex.github.io/repo/    # 巨魔源 - TrollStore 巨魔常用应用与插件
+https://wwg135.github.io/    # M哥源 - wwg135 自用插件分享
+https://invalidunit.github.io/repo2/    # zhaonan's Repo2 - 这是一个自用源2
+https://rootless.zq666.eu.org/    # 真皮源 - Hello 系列无根插件
+https://sini921.github.io/    # 季伯之家 - 源内插件仅为自用备份。
+https://cydia.dumpapp.com/    # 锤子软件源 - DumpApp 官方源
+https://qi-ting-zhang.github.io/sileo/    # 贾队长 - 自用插件分享，有问题请卸载！！！
+https://ketty0725.github.io/repo/    # 小猫🐱 Repo - 小猫源
+https://axs66.github.io/pro/    # Axs Repo - 自用插件分享，有问题请卸载！！！
+https://zlw555.github.io/repo/    # 自由的风 - 自由的风软件源
+https://colorblack-c.github.io/repo/    # Dopamine Repo - 多巴胺 Cydia 越狱源 by Colorblack
+https://apt.autotouch.net/    # AutoTouch - AutoTouch 触动精灵自动化脚本官方源
+https://invalidunit.github.io/netskao-archive/    # - 请删除此源 - haha
+https://apt.tinyapps.cn/    # Tinyapps - Fake GPS Pro、360虚拟定位官方源
+
+## 【精选开发者源】 (共 73 个)
+https://opa334.github.io/beta/    # Safari Plus - opa334's Cydia Beta Repository
+https://repo.daus.ch/    # Sylph  - Maxwell Dausch's Repo
+http://cydia.ichitaso.com/    # ichitaso - OTADisabler 屏蔽更新、PowerSelector
+http://junesiphone.com/supersecret/    # xeninfo - JunesiPhone SuperSecret Repo
+https://repo.niceios.com/    # NiceiOS - NiceBarX、NiceCaller 等精品状态栏电话插件
+https://repo.icrazeios.com/    # iCraze's Repo - Repo for some of my smaller tweaks
+https://dhinakg.github.io/repo/    # dhinakg - dhinakg repo
+http://repo.thuthuatjb.com/    # TTJB Repo
+https://0xilis.github.io/rootless/    # Snoolie's repo - Rootless) Repository for my tweaks
+https://repo.ikghd.me/    # iKarwan Repo - Official iKGHD Repo's
+https://cydia.rob311.com/repo/    # rob311 - rob311's beta repo
+http://repo.qqtlr.com/    # Hi客
+https://creaturecoding.com/repo/    # CreatureCoding - Shuffle、Fabric 等精品插件
+https://liam.page/oldabi/    # Liam - oldabi
+https://yourepo.com/    # YouRepo - Main source for YouRepo
+https://brendonjkding.github.io/    # Brend0n's repo
+https://sugiuta.github.io/repo/    # Sugiuta's Repo - iOS Tweak dev.
+https://lans233.github.io/    # lans233's repo - QQ交流群：主群157289939，2群212155893，欢迎进群！
+https://axs.yourepo.com/    # -TrollStore - 不要为了越狱放弃升级的快乐！
+https://apt.bitilly.cn/    # Bitilly hanxin - This is a self-use software source
+https://mlgm66.github.io/    # mlgm - My go-to iOS jailbreak packages
+https://huayuarc.github.io/    # Huayuarc - QQ交流群：797075691
+http://apt.iarrays.com/    # IArrays
+https://kingpuffdaddi.github.io/    # KingPuffdaddi - KingPuffdaddi's Repo
+http://limneos.net/repo/    # Limneos - Limneos Distribution Repo
+https://luki120.github.io/    # Luki120's Repo
+https://lzsxcl.github.io/repo/    # lzsxcl's Repo - lzsxcl's Repository
+https://m4fn3.github.io/repo/    # mafu's repo - A tweak repository of @m4fn3
+http://repo.rpgfarm.com/    # Merona Repository - The best tweaks are here.
+https://michaelmelita1.github.io/    # Michael Melita's Repo - A repo for simple well built tweaks
+https://repo.misty.moe/apt/    # Misty - Nope ;
+https://nathan4s.lol/nathanlr/    # nathanlr
+https://itznebbs.github.io/    # Nebbs' Repo - Collection of my free packages!
+https://repo.p0358.net/    # p0358's Repo
+https://repo.getsileo.app/    # Sileo - Sileo for Checkra1n and Unc0ver
+https://skitty.xyz/repo/    # Skitty's Repo - Skitty's iOS APT Repository
+https://uz-ra.github.io/    # uz.ra - uz.ra's tweak
+https://wilson.antti.codes/repo/    # WilsontheWolf's Repo - WilsontheWolf's repo for his tweaks.
+https://zerui18.github.io/zx02/    # ZX02 - This is the repository for my tweaks!
+https://wkkyy00.github.io/    # wkk's 🏠 - QQ1772773799
+https://level3tjg.me/repo/    # level3tjg's repo
+https://ivintagelover.github.io/repo/    # iVintageRepo
+https://huami1314.github.io/devrepo/    # huamidev
+https://paisseon.github.io/    # Paisseon's Repo - My personal repo for jailbreak tweaks
+https://nowisdev.github.io/    # NoW's repo
+https://repo.anthopak.dev/    # AnthoPak's Repo - AnthoPak Tweak Repository
+https://apt.mjh.im/    # Junhong's Repo - 欢迎光临
+https://apt.owngoal.dev/    # OwnGoal Packages
+https://biucheung.github.io/tellmyfriends/    # tellmyfriends - 有个朋友-repo
+https://deontw.github.io/repo/    # Deon - Deon's Repo
+https://dtcalabro.github.io/repo/    # DTCalabro's Repo
+https://dxcool223-repo.github.io/repo/    # DXcool223 Repo
+https://cydia.editornah.top/    # Editornah Repo - Editornah repo
+https://favna.github.io/cydia/    # Favware
+https://donato-fiore.github.io/repo/    # fiore's repo
+https://foxfort.yourepo.com/    # Foxfort Repo - Repo for Foxfort tweaks
+https://repo.igerman.cc/    # German's Rootless Repo - Garbage rootless tweaks
+https://hacx.org/repo/    # hAcx - hAcx's official repo
+https://i0s-tweak3r-betas.yourepo.com/    # i0s-tweak3r-betas Source
+https://ichitaso.com/apt/    # ichitaso - OTADisabler 屏蔽更新、PowerSelector
+http://aquawu.github.io/igg/    # iGG source
+https://iosgods.com/repo/    # iOSGods Repo - iOSGods.com Repo
+https://liam.page/apt/    # Liam
+https://repo.co.kr/    # Merona Repository - The best tweaks are here.
+https://miticollo.github.io/repos/my/    # miticollo's Repo - My personal repository
+https://mtac.app/repo/    # MTAC's Repo
+https://global.niceios.com/    # NiceiOS - NiceBarX、NiceCaller 等精品状态栏电话插件
+https://nightwinddev.github.io/    # Nightwind's Repo - My personal repo where I host tweaks!
+https://sourcelocation.github.io/repo/    # sourcelocation's repo - A repo for those who love Swift
+https://sudo9000.github.io/    # Sudo's Repo - A place for iOS Jailbreak Tweaks.
+https://tweakhub.github.io/    # TweakHub - Xinamine patched tweaks
+https://udevsharold.github.io/repo/    # udevs - udevs' Cydia repository
+http://zhuxinlang.github.io/    # XinaA15 Repo - XinaA15 jailbreak Repository
+
+## 【主题与美化源】 (共 7 个)
+https://dada.yourepo.com/    # 骚达美化源 - 欢迎添加 微信公众号:阿布怪达。微信号：ZRD080
+https://soda-ldz.yourepo.com/    # 苏达微信美化源 - By Soda
+https://apt.sutuplus.com/    # 苏兔源 - 常用美化与汉化插件源
+https://nahtedetihw.github.io/    # ETHN's Repo - iOS Tweaks/Themes
+https://check0ver.com/    # A Check0ver -  All Themes in One Repo 
+https://alo.works/    # Alo's Repo - Themes, Widgets, and more Themes
+https://themepro.yourepo.com/    # ThemePro Source - Bolo Themes

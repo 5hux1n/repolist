@@ -1,0 +1,758 @@
+[
+  {
+    "id": "pick",
+    "title": "精选常用",
+    "sources": [
+      {
+        "name": "opa334",
+        "note": "多巴胺越狱开发者",
+        "url": "https://opa334.github.io/"
+      },
+      {
+        "name": "刀刀源",
+        "note": "汉化、为爱发电",
+        "url": "https://xiangfeidexiaohuo.github.io/"
+      },
+      {
+        "name": "电话助手源",
+        "note": "",
+        "url": "http://apt.htv123.com/"
+      },
+      {
+        "name": "Netskao 新源",
+        "note": "DumpDecrypter、AppData 等插件",
+        "url": "https://jailrepo.initnil.com/"
+      },
+      {
+        "name": "真皮源",
+        "note": "Hello 系列插件",
+        "url": "https://rootless.002599.xyz/"
+      },
+      {
+        "name": "来了老弟源",
+        "note": "FT、ST 等",
+        "url": "https://laileld.github.io/repo/"
+      },
+      {
+        "name": "乌贼力量源",
+        "note": "锤子、剪切板、DockX 等",
+        "url": "https://lclrc.github.io/repo/"
+      },
+      {
+        "name": "学习交流源",
+        "note": "图层插件",
+        "url": "https://flyx099.github.io/repo/"
+      },
+      {
+        "name": "冷冷雨源",
+        "note": "",
+        "url": "https://lenglengyu.com/"
+      },
+      {
+        "name": "aReo 源",
+        "note": "AppTools 官方源",
+        "url": "https://flex2areo.github.io/"
+      },
+      {
+        "name": "赵楠源",
+        "note": "",
+        "url": "https://invalidunit.github.io/repo/"
+      },
+      {
+        "name": "老牌猫源",
+        "note": "微信助手",
+        "url": "https://apt.25mao.com/"
+      },
+      {
+        "name": "82Flex",
+        "note": "乌龙工作室",
+        "url": "https://apt.82flex.com/"
+      }
+    ]
+  },
+  {
+    "id": "dev",
+    "title": "开发者源",
+    "sources": [
+      {
+        "name": "Skypain",
+        "note": "控制中心模块",
+        "url": "https://skypain.github.io/repo/"
+      },
+      {
+        "name": "34306",
+        "note": "越南开发者",
+        "url": "https://34306.github.io/"
+      },
+      {
+        "name": "P2KDev",
+        "note": "各种小功能插件",
+        "url": "https://p2kdev.github.io/repo/"
+      },
+      {
+        "name": "PoomSmart",
+        "note": "YTUHD、YouPiP 开发者",
+        "url": "https://poomsmart.github.io/repo/"
+      },
+      {
+        "name": "alias20",
+        "note": "曾经的 FlyJB 开发者",
+        "url": "https://alias20.gitlab.io/apt/"
+      },
+      {
+        "name": "SparkDev",
+        "note": "Snowboard 滑雪板",
+        "url": "http://sparkdev.me/"
+      },
+      {
+        "name": "Dcsyhi1998",
+        "note": "Zetsu 作者个人源",
+        "url": "https://dcsyhi1998.github.io/"
+      },
+      {
+        "name": "Amy",
+        "note": "Sileo 维护者、Aemulo",
+        "url": "https://repo.anamy.gay/"
+      },
+      {
+        "name": "CydiaGeek",
+        "note": "各种小功能",
+        "url": "https://cydiageek.yourepo.com/"
+      },
+      {
+        "name": "0xkuj",
+        "note": "SafariX 插件",
+        "url": "https://0xkuj.yourepo.com/"
+      },
+      {
+        "name": "Filza 官方源",
+        "note": "",
+        "url": "http://tigisoftware.com/repo/"
+      },
+      {
+        "name": "jjolano",
+        "note": "Shadow 插件",
+        "url": "https://ios.jjolano.me/"
+      },
+      {
+        "name": "Lizynz",
+        "note": "FolderX 插件",
+        "url": "https://lizynz.github.io/"
+      },
+      {
+        "name": "MiRO92",
+        "note": "uYou 插件",
+        "url": "https://miro92.com/repo/"
+      },
+      {
+        "name": "Nathan",
+        "note": "NathanLR 半越狱开发者",
+        "url": "https://nathan4s.lol/repo/"
+      }
+    ]
+  },
+  {
+    "id": "official",
+    "title": "主流大源与基础源",
+    "sources": [
+      {
+        "name": "Chariz",
+        "note": "国外主流综合商业软件源",
+        "url": "https://repo.chariz.com/"
+      },
+      {
+        "name": "Zebra 官方源",
+        "note": "斑马包管理器官方源",
+        "url": "https://getzbra.com/repo/"
+      },
+      {
+        "name": "ElleKit",
+        "note": "无根越狱核心 Hook 注入框架官方源",
+        "url": "https://ellekit.space/"
+      },
+      {
+        "name": "Havoc",
+        "note": "主流付费与知名插件软件源",
+        "url": "https://havoc.app/"
+      },
+      {
+        "name": "RootHide",
+        "note": "RootHide 隐蔽越狱与兼容层官方源",
+        "url": "https://roothide.github.io/"
+      },
+      {
+        "name": "Cypwn",
+        "note": "经典越狱插件归档与社区源",
+        "url": "https://repo.cypwn.xyz/"
+      },
+      {
+        "name": "Frida",
+        "note": "动态插桩与安全分析工具官方源",
+        "url": "https://build.frida.re/"
+      },
+      {
+        "name": "Rocket APT",
+        "note": "",
+        "url": "https://apt.alfhaily.me/"
+      },
+      {
+        "name": "Fouad's Repo",
+        "note": "WhatsApp tweaks and more",
+        "url": "https://apt.fouadraheb.com/"
+      },
+      {
+        "name": "palera1n",
+        "note": "palera1n 越狱官方基础源",
+        "url": "https://repo.palera.in/"
+      }
+    ]
+  },
+  {
+    "id": "community",
+    "title": "中文社区与常用源",
+    "sources": [
+      {
+        "name": "壹筒天下源",
+        "note": "常用实用插件源",
+        "url": "https://yttxcs.com/"
+      },
+      {
+        "name": "c1d3r",
+        "note": "PullOver Pro 分屏悬浮窗插件作者源",
+        "url": "https://c1d3r.com/repo/"
+      },
+      {
+        "name": "Delta",
+        "note": "Flex 3 补丁制作工具作者源",
+        "url": "http://getdelta.co/"
+      },
+      {
+        "name": "rpetrich",
+        "note": "RocketBootstrap 等核心依赖作者源",
+        "url": "https://rpetri.ch/repo/"
+      },
+      {
+        "name": "akusio",
+        "note": "MilkyWay 窗口多任务分屏插件作者源",
+        "url": "https://akusio.github.io/"
+      },
+      {
+        "name": "Ryley Angus",
+        "note": "Liberty Lite 屏蔽越狱检测作者源",
+        "url": "https://ryleyangus.com/repo/"
+      },
+      {
+        "name": "CokePokes",
+        "note": "AppStore++、CrashReporter 作者源",
+        "url": "https://cokepokes.github.io/"
+      },
+      {
+        "name": "小苹果源",
+        "note": "国内知名常用插件源",
+        "url": "http://repo.cydiabc.top/"
+      },
+      {
+        "name": "蜗牛源",
+        "note": "微信助手等功能优化插件",
+        "url": "https://repo.snailovet.com/"
+      },
+      {
+        "name": "搬运工源",
+        "note": "搬运工精选插件源",
+        "url": "https://byg.iosios.net/"
+      },
+      {
+        "name": "Ant 蚂蚁源",
+        "note": "",
+        "url": "https://apt.cydia.pro/"
+      },
+      {
+        "name": "Cydiakk中文源",
+        "note": "",
+        "url": "https://apt.cydiakk.com/"
+      },
+      {
+        "name": "巨魔源",
+        "note": "TrollStore 巨魔常用应用与插件",
+        "url": "https://trollstorex.github.io/repo/"
+      },
+      {
+        "name": "M哥源",
+        "note": "wwg135 自用插件分享",
+        "url": "https://wwg135.github.io/"
+      },
+      {
+        "name": "zhaonan's Repo2",
+        "note": "这是一个自用源2",
+        "url": "https://invalidunit.github.io/repo2/"
+      },
+      {
+        "name": "真皮源",
+        "note": "Hello 系列无根插件",
+        "url": "https://rootless.zq666.eu.org/"
+      },
+      {
+        "name": "季伯之家",
+        "note": "源内插件仅为自用备份。",
+        "url": "https://sini921.github.io/"
+      },
+      {
+        "name": "锤子软件源",
+        "note": "DumpApp 官方源",
+        "url": "https://cydia.dumpapp.com/"
+      },
+      {
+        "name": "贾队长",
+        "note": "自用插件分享，有问题请卸载！！！",
+        "url": "https://qi-ting-zhang.github.io/sileo/"
+      },
+      {
+        "name": "小猫🐱 Repo",
+        "note": "小猫源",
+        "url": "https://ketty0725.github.io/repo/"
+      },
+      {
+        "name": "Axs Repo",
+        "note": "自用插件分享，有问题请卸载！！！",
+        "url": "https://axs66.github.io/pro/"
+      },
+      {
+        "name": "自由的风",
+        "note": "自由的风软件源",
+        "url": "https://zlw555.github.io/repo/"
+      },
+      {
+        "name": "Dopamine Repo",
+        "note": "多巴胺 Cydia 越狱源 by Colorblack",
+        "url": "https://colorblack-c.github.io/repo/"
+      },
+      {
+        "name": "AutoTouch",
+        "note": "AutoTouch 触动精灵自动化脚本官方源",
+        "url": "https://apt.autotouch.net/"
+      },
+      {
+        "name": "- 请删除此源",
+        "note": "haha",
+        "url": "https://invalidunit.github.io/netskao-archive/"
+      },
+      {
+        "name": "Tinyapps",
+        "note": "Fake GPS Pro、360虚拟定位官方源",
+        "url": "https://apt.tinyapps.cn/"
+      }
+    ]
+  },
+  {
+    "id": "dev_extra",
+    "title": "精选开发者源",
+    "sources": [
+      {
+        "name": "Safari Plus",
+        "note": "opa334's Cydia Beta Repository",
+        "url": "https://opa334.github.io/beta/"
+      },
+      {
+        "name": "Sylph ",
+        "note": "Maxwell Dausch's Repo",
+        "url": "https://repo.daus.ch/"
+      },
+      {
+        "name": "ichitaso",
+        "note": "OTADisabler 屏蔽更新、PowerSelector",
+        "url": "http://cydia.ichitaso.com/"
+      },
+      {
+        "name": "xeninfo",
+        "note": "JunesiPhone SuperSecret Repo",
+        "url": "http://junesiphone.com/supersecret/"
+      },
+      {
+        "name": "NiceiOS",
+        "note": "NiceBarX、NiceCaller 等精品状态栏电话插件",
+        "url": "https://repo.niceios.com/"
+      },
+      {
+        "name": "iCraze's Repo",
+        "note": "Repo for some of my smaller tweaks",
+        "url": "https://repo.icrazeios.com/"
+      },
+      {
+        "name": "dhinakg",
+        "note": "dhinakg repo",
+        "url": "https://dhinakg.github.io/repo/"
+      },
+      {
+        "name": "TTJB Repo",
+        "note": "",
+        "url": "http://repo.thuthuatjb.com/"
+      },
+      {
+        "name": "Snoolie's repo",
+        "note": "Rootless) Repository for my tweaks",
+        "url": "https://0xilis.github.io/rootless/"
+      },
+      {
+        "name": "iKarwan Repo",
+        "note": "Official iKGHD Repo's",
+        "url": "https://repo.ikghd.me/"
+      },
+      {
+        "name": "rob311",
+        "note": "rob311's beta repo",
+        "url": "https://cydia.rob311.com/repo/"
+      },
+      {
+        "name": "Hi客",
+        "note": "",
+        "url": "http://repo.qqtlr.com/"
+      },
+      {
+        "name": "CreatureCoding",
+        "note": "Shuffle、Fabric 等精品插件",
+        "url": "https://creaturecoding.com/repo/"
+      },
+      {
+        "name": "Liam - oldabi",
+        "note": "",
+        "url": "https://liam.page/oldabi/"
+      },
+      {
+        "name": "YouRepo",
+        "note": "Main source for YouRepo",
+        "url": "https://yourepo.com/"
+      },
+      {
+        "name": "Brend0n's repo",
+        "note": "",
+        "url": "https://brendonjkding.github.io/"
+      },
+      {
+        "name": "Sugiuta's Repo",
+        "note": "iOS Tweak dev.",
+        "url": "https://sugiuta.github.io/repo/"
+      },
+      {
+        "name": "lans233's repo",
+        "note": "QQ交流群：主群157289939，2群212155893，欢迎进群！",
+        "url": "https://lans233.github.io/"
+      },
+      {
+        "name": "-TrollStore",
+        "note": "不要为了越狱放弃升级的快乐！",
+        "url": "https://axs.yourepo.com/"
+      },
+      {
+        "name": "Bitilly hanxin",
+        "note": "This is a self-use software source",
+        "url": "https://apt.bitilly.cn/"
+      },
+      {
+        "name": "mlgm",
+        "note": "My go-to iOS jailbreak packages",
+        "url": "https://mlgm66.github.io/"
+      },
+      {
+        "name": "Huayuarc",
+        "note": "QQ交流群：797075691",
+        "url": "https://huayuarc.github.io/"
+      },
+      {
+        "name": "IArrays",
+        "note": "",
+        "url": "http://apt.iarrays.com/"
+      },
+      {
+        "name": "KingPuffdaddi",
+        "note": "KingPuffdaddi's Repo",
+        "url": "https://kingpuffdaddi.github.io/"
+      },
+      {
+        "name": "Limneos",
+        "note": "Limneos Distribution Repo",
+        "url": "http://limneos.net/repo/"
+      },
+      {
+        "name": "Luki120's Repo",
+        "note": "",
+        "url": "https://luki120.github.io/"
+      },
+      {
+        "name": "lzsxcl's Repo",
+        "note": "lzsxcl's Repository",
+        "url": "https://lzsxcl.github.io/repo/"
+      },
+      {
+        "name": "mafu's repo",
+        "note": "A tweak repository of @m4fn3",
+        "url": "https://m4fn3.github.io/repo/"
+      },
+      {
+        "name": "Merona Repository",
+        "note": "The best tweaks are here.",
+        "url": "http://repo.rpgfarm.com/"
+      },
+      {
+        "name": "Michael Melita's Repo",
+        "note": "A repo for simple well built tweaks",
+        "url": "https://michaelmelita1.github.io/"
+      },
+      {
+        "name": "Misty",
+        "note": "Nope ;",
+        "url": "https://repo.misty.moe/apt/"
+      },
+      {
+        "name": "nathanlr",
+        "note": "",
+        "url": "https://nathan4s.lol/nathanlr/"
+      },
+      {
+        "name": "Nebbs' Repo",
+        "note": "Collection of my free packages!",
+        "url": "https://itznebbs.github.io/"
+      },
+      {
+        "name": "p0358's Repo",
+        "note": "",
+        "url": "https://repo.p0358.net/"
+      },
+      {
+        "name": "Sileo",
+        "note": "Sileo for Checkra1n and Unc0ver",
+        "url": "https://repo.getsileo.app/"
+      },
+      {
+        "name": "Skitty's Repo",
+        "note": "Skitty's iOS APT Repository",
+        "url": "https://skitty.xyz/repo/"
+      },
+      {
+        "name": "uz.ra",
+        "note": "uz.ra's tweak",
+        "url": "https://uz-ra.github.io/"
+      },
+      {
+        "name": "WilsontheWolf's Repo",
+        "note": "WilsontheWolf's repo for his tweaks.",
+        "url": "https://wilson.antti.codes/repo/"
+      },
+      {
+        "name": "ZX02",
+        "note": "This is the repository for my tweaks!",
+        "url": "https://zerui18.github.io/zx02/"
+      },
+      {
+        "name": "wkk's 🏠",
+        "note": "QQ1772773799",
+        "url": "https://wkkyy00.github.io/"
+      },
+      {
+        "name": "level3tjg's repo",
+        "note": "",
+        "url": "https://level3tjg.me/repo/"
+      },
+      {
+        "name": "iVintageRepo",
+        "note": "",
+        "url": "https://ivintagelover.github.io/repo/"
+      },
+      {
+        "name": "huamidev",
+        "note": "",
+        "url": "https://huami1314.github.io/devrepo/"
+      },
+      {
+        "name": "Paisseon's Repo",
+        "note": "My personal repo for jailbreak tweaks",
+        "url": "https://paisseon.github.io/"
+      },
+      {
+        "name": "NoW's repo",
+        "note": "",
+        "url": "https://nowisdev.github.io/"
+      },
+      {
+        "name": "AnthoPak's Repo",
+        "note": "AnthoPak Tweak Repository",
+        "url": "https://repo.anthopak.dev/"
+      },
+      {
+        "name": "Junhong's Repo",
+        "note": "欢迎光临",
+        "url": "https://apt.mjh.im/"
+      },
+      {
+        "name": "OwnGoal Packages",
+        "note": "",
+        "url": "https://apt.owngoal.dev/"
+      },
+      {
+        "name": "tellmyfriends",
+        "note": "有个朋友-repo",
+        "url": "https://biucheung.github.io/tellmyfriends/"
+      },
+      {
+        "name": "Deon",
+        "note": "Deon's Repo",
+        "url": "https://deontw.github.io/repo/"
+      },
+      {
+        "name": "DTCalabro's Repo",
+        "note": "",
+        "url": "https://dtcalabro.github.io/repo/"
+      },
+      {
+        "name": "DXcool223 Repo",
+        "note": "",
+        "url": "https://dxcool223-repo.github.io/repo/"
+      },
+      {
+        "name": "Editornah Repo",
+        "note": "Editornah repo",
+        "url": "https://cydia.editornah.top/"
+      },
+      {
+        "name": "Favware",
+        "note": "",
+        "url": "https://favna.github.io/cydia/"
+      },
+      {
+        "name": "fiore's repo",
+        "note": "",
+        "url": "https://donato-fiore.github.io/repo/"
+      },
+      {
+        "name": "Foxfort Repo",
+        "note": "Repo for Foxfort tweaks",
+        "url": "https://foxfort.yourepo.com/"
+      },
+      {
+        "name": "German's Rootless Repo",
+        "note": "Garbage rootless tweaks",
+        "url": "https://repo.igerman.cc/"
+      },
+      {
+        "name": "hAcx",
+        "note": "hAcx's official repo",
+        "url": "https://hacx.org/repo/"
+      },
+      {
+        "name": "i0s-tweak3r-betas Source",
+        "note": "",
+        "url": "https://i0s-tweak3r-betas.yourepo.com/"
+      },
+      {
+        "name": "ichitaso",
+        "note": "OTADisabler 屏蔽更新、PowerSelector",
+        "url": "https://ichitaso.com/apt/"
+      },
+      {
+        "name": "iGG source",
+        "note": "",
+        "url": "http://aquawu.github.io/igg/"
+      },
+      {
+        "name": "iOSGods Repo",
+        "note": "iOSGods.com Repo",
+        "url": "https://iosgods.com/repo/"
+      },
+      {
+        "name": "Liam",
+        "note": "",
+        "url": "https://liam.page/apt/"
+      },
+      {
+        "name": "Merona Repository",
+        "note": "The best tweaks are here.",
+        "url": "https://repo.co.kr/"
+      },
+      {
+        "name": "miticollo's Repo",
+        "note": "My personal repository",
+        "url": "https://miticollo.github.io/repos/my/"
+      },
+      {
+        "name": "MTAC's Repo",
+        "note": "",
+        "url": "https://mtac.app/repo/"
+      },
+      {
+        "name": "NiceiOS",
+        "note": "NiceBarX、NiceCaller 等精品状态栏电话插件",
+        "url": "https://global.niceios.com/"
+      },
+      {
+        "name": "Nightwind's Repo",
+        "note": "My personal repo where I host tweaks!",
+        "url": "https://nightwinddev.github.io/"
+      },
+      {
+        "name": "sourcelocation's repo",
+        "note": "A repo for those who love Swift",
+        "url": "https://sourcelocation.github.io/repo/"
+      },
+      {
+        "name": "Sudo's Repo",
+        "note": "A place for iOS Jailbreak Tweaks.",
+        "url": "https://sudo9000.github.io/"
+      },
+      {
+        "name": "TweakHub",
+        "note": "Xinamine patched tweaks",
+        "url": "https://tweakhub.github.io/"
+      },
+      {
+        "name": "udevs",
+        "note": "udevs' Cydia repository",
+        "url": "https://udevsharold.github.io/repo/"
+      },
+      {
+        "name": "XinaA15 Repo",
+        "note": "XinaA15 jailbreak Repository",
+        "url": "http://zhuxinlang.github.io/"
+      }
+    ]
+  },
+  {
+    "id": "theme",
+    "title": "主题与美化源",
+    "sources": [
+      {
+        "name": "骚达美化源",
+        "note": "欢迎添加 微信公众号:阿布怪达。微信号：ZRD080",
+        "url": "https://dada.yourepo.com/"
+      },
+      {
+        "name": "苏达微信美化源",
+        "note": "By Soda",
+        "url": "https://soda-ldz.yourepo.com/"
+      },
+      {
+        "name": "苏兔源",
+        "note": "常用美化与汉化插件源",
+        "url": "https://apt.sutuplus.com/"
+      },
+      {
+        "name": "ETHN's Repo",
+        "note": "iOS Tweaks/Themes",
+        "url": "https://nahtedetihw.github.io/"
+      },
+      {
+        "name": "A Check0ver",
+        "note": " All Themes in One Repo ",
+        "url": "https://check0ver.com/"
+      },
+      {
+        "name": "Alo's Repo",
+        "note": "Themes, Widgets, and more Themes",
+        "url": "https://alo.works/"
+      },
+      {
+        "name": "ThemePro Source",
+        "note": "Bolo Themes",
+        "url": "https://themepro.yourepo.com/"
+      }
+    ]
+  }
+]

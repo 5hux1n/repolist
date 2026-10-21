@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.tmp/
+.vscode/
+.idea/
+文本-*.txt
+越狱软件源.txt
+scripts/analyze_txt.py
+scripts/fetch_meta.py
