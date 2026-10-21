@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T15:16:32+00:00",
+ "generated": "2026-10-21T15:52:14+00:00",
  "repos": {
   "https://opa334.github.io/": {
    "status": "ok",
@@ -44,7 +44,7 @@
    "latest": null
   },
   "https://flyx099.github.io/repo/": {
-   "status": "warn",
+   "status": "dead",
    "packages": null,
    "updated": null,
    "latest": null
@@ -77,96 +77,6 @@
    "status": "ok",
    "packages": 37,
    "updated": "2026-10-15T17:18:43+00:00",
-   "latest": null
-  },
-  "https://skypain.github.io/repo/": {
-   "status": "ok",
-   "packages": 16,
-   "updated": "2024-12-02T12:52:53+00:00",
-   "latest": null
-  },
-  "https://34306.github.io/": {
-   "status": "ok",
-   "packages": 19,
-   "updated": "2025-09-06T18:19:06+00:00",
-   "latest": null
-  },
-  "https://p2kdev.github.io/repo/": {
-   "status": "warn",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
-  "https://poomsmart.github.io/repo/": {
-   "status": "ok",
-   "packages": 182,
-   "updated": "2026-10-18T10:34:12+00:00",
-   "latest": null
-  },
-  "https://alias20.gitlab.io/apt/": {
-   "status": "ok",
-   "packages": 74,
-   "updated": "2024-05-14T16:56:30+00:00",
-   "latest": null
-  },
-  "http://sparkdev.me/": {
-   "status": "ok",
-   "packages": 67,
-   "updated": "2026-05-16T23:12:31+00:00",
-   "latest": null
-  },
-  "https://dcsyhi1998.github.io/": {
-   "status": "ok",
-   "packages": 15,
-   "updated": "2026-09-21T02:23:25+00:00",
-   "latest": null
-  },
-  "https://repo.anamy.gay/": {
-   "status": "ok",
-   "packages": 8,
-   "updated": "2025-08-10T14:06:06+00:00",
-   "latest": null
-  },
-  "https://cydiageek.yourepo.com/": {
-   "status": "ok",
-   "packages": 408,
-   "updated": "2026-10-21T15:01:24+00:00",
-   "latest": null
-  },
-  "https://0xkuj.yourepo.com/": {
-   "status": "ok",
-   "packages": 52,
-   "updated": "2026-10-21T15:01:25+00:00",
-   "latest": null
-  },
-  "http://tigisoftware.com/repo/": {
-   "status": "ok",
-   "packages": 4,
-   "updated": "2023-04-09T17:32:51+00:00",
-   "latest": null
-  },
-  "https://ios.jjolano.me/": {
-   "status": "ok",
-   "packages": 4,
-   "updated": "2026-09-13T22:15:24+00:00",
-   "latest": null
-  },
-  "https://lizynz.github.io/": {
-   "status": "ok",
-   "packages": 5,
-   "updated": "2026-10-12T08:41:29+00:00",
-   "latest": null
-  },
-  "https://miro92.com/repo/": {
-   "status": "warn",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
-  "https://nathan4s.lol/repo/": {
-   "status": "ok",
-   "packages": 35,
-   "updated": "2026-10-19T18:31:46+00:00",
    "latest": null
   },
   "https://repo.chariz.com/": {
@@ -383,6 +293,96 @@
    "status": "ok",
    "packages": 14,
    "updated": "2026-03-13T11:11:18+00:00",
+   "latest": null
+  },
+  "https://skypain.github.io/repo/": {
+   "status": "ok",
+   "packages": 16,
+   "updated": "2024-12-02T12:52:53+00:00",
+   "latest": null
+  },
+  "https://34306.github.io/": {
+   "status": "ok",
+   "packages": 19,
+   "updated": "2025-09-06T18:19:06+00:00",
+   "latest": null
+  },
+  "https://p2kdev.github.io/repo/": {
+   "status": "dead",
+   "packages": null,
+   "updated": null,
+   "latest": null
+  },
+  "https://poomsmart.github.io/repo/": {
+   "status": "ok",
+   "packages": 182,
+   "updated": "2026-10-18T10:34:12+00:00",
+   "latest": null
+  },
+  "https://alias20.gitlab.io/apt/": {
+   "status": "ok",
+   "packages": 74,
+   "updated": "2024-05-14T16:56:30+00:00",
+   "latest": null
+  },
+  "http://sparkdev.me/": {
+   "status": "ok",
+   "packages": 67,
+   "updated": "2026-05-16T23:12:31+00:00",
+   "latest": null
+  },
+  "https://dcsyhi1998.github.io/": {
+   "status": "ok",
+   "packages": 15,
+   "updated": "2026-09-21T02:23:25+00:00",
+   "latest": null
+  },
+  "https://repo.anamy.gay/": {
+   "status": "ok",
+   "packages": 8,
+   "updated": "2025-08-10T14:06:06+00:00",
+   "latest": null
+  },
+  "https://cydiageek.yourepo.com/": {
+   "status": "ok",
+   "packages": 408,
+   "updated": "2026-10-21T15:01:24+00:00",
+   "latest": null
+  },
+  "https://0xkuj.yourepo.com/": {
+   "status": "ok",
+   "packages": 52,
+   "updated": "2026-10-21T15:01:25+00:00",
+   "latest": null
+  },
+  "http://tigisoftware.com/repo/": {
+   "status": "ok",
+   "packages": 4,
+   "updated": "2023-04-09T17:32:51+00:00",
+   "latest": null
+  },
+  "https://ios.jjolano.me/": {
+   "status": "ok",
+   "packages": 4,
+   "updated": "2026-09-13T22:15:24+00:00",
+   "latest": null
+  },
+  "https://lizynz.github.io/": {
+   "status": "ok",
+   "packages": 5,
+   "updated": "2026-10-12T08:41:29+00:00",
+   "latest": null
+  },
+  "https://miro92.com/repo/": {
+   "status": "dead",
+   "packages": null,
+   "updated": null,
+   "latest": null
+  },
+  "https://nathan4s.lol/repo/": {
+   "status": "ok",
+   "packages": 35,
+   "updated": "2026-10-19T18:31:46+00:00",
    "latest": null
   },
   "https://opa334.github.io/beta/": {

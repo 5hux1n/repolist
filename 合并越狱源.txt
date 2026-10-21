@@ -4,7 +4,7 @@
 # 支持 Sileo、Zebra、Cydia、Irisin 等包管理器一键添加
 # ========================================================
 
-## 【精选常用】 (共 13 个)
+## 【精选常用】 (共 49 个)
 https://opa334.github.io/    # opa334 - 多巴胺越狱开发者
 https://xiangfeidexiaohuo.github.io/    # 刀刀源 - 汉化、为爱发电
 http://apt.htv123.com/    # 电话助手源
@@ -18,25 +18,6 @@ https://flex2areo.github.io/    # aReo 源 - AppTools 官方源
 https://invalidunit.github.io/repo/    # 赵楠源
 https://apt.25mao.com/    # 老牌猫源 - 微信助手
 https://apt.82flex.com/    # 82Flex - 乌龙工作室
-
-## 【开发者源】 (共 15 个)
-https://skypain.github.io/repo/    # Skypain - 控制中心模块
-https://34306.github.io/    # 34306 - 越南开发者
-https://p2kdev.github.io/repo/    # P2KDev - 各种小功能插件
-https://poomsmart.github.io/repo/    # PoomSmart - YTUHD、YouPiP 开发者
-https://alias20.gitlab.io/apt/    # alias20 - 曾经的 FlyJB 开发者
-http://sparkdev.me/    # SparkDev - Snowboard 滑雪板
-https://dcsyhi1998.github.io/    # Dcsyhi1998 - Zetsu 作者个人源
-https://repo.anamy.gay/    # Amy - Sileo 维护者、Aemulo
-https://cydiageek.yourepo.com/    # CydiaGeek - 各种小功能
-https://0xkuj.yourepo.com/    # 0xkuj - SafariX 插件
-http://tigisoftware.com/repo/    # Filza 官方源
-https://ios.jjolano.me/    # jjolano - Shadow 插件
-https://lizynz.github.io/    # Lizynz - FolderX 插件
-https://miro92.com/repo/    # MiRO92 - uYou 插件
-https://nathan4s.lol/repo/    # Nathan - NathanLR 半越狱开发者
-
-## 【主流大源与基础源】 (共 10 个)
 https://repo.chariz.com/    # Chariz - 国外主流综合商业软件源
 https://getzbra.com/repo/    # Zebra 官方源 - 斑马包管理器官方源
 https://ellekit.space/    # ElleKit - 无根越狱核心 Hook 注入框架官方源
@@ -47,8 +28,6 @@ https://build.frida.re/    # Frida - 动态插桩与安全分析工具官方源
 https://apt.alfhaily.me/    # Rocket APT
 https://apt.fouadraheb.com/    # Fouad's Repo - WhatsApp tweaks and more
 https://repo.palera.in/    # palera1n - palera1n 越狱官方基础源
-
-## 【中文社区与常用源】 (共 26 个)
 https://yttxcs.com/    # 壹筒天下源 - 常用实用插件源
 https://c1d3r.com/repo/    # c1d3r - PullOver Pro 分屏悬浮窗插件作者源
 http://getdelta.co/    # Delta - Flex 3 补丁制作工具作者源
@@ -76,7 +55,22 @@ https://apt.autotouch.net/    # AutoTouch - AutoTouch 触动精灵自动化脚�
 https://invalidunit.github.io/netskao-archive/    # - 请删除此源 - haha
 https://apt.tinyapps.cn/    # Tinyapps - Fake GPS Pro、360虚拟定位官方源
 
-## 【精选开发者源】 (共 73 个)
+## 【开发者源】 (共 95 个)
+https://skypain.github.io/repo/    # Skypain - 控制中心模块
+https://34306.github.io/    # 34306 - 越南开发者
+https://p2kdev.github.io/repo/    # P2KDev - 各种小功能插件
+https://poomsmart.github.io/repo/    # PoomSmart - YTUHD、YouPiP 开发者
+https://alias20.gitlab.io/apt/    # alias20 - 曾经的 FlyJB 开发者
+http://sparkdev.me/    # SparkDev - Snowboard 滑雪板
+https://dcsyhi1998.github.io/    # Dcsyhi1998 - Zetsu 作者个人源
+https://repo.anamy.gay/    # Amy - Sileo 维护者、Aemulo
+https://cydiageek.yourepo.com/    # CydiaGeek - 各种小功能
+https://0xkuj.yourepo.com/    # 0xkuj - SafariX 插件
+http://tigisoftware.com/repo/    # Filza 官方源
+https://ios.jjolano.me/    # jjolano - Shadow 插件
+https://lizynz.github.io/    # Lizynz - FolderX 插件
+https://miro92.com/repo/    # MiRO92 - uYou 插件
+https://nathan4s.lol/repo/    # Nathan - NathanLR 半越狱开发者
 https://opa334.github.io/beta/    # Safari Plus - opa334's Cydia Beta Repository
 https://repo.daus.ch/    # Sylph  - Maxwell Dausch's Repo
 http://cydia.ichitaso.com/    # ichitaso - OTADisabler 屏蔽更新、PowerSelector
@@ -150,8 +144,6 @@ https://sudo9000.github.io/    # Sudo's Repo - A place for iOS Jailbreak Tweaks.
 https://tweakhub.github.io/    # TweakHub - Xinamine patched tweaks
 https://udevsharold.github.io/repo/    # udevs - udevs' Cydia repository
 http://zhuxinlang.github.io/    # XinaA15 Repo - XinaA15 jailbreak Repository
-
-## 【主题与美化源】 (共 7 个)
 https://dada.yourepo.com/    # 骚达美化源 - 欢迎添加 微信公众号:阿布怪达。微信号：ZRD080
 https://soda-ldz.yourepo.com/    # 苏达微信美化源 - By Soda
 https://apt.sutuplus.com/    # 苏兔源 - 常用美化与汉化插件源

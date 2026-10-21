@@ -67,94 +67,7 @@
         "name": "82Flex",
         "note": "乌龙工作室",
         "url": "https://apt.82flex.com/"
-      }
-    ]
-  },
-  {
-    "id": "dev",
-    "title": "开发者源",
-    "sources": [
-      {
-        "name": "Skypain",
-        "note": "控制中心模块",
-        "url": "https://skypain.github.io/repo/"
       },
-      {
-        "name": "34306",
-        "note": "越南开发者",
-        "url": "https://34306.github.io/"
-      },
-      {
-        "name": "P2KDev",
-        "note": "各种小功能插件",
-        "url": "https://p2kdev.github.io/repo/"
-      },
-      {
-        "name": "PoomSmart",
-        "note": "YTUHD、YouPiP 开发者",
-        "url": "https://poomsmart.github.io/repo/"
-      },
-      {
-        "name": "alias20",
-        "note": "曾经的 FlyJB 开发者",
-        "url": "https://alias20.gitlab.io/apt/"
-      },
-      {
-        "name": "SparkDev",
-        "note": "Snowboard 滑雪板",
-        "url": "http://sparkdev.me/"
-      },
-      {
-        "name": "Dcsyhi1998",
-        "note": "Zetsu 作者个人源",
-        "url": "https://dcsyhi1998.github.io/"
-      },
-      {
-        "name": "Amy",
-        "note": "Sileo 维护者、Aemulo",
-        "url": "https://repo.anamy.gay/"
-      },
-      {
-        "name": "CydiaGeek",
-        "note": "各种小功能",
-        "url": "https://cydiageek.yourepo.com/"
-      },
-      {
-        "name": "0xkuj",
-        "note": "SafariX 插件",
-        "url": "https://0xkuj.yourepo.com/"
-      },
-      {
-        "name": "Filza 官方源",
-        "note": "",
-        "url": "http://tigisoftware.com/repo/"
-      },
-      {
-        "name": "jjolano",
-        "note": "Shadow 插件",
-        "url": "https://ios.jjolano.me/"
-      },
-      {
-        "name": "Lizynz",
-        "note": "FolderX 插件",
-        "url": "https://lizynz.github.io/"
-      },
-      {
-        "name": "MiRO92",
-        "note": "uYou 插件",
-        "url": "https://miro92.com/repo/"
-      },
-      {
-        "name": "Nathan",
-        "note": "NathanLR 半越狱开发者",
-        "url": "https://nathan4s.lol/repo/"
-      }
-    ]
-  },
-  {
-    "id": "official",
-    "title": "主流大源与基础源",
-    "sources": [
       {
         "name": "Chariz",
         "note": "国外主流综合商业软件源",
@@ -204,13 +117,7 @@
         "name": "palera1n",
         "note": "palera1n 越狱官方基础源",
         "url": "https://repo.palera.in/"
-      }
-    ]
-  },
-  {
-    "id": "community",
-    "title": "中文社区与常用源",
-    "sources": [
+      },
       {
         "name": "壹筒天下源",
         "note": "常用实用插件源",
@@ -344,9 +251,84 @@
     ]
   },
   {
-    "id": "dev_extra",
-    "title": "精选开发者源",
+    "id": "dev",
+    "title": "开发者源",
     "sources": [
+      {
+        "name": "Skypain",
+        "note": "控制中心模块",
+        "url": "https://skypain.github.io/repo/"
+      },
+      {
+        "name": "34306",
+        "note": "越南开发者",
+        "url": "https://34306.github.io/"
+      },
+      {
+        "name": "P2KDev",
+        "note": "各种小功能插件",
+        "url": "https://p2kdev.github.io/repo/"
+      },
+      {
+        "name": "PoomSmart",
+        "note": "YTUHD、YouPiP 开发者",
+        "url": "https://poomsmart.github.io/repo/"
+      },
+      {
+        "name": "alias20",
+        "note": "曾经的 FlyJB 开发者",
+        "url": "https://alias20.gitlab.io/apt/"
+      },
+      {
+        "name": "SparkDev",
+        "note": "Snowboard 滑雪板",
+        "url": "http://sparkdev.me/"
+      },
+      {
+        "name": "Dcsyhi1998",
+        "note": "Zetsu 作者个人源",
+        "url": "https://dcsyhi1998.github.io/"
+      },
+      {
+        "name": "Amy",
+        "note": "Sileo 维护者、Aemulo",
+        "url": "https://repo.anamy.gay/"
+      },
+      {
+        "name": "CydiaGeek",
+        "note": "各种小功能",
+        "url": "https://cydiageek.yourepo.com/"
+      },
+      {
+        "name": "0xkuj",
+        "note": "SafariX 插件",
+        "url": "https://0xkuj.yourepo.com/"
+      },
+      {
+        "name": "Filza 官方源",
+        "note": "",
+        "url": "http://tigisoftware.com/repo/"
+      },
+      {
+        "name": "jjolano",
+        "note": "Shadow 插件",
+        "url": "https://ios.jjolano.me/"
+      },
+      {
+        "name": "Lizynz",
+        "note": "FolderX 插件",
+        "url": "https://lizynz.github.io/"
+      },
+      {
+        "name": "MiRO92",
+        "note": "uYou 插件",
+        "url": "https://miro92.com/repo/"
+      },
+      {
+        "name": "Nathan",
+        "note": "NathanLR 半越狱开发者",
+        "url": "https://nathan4s.lol/repo/"
+      },
       {
         "name": "Safari Plus",
         "note": "opa334's Cydia Beta Repository",
@@ -711,13 +693,7 @@
         "name": "XinaA15 Repo",
         "note": "XinaA15 jailbreak Repository",
         "url": "http://zhuxinlang.github.io/"
-      }
-    ]
-  },
-  {
-    "id": "theme",
-    "title": "主题与美化源",
-    "sources": [
+      },
       {
         "name": "骚达美化源",
         "note": "欢迎添加 微信公众号:阿布怪达。微信号：ZRD080",
