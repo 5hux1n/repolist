@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T16:17:23+00:00",
+ "generated": "2026-10-21T22:20:56+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
@@ -104,10 +104,13 @@
    "latest": null
   },
   "https://havoc.app/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 518,
-   "updated": "2026-10-20T15:39:00+00:00",
-   "latest": null
+   "updated": "2026-10-21T22:20:56+00:00",
+   "latest": [
+    "moe.waru.jikan 1.0.2",
+    "com.aadios.anxietea 1.0.5"
+   ]
   },
   "https://roothide.github.io/": {
    "status": "ok",
@@ -176,7 +179,7 @@
    "latest": null
   },
   "https://ryleyangus.com/repo/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 6,
    "updated": "2022-03-22T07:51:05+00:00",
    "latest": null
@@ -244,8 +247,10 @@
   "https://sini921.github.io/": {
    "status": "ok",
    "packages": 254,
-   "updated": "2026-10-12T16:57:10+00:00",
-   "latest": null
+   "updated": "2026-10-21T22:20:56+00:00",
+   "latest": [
+    "com.sini921.cylinderreborn 1.2.0-1"
+   ]
   },
   "https://cydia.dumpapp.com/": {
    "status": "ok",
@@ -400,8 +405,10 @@
   "http://cydia.ichitaso.com/": {
    "status": "ok",
    "packages": 106,
-   "updated": "2026-10-17T21:04:58+00:00",
-   "latest": null
+   "updated": "2026-10-21T22:20:56+00:00",
+   "latest": [
+    "com.ichitaso.powerselector11 1.5.0"
+   ]
   },
   "http://junesiphone.com/supersecret/": {
    "status": "ok",
@@ -440,13 +447,13 @@
    "latest": null
   },
   "https://repo.ikghd.me/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 4,
    "updated": "2026-10-20T03:51:45+00:00",
    "latest": null
   },
   "https://cydia.rob311.com/repo/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 45,
    "updated": "2026-08-30T19:44:58+00:00",
    "latest": null
@@ -513,9 +520,13 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 809,
-   "updated": "2026-10-21T13:55:39+00:00",
-   "latest": null
+   "packages": 811,
+   "updated": "2026-10-21T22:20:56+00:00",
+   "latest": [
+    "com.crctdd.choicy-whitelist 1.5.4-8",
+    "com.hierarch.dykiller 0.6.6",
+    "com.milkway.apppro 0.0.38"
+   ]
   },
   "http://apt.iarrays.com/": {
    "status": "ok",
@@ -542,7 +553,7 @@
    "latest": null
   },
   "https://lzsxcl.github.io/repo/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 18,
    "updated": "2023-08-09T14:06:08+00:00",
    "latest": null
@@ -626,7 +637,7 @@
    "latest": null
   },
   "https://level3tjg.me/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 62,
    "updated": "2025-12-16T04:11:26+00:00",
    "latest": null
@@ -736,8 +747,10 @@
   "https://ichitaso.com/apt/": {
    "status": "ok",
    "packages": 106,
-   "updated": "2026-10-17T21:04:58+00:00",
-   "latest": null
+   "updated": "2026-10-21T22:20:56+00:00",
+   "latest": [
+    "com.ichitaso.powerselector11 1.5.0"
+   ]
   },
   "http://aquawu.github.io/igg/": {
    "status": "ok",
