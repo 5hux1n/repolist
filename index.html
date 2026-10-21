@@ -58,7 +58,7 @@ a { color: inherit; text-decoration: none; }
   max-width: 600px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 0 140px;
+  padding-block: 0 48px;
 }
 
 /* Navigation */
@@ -167,25 +167,9 @@ a { color: inherit; text-decoration: none; }
 .foot-links a { color: var(--tint); }
 .foot .copy { font-size: 12px; color: var(--label-3); }
 
-/* Toolbar (edit mode) */
-.toolbar {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 8;
-  background: var(--bar); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
-  border-top: 0.5px solid var(--sep);
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-top: 12px; padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
-}
-.toolbar .in { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; }
-.toolbar .in > :first-child { justify-self: start; }
-.toolbar .in > :last-child { justify-self: end; }
-.toolbar button, .toolbar a { color: var(--tint); font-size: 17px; }
-.toolbar .count { font-size: 13px; font-weight: 600; color: var(--label); }
-.toolbar .off { color: var(--label-3); pointer-events: none; }
-
 /* HUD */
 .hud {
-  position: fixed; left: 50%; bottom: calc(88px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  position: fixed; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom, 0px)); z-index: 20;
   transform: translateX(-50%); width: max-content; max-width: min(88vw, 360px);
   background: var(--hud); color: var(--hud-fg);
   -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
@@ -240,7 +224,6 @@ a { color: inherit; text-decoration: none; }
     <div class="group-head"><span class="title">添加方法</span></div>
     <div class="list">
       <div><b>Sileo</b>　复制后打开 Sileo → 软件源 → 点 ＋，会自动识别剪贴板里的全部地址。</div>
-      <div><b>Irisin</b>　点“Irisin 添加”，整组一次性加入。</div>
       <div><b>Zebra</b>　复制后在添加源界面粘贴。</div>
       <div><b>Cydia</b>　请复制地址后逐个添加。</div>
     </div>
@@ -268,14 +251,6 @@ a { color: inherit; text-decoration: none; }
   </footer>
 </div>
 
-<div class="toolbar" id="toolbar" hidden>
-  <div class="in">
-    <button type="button" id="selcopy">复制</button>
-    <span class="count" id="selcount"></span>
-    <a id="selirisin" href="#">Irisin 添加</a>
-  </div>
-</div>
-
 <div class="hud" id="hud" role="status" hidden></div>
 
 <div class="scrim" id="scrim" hidden>
@@ -300,7 +275,6 @@ const CHECK = '<svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="
 
 if (/MicroMessenger|QQ\//i.test(navigator.userAgent)) $("inapp").hidden = false;
 
-const irisin = urls => "irisin://repository/add?" + urls.map(u => "url=" + encodeURIComponent(u)).join("&");
 const showUrl = u => u.startsWith("http://")
   ? `<span class="http">http://</span>${esc(u.slice(7))}`
   : esc(u.replace(/^https:\/\//, "").replace(/\/$/, ""));
@@ -377,6 +351,7 @@ function render() {
         <span class="title">${g.title}<b>${g.list.length}</b></span>
         <span class="acts">
           <button type="button" data-action="toggle-edit">${editing ? "完成" : "选择"}</button>
+          <button type="button" data-action="copy-selected">复制勾选</button>
           <button type="button" data-copygroup="${g.id}">复制全部</button>
         </span>
       </div>
@@ -397,7 +372,6 @@ function render() {
               <button type="button" data-copy="${esc(s.url)}">复制</button>
               <a href="sileo://source/${esc(s.url)}">Sileo</a>
               <a href="zbra://sources/add/${esc(s.url)}">Zebra</a>
-              <a href="${esc(irisin([s.url]))}">Irisin</a>
             </div>
           </div>
         </li>`).join("")}
@@ -405,15 +379,7 @@ function render() {
     </section>`).join("");
 }
 
-function renderBar() {
-  $("toolbar").hidden = !editing;
-  $("edit").textContent = editing ? "完成" : "选择";
-  const n = selected.size;
-  $("selcount").textContent = n ? `已选 ${n} 个` : "选择源";
-  $("selcopy").classList.toggle("off", !n);
-  $("selirisin").classList.toggle("off", !n);
-  if (n) $("selirisin").href = irisin(ALL.filter(s => selected.has(s.url)).map(s => s.url));
-}
+function renderBar() {}
 
 let hudTimer;
 function hud(title, sub) {
@@ -454,7 +420,17 @@ document.addEventListener("click", e => {
   if (b && b.dataset.action === "toggle-edit") {
     editing = !editing;
     if (!editing) selected.clear();
-    render(); renderBar();
+    render();
+    return;
+  }
+  if (b && b.dataset.action === "copy-selected") {
+    const list = ALL.filter(s => selected.has(s.url)).map(s => s.url);
+    if (!list.length) {
+      hud("请先勾选要复制的源");
+      if (!editing) { editing = true; render(); }
+      return;
+    }
+    copy(list);
     return;
   }
   if (b && b.dataset.f) { filter = b.dataset.f; renderSeg(); render(); return; }
@@ -469,13 +445,11 @@ document.addEventListener("click", e => {
       const u = row.dataset.url;
       selected.has(u) ? selected.delete(u) : selected.add(u);
       row.classList.toggle("selected", selected.has(u));
-      renderBar();
     }
   }
 });
 
-if ($("edit")) $("edit").onclick = () => { editing = !editing; if (!editing) selected.clear(); render(); renderBar(); };
-$("selcopy").onclick = () => copy(ALL.filter(s => selected.has(s.url)).map(s => s.url));
+if ($("edit")) $("edit").onclick = () => { editing = !editing; if (!editing) selected.clear(); render(); };
 $("sheetclose").onclick = () => { $("scrim").hidden = true; };
 $("q").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); render(); });
 
