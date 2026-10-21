@@ -1,6 +1,12 @@
 {
- "generated": "2026-10-21T15:52:14+00:00",
+ "generated": "2026-10-21T16:17:23+00:00",
  "repos": {
+  "https://apt.mjh.im/": {
+   "status": "ok",
+   "packages": 23,
+   "updated": "2026-10-21T12:00:00+00:00",
+   "latest": null
+  },
   "https://opa334.github.io/": {
    "status": "ok",
    "packages": 15,
@@ -98,7 +104,7 @@
    "latest": null
   },
   "https://havoc.app/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 518,
    "updated": "2026-10-20T15:39:00+00:00",
    "latest": null
@@ -170,7 +176,7 @@
    "latest": null
   },
   "https://ryleyangus.com/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 6,
    "updated": "2022-03-22T07:51:05+00:00",
    "latest": null
@@ -200,13 +206,13 @@
    "latest": null
   },
   "https://apt.cydia.pro/": {
-   "status": "warn",
+   "status": "dead",
    "packages": null,
    "updated": null,
    "latest": null
   },
   "https://apt.cydiakk.com/": {
-   "status": "warn",
+   "status": "dead",
    "packages": null,
    "updated": null,
    "latest": null
@@ -281,12 +287,6 @@
    "status": "ok",
    "packages": 10,
    "updated": "2026-10-05T01:28:57+00:00",
-   "latest": null
-  },
-  "https://invalidunit.github.io/netskao-archive/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2025-02-15T06:45:36+00:00",
    "latest": null
   },
   "https://apt.tinyapps.cn/": {
@@ -440,13 +440,13 @@
    "latest": null
   },
   "https://repo.ikghd.me/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 4,
    "updated": "2026-10-20T03:51:45+00:00",
    "latest": null
   },
   "https://cydia.rob311.com/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 45,
    "updated": "2026-08-30T19:44:58+00:00",
    "latest": null
@@ -542,7 +542,7 @@
    "latest": null
   },
   "https://lzsxcl.github.io/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 18,
    "updated": "2023-08-09T14:06:08+00:00",
    "latest": null
@@ -659,12 +659,6 @@
    "status": "ok",
    "packages": 22,
    "updated": "2025-03-16T18:05:35+00:00",
-   "latest": null
-  },
-  "https://apt.mjh.im/": {
-   "status": "ok",
-   "packages": 23,
-   "updated": "2026-10-21T12:00:00+00:00",
    "latest": null
   },
   "https://apt.owngoal.dev/": {

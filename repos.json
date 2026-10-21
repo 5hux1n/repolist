@@ -4,6 +4,11 @@
     "title": "精选常用",
     "sources": [
       {
+        "name": "Junhong's Repo",
+        "note": "番茄系净化、虚拟权限作者",
+        "url": "https://apt.mjh.im/"
+      },
+      {
         "name": "opa334",
         "note": "多巴胺越狱开发者",
         "url": "https://opa334.github.io/"
@@ -15,7 +20,7 @@
       },
       {
         "name": "电话助手源",
-        "note": "",
+        "note": "电话助手、通话录音、T9 拨号经典插件",
         "url": "http://apt.htv123.com/"
       },
       {
@@ -45,7 +50,7 @@
       },
       {
         "name": "冷冷雨源",
-        "note": "",
+        "note": "防追踪、虚拟定位、综合汉化插件",
         "url": "https://lenglengyu.com/"
       },
       {
@@ -55,7 +60,7 @@
       },
       {
         "name": "赵楠源",
-        "note": "",
+        "note": "赵楠自制系统增强脚本与实用小工具",
         "url": "https://invalidunit.github.io/repo/"
       },
       {
@@ -105,7 +110,7 @@
       },
       {
         "name": "Rocket APT",
-        "note": "",
+        "note": "Rocket for Instagram 官方源",
         "url": "https://apt.alfhaily.me/"
       },
       {
@@ -170,12 +175,12 @@
       },
       {
         "name": "Ant 蚂蚁源",
-        "note": "",
+        "note": "蚂蚁越狱源，综合插件分享",
         "url": "https://apt.cydia.pro/"
       },
       {
         "name": "Cydiakk中文源",
-        "note": "",
+        "note": "Cydiakk 中文越狱插件合集",
         "url": "https://apt.cydiakk.com/"
       },
       {
@@ -237,11 +242,6 @@
         "name": "AutoTouch",
         "note": "AutoTouch 触动精灵自动化脚本官方源",
         "url": "https://apt.autotouch.net/"
-      },
-      {
-        "name": "- 请删除此源",
-        "note": "haha",
-        "url": "https://invalidunit.github.io/netskao-archive/"
       },
       {
         "name": "Tinyapps",
@@ -306,7 +306,7 @@
       },
       {
         "name": "Filza 官方源",
-        "note": "",
+        "note": "iOS 最强文件管理器 Filza 官方源",
         "url": "http://tigisoftware.com/repo/"
       },
       {
@@ -366,7 +366,7 @@
       },
       {
         "name": "TTJB Repo",
-        "note": "",
+        "note": "越南越狱社区常用实用插件合集",
         "url": "http://repo.thuthuatjb.com/"
       },
       {
@@ -386,7 +386,7 @@
       },
       {
         "name": "Hi客",
-        "note": "",
+        "note": "Hi客微信助手与实用插件分享",
         "url": "http://repo.qqtlr.com/"
       },
       {
@@ -396,7 +396,7 @@
       },
       {
         "name": "Liam - oldabi",
-        "note": "",
+        "note": "iOS 旧版 ABI 兼容层与功能小插件",
         "url": "https://liam.page/oldabi/"
       },
       {
@@ -406,7 +406,7 @@
       },
       {
         "name": "Brend0n's repo",
-        "note": "",
+        "note": "电池健康显示、通话状态栏增强小插件",
         "url": "https://brendonjkding.github.io/"
       },
       {
@@ -441,7 +441,7 @@
       },
       {
         "name": "IArrays",
-        "note": "",
+        "note": "BioProtect 面容指纹应用锁、CallLogPro 官方源",
         "url": "http://apt.iarrays.com/"
       },
       {
@@ -456,7 +456,7 @@
       },
       {
         "name": "Luki120's Repo",
-        "note": "",
+        "note": "Aestea、April 等精美开源锁屏美化插件",
         "url": "https://luki120.github.io/"
       },
       {
@@ -486,7 +486,7 @@
       },
       {
         "name": "nathanlr",
-        "note": "",
+        "note": "NathanLR 半越狱与无根引导工具官方源",
         "url": "https://nathan4s.lol/nathanlr/"
       },
       {
@@ -496,7 +496,7 @@
       },
       {
         "name": "p0358's Repo",
-        "note": "",
+        "note": "bfdecrypt 砸壳工具、TVLock 电视锁屏特效",
         "url": "https://repo.p0358.net/"
       },
       {
@@ -531,17 +531,17 @@
       },
       {
         "name": "level3tjg's repo",
-        "note": "",
+        "note": "Ablaze 音乐流光背景、自适应滚动条插件",
         "url": "https://level3tjg.me/repo/"
       },
       {
         "name": "iVintageRepo",
-        "note": "",
+        "note": "经典复古 iOS 锁屏与时钟美化插件",
         "url": "https://ivintagelover.github.io/repo/"
       },
       {
         "name": "huamidev",
-        "note": "",
+        "note": "微信净化与功能增强插件作者源",
         "url": "https://huami1314.github.io/devrepo/"
       },
       {
@@ -551,7 +551,7 @@
       },
       {
         "name": "NoW's repo",
-        "note": "",
+        "note": "Mooner 实用系统辅助工具",
         "url": "https://nowisdev.github.io/"
       },
       {
@@ -560,13 +560,8 @@
         "url": "https://repo.anthopak.dev/"
       },
       {
-        "name": "Junhong's Repo",
-        "note": "欢迎光临",
-        "url": "https://apt.mjh.im/"
-      },
-      {
         "name": "OwnGoal Packages",
-        "note": "",
+        "note": "TrollStoreLite 巨魔精简版、Crane 修复组件",
         "url": "https://apt.owngoal.dev/"
       },
       {
@@ -581,12 +576,12 @@
       },
       {
         "name": "DTCalabro's Repo",
-        "note": "",
+        "note": "ColorBar 状态栏自定义、PageDotsBegone",
         "url": "https://dtcalabro.github.io/repo/"
       },
       {
         "name": "DXcool223 Repo",
-        "note": "",
+        "note": "Flex 3 补丁与多功能实用小插件",
         "url": "https://dxcool223-repo.github.io/repo/"
       },
       {
@@ -596,12 +591,12 @@
       },
       {
         "name": "Favware",
-        "note": "",
+        "note": "Darkcons 精美深色主题图标包",
         "url": "https://favna.github.io/cydia/"
       },
       {
         "name": "fiore's repo",
-        "note": "",
+        "note": "控制中心边框美化、锁屏提示隐藏小插件",
         "url": "https://donato-fiore.github.io/repo/"
       },
       {
@@ -621,7 +616,7 @@
       },
       {
         "name": "i0s-tweak3r-betas Source",
-        "note": "",
+        "note": "去除 App 资源库、音乐控制增强插件",
         "url": "https://i0s-tweak3r-betas.yourepo.com/"
       },
       {
@@ -631,7 +626,7 @@
       },
       {
         "name": "iGG source",
-        "note": "",
+        "note": "iGameGuardian 游戏内存修改器官方源",
         "url": "http://aquawu.github.io/igg/"
       },
       {
@@ -641,7 +636,7 @@
       },
       {
         "name": "Liam",
-        "note": "",
+        "note": "步数修改器、动态依赖库等个人插件",
         "url": "https://liam.page/apt/"
       },
       {
@@ -656,7 +651,7 @@
       },
       {
         "name": "MTAC's Repo",
-        "note": "",
+        "note": "Lynx 系统全功能增强、Aperture 灵动岛特效",
         "url": "https://mtac.app/repo/"
       },
       {

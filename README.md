@@ -46,6 +46,12 @@ GitHub Actions 每天凌晨自动运行 `scripts/check_repos.py`，逐个检查�
 - **更新时间**：只有出现新插件或版本号变化时才刷新。作者重新生成索引文件不算更新。一年以上没有变化的标为“可能停更”。
 - **状态**：能正常读取为正常；访问失败为检测异常；连续三天失败才标为已失效。
 
+## 关于与支持
+
+- **反馈中心**：[PingMe 反馈页](https://pingme.pm/repolist)
+- **作者博客**：[mjh.im](https://mjh.im/)
+- **个人源**：[apt.mjh.im](https://apt.mjh.im/)
+
 ## License
 
 [MIT](LICENSE)
