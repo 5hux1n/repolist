@@ -348,17 +348,19 @@ function renderSeg() {
     `<button type="button" data-f="${o.id}" aria-pressed="${filter === o.id}">${o.title}</button>`).join("");
 }
 
+function visibleSources(g) {
+  const ownRepo = ALL.find(s => s.url === "https://apt.mjh.im/");
+  const pinOwnRepo = ownRepo && (filter !== "all" || g === GROUPS[0]);
+  const sources = pinOwnRepo
+    ? [ownRepo, ...g.sources.filter(s => s.url !== ownRepo.url)]
+    : g.sources.filter(s => !ownRepo || s.url !== ownRepo.url);
+  return sources.filter(matches);
+}
+
 function render() {
   $("app").classList.toggle("editing", editing);
-  const ownRepo = ALL.find(s => s.url === "https://apt.mjh.im/");
   const groups = GROUPS.filter(g => filter === "all" || g.id === filter)
-    .map(g => {
-      const pinOwnRepo = ownRepo && (filter !== "all" || g === GROUPS[0]);
-      const sources = pinOwnRepo
-        ? [ownRepo, ...g.sources.filter(s => s.url !== ownRepo.url)]
-        : g.sources.filter(s => !ownRepo || s.url !== ownRepo.url);
-      return { ...g, list: sources.filter(matches) };
-    }).filter(g => g.list.length);
+    .map(g => ({ ...g, list: visibleSources(g) })).filter(g => g.list.length);
   if (!groups.length) { $("list").innerHTML = `<div class="empty">没有找到“${esc(query)}”</div>`; return; }
   $("list").innerHTML = groups.map(g => `
     <section class="group">
@@ -452,7 +454,7 @@ document.addEventListener("click", e => {
   if (b && b.dataset.copy) { copy([b.dataset.copy]); return; }
   if (b && b.dataset.copygroup) {
     const g = GROUPS.find(x => x.id === b.dataset.copygroup);
-    copy(g.sources.filter(matches).map(s => s.url)); return;
+    copy(visibleSources(g).map(s => s.url)); return;
   }
   if (editing) {
     const row = e.target.closest(".row");
