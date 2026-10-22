@@ -6,7 +6,6 @@ https://jailrepo.initnil.com/
 https://rootless.002599.xyz/
 https://laileld.github.io/repo/
 https://lclrc.github.io/repo/
-https://flyx099.github.io/repo/
 https://lenglengyu.com/
 https://flex2areo.github.io/
 https://invalidunit.github.io/repo/
@@ -32,8 +31,6 @@ https://cokepokes.github.io/
 http://repo.cydiabc.top/
 https://repo.snailovet.com/
 https://byg.iosios.net/
-https://apt.cydia.pro/
-https://apt.cydiakk.com/
 https://trollstorex.github.io/repo/
 https://wwg135.github.io/
 https://invalidunit.github.io/repo2/
@@ -49,7 +46,6 @@ https://apt.autotouch.net/
 https://apt.tinyapps.cn/
 https://skypain.github.io/repo/
 https://34306.github.io/
-https://p2kdev.github.io/repo/
 https://poomsmart.github.io/repo/
 https://alias20.gitlab.io/apt/
 http://sparkdev.me/
@@ -60,7 +56,6 @@ https://0xkuj.yourepo.com/
 http://tigisoftware.com/repo/
 https://ios.jjolano.me/
 https://lizynz.github.io/
-https://miro92.com/repo/
 https://nathan4s.lol/repo/
 https://opa334.github.io/beta/
 https://repo.daus.ch/

@@ -1,10 +1,10 @@
 # ========================================================
 # 越狱软件源合集（去重清洗并经可用性校验）
-# 总计收录：143 个有效源
+# 总计收录：138 个有效源
 # 支持 Sileo、Zebra、Cydia、Irisin 等包管理器一键添加
 # ========================================================
 
-## 【精选常用】 (共 49 个)
+## 【精选常用】 (共 46 个)
 https://apt.mjh.im/    # Junhong's Repo - 番茄系净化、虚拟权限作者
 https://opa334.github.io/    # opa334 - 多巴胺越狱开发者
 https://xiangfeidexiaohuo.github.io/    # 刀刀源 - 汉化、为爱发电
@@ -13,7 +13,6 @@ https://jailrepo.initnil.com/    # Netskao 新源 - DumpDecrypter、AppData 等�
 https://rootless.002599.xyz/    # 真皮源 - Hello 系列插件
 https://laileld.github.io/repo/    # 来了老弟源 - FT、ST 等
 https://lclrc.github.io/repo/    # 乌贼力量源 - 锤子、剪切板、DockX 等
-https://flyx099.github.io/repo/    # 学习交流源 - 图层插件
 https://lenglengyu.com/    # 冷冷雨源 - 防追踪、虚拟定位、综合汉化插件
 https://flex2areo.github.io/    # aReo 源 - AppTools 官方源
 https://invalidunit.github.io/repo/    # 赵楠源 - 赵楠自制系统增强脚本与实用小工具
@@ -39,8 +38,6 @@ https://cokepokes.github.io/    # CokePokes - AppStore++、CrashReporter 作者�
 http://repo.cydiabc.top/    # 小苹果源 - 国内知名常用插件源
 https://repo.snailovet.com/    # 蜗牛源 - 微信助手等功能优化插件
 https://byg.iosios.net/    # 搬运工源 - 搬运工精选插件源
-https://apt.cydia.pro/    # Ant 蚂蚁源 - 蚂蚁越狱源，综合插件分享
-https://apt.cydiakk.com/    # Cydiakk中文源 - Cydiakk 中文越狱插件合集
 https://trollstorex.github.io/repo/    # 巨魔源 - TrollStore 巨魔常用应用与插件
 https://wwg135.github.io/    # M哥源 - wwg135 自用插件分享
 https://invalidunit.github.io/repo2/    # zhaonan's Repo2 - 这是一个自用源2
@@ -55,10 +52,9 @@ https://colorblack-c.github.io/repo/    # Dopamine Repo - 多巴胺 Cydia 越狱
 https://apt.autotouch.net/    # AutoTouch - AutoTouch 触动精灵自动化脚本官方源
 https://apt.tinyapps.cn/    # Tinyapps - Fake GPS Pro、360虚拟定位官方源
 
-## 【开发者源】 (共 94 个)
+## 【开发者源】 (共 92 个)
 https://skypain.github.io/repo/    # Skypain - 控制中心模块
 https://34306.github.io/    # 34306 - 越南开发者
-https://p2kdev.github.io/repo/    # P2KDev - 各种小功能插件
 https://poomsmart.github.io/repo/    # PoomSmart - YTUHD、YouPiP 开发者
 https://alias20.gitlab.io/apt/    # alias20 - 曾经的 FlyJB 开发者
 http://sparkdev.me/    # SparkDev - Snowboard 滑雪板
@@ -69,7 +65,6 @@ https://0xkuj.yourepo.com/    # 0xkuj - SafariX 插件
 http://tigisoftware.com/repo/    # Filza 官方源 - iOS 最强文件管理器 Filza 官方源
 https://ios.jjolano.me/    # jjolano - Shadow 插件
 https://lizynz.github.io/    # Lizynz - FolderX 插件
-https://miro92.com/repo/    # MiRO92 - uYou 插件
 https://nathan4s.lol/repo/    # Nathan - NathanLR 半越狱开发者
 https://opa334.github.io/beta/    # Safari Plus - opa334's Cydia Beta Repository
 https://repo.daus.ch/    # Sylph  - Maxwell Dausch's Repo

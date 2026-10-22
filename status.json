@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T22:20:56+00:00",
+ "generated": "2026-10-22T04:37:13+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
@@ -49,17 +49,13 @@
    "updated": "2025-04-18T06:09:00+00:00",
    "latest": null
   },
-  "https://flyx099.github.io/repo/": {
-   "status": "dead",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
   "https://lenglengyu.com/": {
    "status": "ok",
-   "packages": 1308,
-   "updated": null,
-   "latest": null
+   "packages": 1306,
+   "updated": "2026-10-22T04:37:13+00:00",
+   "latest": [
+    "com.lenglengyu.hamhubpro-rootless 1.2.5"
+   ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
@@ -106,10 +102,9 @@
   "https://havoc.app/": {
    "status": "ok",
    "packages": 518,
-   "updated": "2026-10-21T22:20:56+00:00",
+   "updated": "2026-10-22T04:37:13+00:00",
    "latest": [
-    "moe.waru.jikan 1.0.2",
-    "com.aadios.anxietea 1.0.5"
+    "com.zqbb.hello.keyboard.ai 6.6.6-9"
    ]
   },
   "https://roothide.github.io/": {
@@ -179,7 +174,7 @@
    "latest": null
   },
   "https://ryleyangus.com/repo/": {
-   "status": "dead",
+   "status": "ok",
    "packages": 6,
    "updated": "2022-03-22T07:51:05+00:00",
    "latest": null
@@ -193,8 +188,11 @@
   "http://repo.cydiabc.top/": {
    "status": "ok",
    "packages": 3693,
-   "updated": "2026-10-20T16:13:56+00:00",
-   "latest": null
+   "updated": "2026-10-22T04:37:13+00:00",
+   "latest": [
+    "com.cydiabc.hbwechathelper 2.1.9",
+    "com.cydiabc.hbwechathelper-rootless 2.1.9"
+   ]
   },
   "https://repo.snailovet.com/": {
    "status": "ok",
@@ -205,20 +203,12 @@
   "https://byg.iosios.net/": {
    "status": "ok",
    "packages": 956,
-   "updated": "2026-10-20T01:02:14+00:00",
-   "latest": null
-  },
-  "https://apt.cydia.pro/": {
-   "status": "dead",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
-  "https://apt.cydiakk.com/": {
-   "status": "dead",
-   "packages": null,
-   "updated": null,
-   "latest": null
+   "updated": "2026-10-22T04:37:13+00:00",
+   "latest": [
+    "byg.iosios.net.sleeperx 4.0.0",
+    "byg.iosios.net.cylinder 1.2.0-1",
+    "byg.iosios.net.axon.rootless 2.6"
+   ]
   },
   "https://trollstorex.github.io/repo/": {
    "status": "ok",
@@ -312,12 +302,6 @@
    "updated": "2025-09-06T18:19:06+00:00",
    "latest": null
   },
-  "https://p2kdev.github.io/repo/": {
-   "status": "dead",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
   "https://poomsmart.github.io/repo/": {
    "status": "ok",
    "packages": 182,
@@ -378,12 +362,6 @@
    "updated": "2026-10-12T08:41:29+00:00",
    "latest": null
   },
-  "https://miro92.com/repo/": {
-   "status": "dead",
-   "packages": null,
-   "updated": null,
-   "latest": null
-  },
   "https://nathan4s.lol/repo/": {
    "status": "ok",
    "packages": 35,
@@ -411,7 +389,7 @@
    ]
   },
   "http://junesiphone.com/supersecret/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 266,
    "updated": "2025-09-30T00:21:08+00:00",
    "latest": null
@@ -520,12 +498,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 811,
-   "updated": "2026-10-21T22:20:56+00:00",
+   "packages": 814,
+   "updated": "2026-10-22T04:37:13+00:00",
    "latest": [
-    "com.crctdd.choicy-whitelist 1.5.4-8",
-    "com.hierarch.dykiller 0.6.6",
-    "com.milkway.apppro 0.0.38"
+    "com.HBWechatHelper.ailun 2.1.9",
+    "com.crctdd.surgeactive 0.0.3",
+    "com.hierarch.dykiller 0.6.6.1"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -632,9 +610,12 @@
   },
   "https://wkkyy00.github.io/": {
    "status": "ok",
-   "packages": 456,
-   "updated": "2026-10-21T01:13:40+00:00",
-   "latest": null
+   "packages": 458,
+   "updated": "2026-10-22T04:37:13+00:00",
+   "latest": [
+    "com.iosdump.jumpselect 1.3",
+    "com.iosdump.shellx 11.3"
+   ]
   },
   "https://level3tjg.me/repo/": {
    "status": "warn",

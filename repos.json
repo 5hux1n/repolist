@@ -44,11 +44,6 @@
         "url": "https://lclrc.github.io/repo/"
       },
       {
-        "name": "学习交流源",
-        "note": "图层插件",
-        "url": "https://flyx099.github.io/repo/"
-      },
-      {
         "name": "冷冷雨源",
         "note": "防追踪、虚拟定位、综合汉化插件",
         "url": "https://lenglengyu.com/"
@@ -174,16 +169,6 @@
         "url": "https://byg.iosios.net/"
       },
       {
-        "name": "Ant 蚂蚁源",
-        "note": "蚂蚁越狱源，综合插件分享",
-        "url": "https://apt.cydia.pro/"
-      },
-      {
-        "name": "Cydiakk中文源",
-        "note": "Cydiakk 中文越狱插件合集",
-        "url": "https://apt.cydiakk.com/"
-      },
-      {
         "name": "巨魔源",
         "note": "TrollStore 巨魔常用应用与插件",
         "url": "https://trollstorex.github.io/repo/"
@@ -265,11 +250,6 @@
         "url": "https://34306.github.io/"
       },
       {
-        "name": "P2KDev",
-        "note": "各种小功能插件",
-        "url": "https://p2kdev.github.io/repo/"
-      },
-      {
         "name": "PoomSmart",
         "note": "YTUHD、YouPiP 开发者",
         "url": "https://poomsmart.github.io/repo/"
@@ -318,11 +298,6 @@
         "name": "Lizynz",
         "note": "FolderX 插件",
         "url": "https://lizynz.github.io/"
-      },
-      {
-        "name": "MiRO92",
-        "note": "uYou 插件",
-        "url": "https://miro92.com/repo/"
       },
       {
         "name": "Nathan",

@@ -19,7 +19,7 @@ import sys
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -102,7 +102,7 @@ def check(url, prev):
     base = url if url.endswith("/") else url + "/"
     result = {"ok": False}
 
-    code, body, _ = get(base + "Release")
+    code, body, release_headers = get(base + "Release")
     if code != 200 or b"Origin" not in body and b"Label" not in body and b"Suite" not in body:
         result["error"] = f"Release HTTP {code}"
         return result
@@ -114,7 +114,8 @@ def check(url, prev):
     for name in ("Packages.xz", "Packages.bz2", "Packages.gz", "Packages.zst", "Packages"):
         code, data, headers = get(base + name, cond if name == prev.get("index") else None)
         if code == 304:
-            return {"ok": True, "unchanged": True, "index": name, "etag": prev.get("etag")}
+            return {"ok": True, "unchanged": True, "index": name, "etag": prev.get("etag"),
+                    "seed_date": release_date(rel_text) or http_date(release_headers)}
         if code != 200 or not data:
             continue
         try:
@@ -128,7 +129,7 @@ def check(url, prev):
             "index": name,
             "etag": headers.get("ETag"),
             "versions": parse_packages(text),
-            "seed_date": release_date(rel_text) or http_date(headers),
+            "seed_date": release_date(rel_text) or http_date(headers) or http_date(release_headers),
         }
     result["error"] = "no readable Packages index"
     result["release_only"] = True
@@ -154,23 +155,28 @@ def main():
             "etag": prev.get("etag"),
             "index": prev.get("index"),
             "fails": prev.get("fails", 0),
+            "failed_day": prev.get("failed_day"),
         }
         if res["ok"]:
             entry["fails"] = 0
+            entry["failed_day"] = None
             entry["index"] = res.get("index")
             entry["etag"] = res.get("etag")
             if not res.get("unchanged"):
                 old, new = entry["versions"], res["versions"]
                 changed = [p for p, v in new.items() if old.get(p) != v]
-                if not old:
-                    entry["updated"] = entry["updated"] or res.get("seed_date")
-                elif changed:
+                if old and changed:
                     entry["updated"] = now_iso()
                     entry["latest"] = [f"{p} {new[p]}" for p in changed[:3]]
                 entry["versions"] = new
+            entry["updated"] = entry["updated"] or res.get("seed_date")
             st = "ok"
         else:
-            entry["fails"] += 1
+            today = now_iso()[:10]
+            if entry["failed_day"] != today:
+                yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).date().isoformat()
+                entry["fails"] = entry["fails"] + 1 if entry["failed_day"] == yesterday else 1
+                entry["failed_day"] = today
             st = "dead" if entry["fails"] >= DEAD_AFTER else "warn"
             print(f"[{st}] {url}: {res.get('error')}", file=sys.stderr)
 

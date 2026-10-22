@@ -239,7 +239,7 @@ a { color: inherit; text-decoration: none; }
     <div class="group-head"><span class="title">状态说明</span></div>
     <div class="list">
       <div><span class="legend"><span class="dot"></span>正常</span><span class="legend"><span class="dot warn"></span>检测异常</span><span class="legend"><span class="dot dead"></span>已失效</span></div>
-      <div>每天检测一次。更新时间指源里最近一次有插件发布新版本的日期，一年以上没有更新会标为“可能停更”。连续三天无法访问才会标为已失效。</div>
+      <div>每天检测一次。更新时间优先记录检测到插件新增或版本变化的时间；首次收录参考源提供的日期或文件修改时间。超过一年标为“可能停更”，无法取得日期则显示“更新时间未知”。连续三天无法访问才会标为已失效。</div>
       <div id="checked"></div>
     </div>
   </section>
@@ -305,9 +305,12 @@ function metaHtml(st) {
   if (st.packages != null) parts.push(`${st.packages} 个插件`);
   if (st.updated) {
     const old = Date.now() - new Date(st.updated).getTime() > 365 * 86400000;
-    parts.push(old ? `<span class="stale">可能停更</span>` : `${ago(st.updated)}更新`);
+    parts.push(`${ago(st.updated)}更新`);
+    if (old) parts.push(`<span class="stale">可能停更</span>`);
+  } else {
+    parts.push("更新时间未知");
   }
-  if (st.status === "warn" && !parts.length) parts.push("检测异常");
+  if (st.status === "warn") parts.push("检测异常");
   return `<span class="meta">${dot}${parts.join(" · ")}</span>`;
 }
 
