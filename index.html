@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>RepoList</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <style>
 /* Layout: iOS inset-grouped list. Large title, sticky search + segmented control, one rounded group per collection, edit mode for multi-select with a translucent bottom toolbar. */
 :root {
@@ -42,6 +46,7 @@
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 [hidden] { display: none !important; }
 body {
+  margin: 0;
   background: var(--bg); color: var(--label); font-family: var(--font);
   font-size: 17px; line-height: 1.35; letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
@@ -199,6 +204,8 @@ a { color: inherit; text-decoration: none; }
   @keyframes hud-in { from { opacity: 0; transform: translate(-50%, 10px) scale(.96); } }
 }
 </style>
+</head>
+<body>
 
 <div class="wrap" id="app">
   <nav class="nav"></nav>
@@ -469,3 +476,5 @@ async function boot() {
 }
 boot();
 </script>
+</body>
+</html>
