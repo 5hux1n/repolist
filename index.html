@@ -350,8 +350,15 @@ function renderSeg() {
 
 function render() {
   $("app").classList.toggle("editing", editing);
+  const ownRepo = ALL.find(s => s.url === "https://apt.mjh.im/");
   const groups = GROUPS.filter(g => filter === "all" || g.id === filter)
-    .map(g => ({ ...g, list: g.sources.filter(matches) })).filter(g => g.list.length);
+    .map(g => {
+      const pinOwnRepo = ownRepo && (filter !== "all" || g === GROUPS[0]);
+      const sources = pinOwnRepo
+        ? [ownRepo, ...g.sources.filter(s => s.url !== ownRepo.url)]
+        : g.sources.filter(s => !ownRepo || s.url !== ownRepo.url);
+      return { ...g, list: sources.filter(matches) };
+    }).filter(g => g.list.length);
   if (!groups.length) { $("list").innerHTML = `<div class="empty">没有找到“${esc(query)}”</div>`; return; }
   $("list").innerHTML = groups.map(g => `
     <section class="group">
