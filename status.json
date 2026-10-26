@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-25T21:47:32+00:00",
+ "generated": "2026-10-26T23:07:32+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "uuhelper 1.0.2",
-    "uuhelper.roothide 1.0.2",
-    "im.mjh.doleo 1.0.1"
+    "fanqiefn 3.3.0",
+    "fanqiefn.roothide 3.3.0",
+    "hongguofn 2.0.1"
    ]
   },
   "https://opa334.github.io/": {
@@ -19,17 +19,22 @@
   },
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
-   "packages": 973,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 968,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.dao.prefnest 1.2.2"
+    "com.dao.apptools15 2.9.2",
+    "com.hades.pullclearnc 2.1"
    ]
   },
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-10-20T03:24:38+00:00",
-   "latest": null
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "com.xybp888.callassist16.dopamine 3.2.7",
+    "com.xybp888.callassist16.dopamine.roothide 3.2.7",
+    "com.xybp888.callassist17.dopamine 2.3.6"
+   ]
   },
   "https://jailrepo.initnil.com/": {
    "status": "ok",
@@ -40,11 +45,9 @@
   "https://rootless.002599.xyz/": {
    "status": "ok",
    "packages": 35,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "cn.zqbb.ccatop.whitelist 2.3.3-5",
-    "cn.zqbb.hello.bundleid 1.6.2-3",
-    "cn.zqbb.hello.quick.panel 1.1.0-9"
+    "cn.zqbb.inject.manager 3.3.0-1"
    ]
   },
   "https://laileld.github.io/repo/": {
@@ -61,19 +64,22 @@
   },
   "https://lenglengyu.com/": {
    "status": "ok",
-   "packages": 1324,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 1327,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.lenglengyu.jijiantqpro-rootless 0.0.1",
-    "com.lenglengyu.qingpianpro-rootless 0.0.3",
-    "com.lenglengyu.reflixpro-rootless 0.0.2"
+    "com.lenglengyu.baiyunpro-rootless 0.0.9",
+    "com.lenglengyu.jsqxpro-rootless 0.0.1",
+    "com.lenglengyu.readingopro-rootless 1.0.6"
    ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
    "packages": 9,
-   "updated": "2026-10-18T03:42:12+00:00",
-   "latest": null
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "com.flex2areo.apptools15rootless 2.9.2",
+    "com.flex2areo.apptools15roothide 2.9.2"
+   ]
   },
   "https://invalidunit.github.io/repo/": {
    "status": "ok",
@@ -118,11 +124,10 @@
   "https://havoc.app/": {
    "status": "ok",
    "packages": 522,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.catmcp.daemon 1.2.1",
-    "com.blacknoisy.prism 1.6.4",
-    "com.c3x14n.nowlyrics 1.2.2"
+    "com.82flex.touchvis 4.2",
+    "com.catmcp.daemon 1.3.0"
    ]
   },
   "https://roothide.github.io/": {
@@ -212,12 +217,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3693,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 3696,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.cydiabc.idata-roothide 1.3.3",
-    "com.cydiabc.idata-rootless 1.3.3",
-    "com.cydiabc.marktheme 0.3.3"
+    "com.cydiabc.callassist16-roothide 3.2.7",
+    "com.cydiabc.callassist16.dopamine 3.2.7",
+    "com.cydiabc.callassist17-roothide 2.3.6"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -229,10 +234,9 @@
   "https://byg.iosios.net/": {
    "status": "ok",
    "packages": 956,
-   "updated": "2026-10-23T22:10:14+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "byg.iosios.net.gaodemap.rootless 0.9.21",
-    "byg.iosios.net.fanqiefn.helper 3.1.2"
+    "byg.iosios.net.cputhermal.zl 2.0.292"
    ]
   },
   "https://trollstorex.github.io/repo/": {
@@ -244,9 +248,9 @@
   "https://wwg135.github.io/": {
    "status": "ok",
    "packages": 353,
-   "updated": "2026-10-23T22:10:14+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "wiki.qaq.irisin 4.7.5"
+    "wiki.qaq.irisin 5.0.0"
    ]
   },
   "https://invalidunit.github.io/repo2/": {
@@ -258,11 +262,9 @@
   "https://rootless.zq666.eu.org/": {
    "status": "ok",
    "packages": 35,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "cn.zqbb.ccatop.whitelist 2.3.3-5",
-    "cn.zqbb.hello.bundleid 1.6.2-3",
-    "cn.zqbb.hello.quick.panel 1.1.0-9"
+    "cn.zqbb.inject.manager 3.3.0-1"
    ]
   },
   "https://sini921.github.io/": {
@@ -327,6 +329,94 @@
    "packages": 14,
    "updated": "2026-03-13T11:11:18+00:00",
    "latest": null
+  },
+  "https://apt.cydiabc.top/": {
+   "status": "ok",
+   "packages": 3696,
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "com.cydiabc.callassist16-roothide 3.2.7",
+    "com.cydiabc.callassist16.dopamine 3.2.7",
+    "com.cydiabc.callassist17-roothide 2.3.6"
+   ]
+  },
+  "https://apt.razerxj.com/": {
+   "status": "ok",
+   "packages": 124,
+   "updated": "2026-10-07T08:21:50+00:00",
+   "latest": null
+  },
+  "https://apt.iosxj.com/": {
+   "status": "ok",
+   "packages": 107,
+   "updated": "2026-10-07T08:22:20+00:00",
+   "latest": null
+  },
+  "http://apt.ucfake.com/": {
+   "status": "ok",
+   "packages": 5,
+   "updated": "2025-09-26T20:52:42+00:00",
+   "latest": null
+  },
+  "https://abc07968695-a11y.github.io/Sileo/": {
+   "status": "ok",
+   "packages": 30,
+   "updated": "2026-09-29T14:09:10+00:00",
+   "latest": null
+  },
+  "https://yilai.yttxcs.com/": {
+   "status": "ok",
+   "packages": 142,
+   "updated": "2024-06-20T13:42:33+00:00",
+   "latest": null
+  },
+  "https://wstclzy2010.github.io/repo/": {
+   "status": "ok",
+   "packages": 39,
+   "updated": "2022-03-20T05:25:28+00:00",
+   "latest": null
+  },
+  "https://aptso.cn/": {
+   "status": "ok",
+   "packages": 840,
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "aptso.cn.a-otf.xzt 7.5.1-3",
+    "aptso.cn.albbpht 7.5.1-3",
+    "aptso.cn.aldhd 7.5.1-3"
+   ]
+  },
+  "https://invalidunit.github.io/archive_25mao/": {
+   "status": "ok",
+   "packages": 31,
+   "updated": "2026-10-16T07:10:02+00:00",
+   "latest": null
+  },
+  "https://hang1888.github.io/": {
+   "status": "ok",
+   "packages": 26,
+   "updated": "2026-10-21T11:39:57+00:00",
+   "latest": null
+  },
+  "https://repo.susubaby.cn/": {
+   "status": "ok",
+   "packages": 12,
+   "updated": "2026-10-24T11:22:36+00:00",
+   "latest": null
+  },
+  "https://apt.touchsprite.com/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2026-06-18T07:26:49+00:00",
+   "latest": null
+  },
+  "https://cydia.touchelf.com/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "com.touchelf.app 7.8.2"
+   ]
   },
   "https://skypain.github.io/repo/": {
    "status": "ok",
@@ -502,10 +592,10 @@
   },
   "https://yourepo.com/": {
    "status": "ok",
-   "packages": 2608,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 2609,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.yourepo.i0s-tweak3r-betas.halloweentheme 1.0.0"
+    "com.b4db1r3.floatingdockextended 0.2.1"
    ]
   },
   "https://brendonjkding.github.io/": {
@@ -528,9 +618,11 @@
   },
   "https://axs.yourepo.com/": {
    "status": "ok",
-   "packages": 299,
-   "updated": "2026-10-21T15:16:23+00:00",
-   "latest": null
+   "packages": 300,
+   "updated": "2026-10-26T23:07:32+00:00",
+   "latest": [
+    "com.yourepo.axs.dock 5.2.0-17"
+   ]
   },
   "https://apt.bitilly.cn/": {
    "status": "ok",
@@ -540,22 +632,21 @@
   },
   "https://mlgm66.github.io/": {
    "status": "ok",
-   "packages": 18,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 19,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.mlgm.actra 1.3.1",
-    "com.mlgm.appdata 1.3.8",
-    "com.mlgm.clippa 1.0.3"
+    "com.mlgm.idata 1.3.4",
+    "com.mlgm.taploom 1.1.3"
    ]
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 856,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 869,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.hang.ccbackground 1.6",
-    "com.hang.liquiddock 1.1",
-    "com.huayuarc.cputhermal 1.6.2-155+isolation.22"
+    "wiki.qaq.irisin 5.0.2",
+    "com.82flex.touchvis 4.2",
+    "com.apelin.gamerskysplash 1.0.0"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -662,12 +753,12 @@
   },
   "https://wkkyy00.github.io/": {
    "status": "ok",
-   "packages": 462,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "packages": 465,
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "com.wkk.center 1.1-2",
-    "com.wkk.sileofaststart 1.0-2",
-    "re.frida.server 16.1.4"
+    "cn.llld.screenprivacy 1.0",
+    "com.fizz.ripple 0.1.0",
+    "com.wkk.screenfarewell 1.0-3"
    ]
   },
   "https://level3tjg.me/repo/": {
@@ -709,11 +800,11 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 30,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-26T23:07:32+00:00",
    "latest": [
-    "wiki.qaq.apelin 0.2.2",
-    "wiki.qaq.irisin 5.0.0",
-    "wiki.qaq.umbra 2.2"
+    "wiki.qaq.apelin 0.2.3",
+    "wiki.qaq.fila 0.8.2",
+    "wiki.qaq.inspector 0.6.7"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -916,46 +1007,22 @@
    "updated": "2026-10-21T15:16:30+00:00",
    "latest": null
   },
-  "http://apt.mootjeuh.com/": {
+  "https://tweak.mario.net.in/": {
    "status": "ok",
-   "packages": 7,
-   "updated": "2015-11-08T18:39:54+00:00",
+   "packages": 17,
+   "updated": "2022-10-09T09:40:52+00:00",
    "latest": null
   },
-  "http://apt.ucfake.com/": {
+  "https://akeaswaran.me/repo/": {
    "status": "ok",
-   "packages": 5,
-   "updated": "2025-09-26T20:52:42+00:00",
+   "packages": 3,
+   "updated": "2015-02-21T17:04:25+00:00",
    "latest": null
   },
-  "http://hitoriblog.com/apt/": {
+  "https://repo.1conan.com/": {
    "status": "ok",
-   "packages": 117,
-   "updated": "2020-06-16T17:16:22+00:00",
-   "latest": null
-  },
-  "http://julioverne.github.io/": {
-   "status": "ok",
-   "packages": 113,
-   "updated": "2022-09-19T18:03:16+00:00",
-   "latest": null
-  },
-  "http://m156nrkvv.g2.xrea.com/repo/": {
-   "status": "ok",
-   "packages": 15,
-   "updated": "2022-04-12T05:10:06+00:00",
-   "latest": null
-  },
-  "http://xnu.science/repo/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2019-01-27T16:09:47+00:00",
-   "latest": null
-  },
-  "https://0xash.yourepo.com/": {
-   "status": "ok",
-   "packages": 32,
-   "updated": "2026-10-26T14:06:32+00:00",
+   "packages": 13,
+   "updated": "2021-06-28T03:51:42+00:00",
    "latest": null
   },
   "https://3omartech.github.io/": {
@@ -964,16 +1031,22 @@
    "updated": "2020-10-14T05:18:27+00:00",
    "latest": null
   },
-  "https://6gr8.github.io/deno.io/": {
+  "https://iosdumpzzz.github.io/iosdump.repo/": {
    "status": "ok",
-   "packages": 10,
-   "updated": "2026-10-12T12:36:05+00:00",
+   "packages": 31,
+   "updated": "2026-10-24T15:45:39+00:00",
    "latest": null
   },
-  "https://abc07968695-a11y.github.io/Sileo/": {
+  "https://ajbbodev.github.io/": {
    "status": "ok",
-   "packages": 30,
-   "updated": "2026-09-29T14:09:10+00:00",
+   "packages": 10,
+   "updated": "2026-04-15T14:06:43+00:00",
+   "latest": null
+  },
+  "https://apt.absidue.me/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2021-11-03T20:59:16+00:00",
    "latest": null
   },
   "https://acreson.github.io/chimeracydia/": {
@@ -992,6 +1065,12 @@
    "status": "ok",
    "packages": 5,
    "updated": "2015-07-12T11:24:22+00:00",
+   "latest": null
+  },
+  "https://speedmx.github.io/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2019-06-07T20:24:46+00:00",
    "latest": null
   },
   "https://aeonlucid.com/cydia/": {
@@ -1018,28 +1097,22 @@
    "updated": "2026-10-26T13:47:24+00:00",
    "latest": null
   },
-  "https://ajbbodev.github.io/": {
+  "https://jakeai.github.io/": {
    "status": "ok",
-   "packages": 10,
-   "updated": "2026-04-15T14:06:43+00:00",
-   "latest": null
-  },
-  "https://akeaswaran.me/repo/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2015-02-21T17:04:25+00:00",
-   "latest": null
-  },
-  "https://akebu.github.io/cydia/": {
-   "status": "ok",
-   "packages": 5,
-   "updated": "2018-12-19T13:36:37+00:00",
+   "packages": 1,
+   "updated": "2018-07-18T11:52:18+00:00",
    "latest": null
   },
   "https://al3raqe.github.io/": {
    "status": "ok",
    "packages": 182,
    "updated": "2026-10-24T06:32:05+00:00",
+   "latest": null
+  },
+  "https://leftyfl1p.github.io/": {
+   "status": "ok",
+   "packages": 18,
+   "updated": "2020-06-01T20:22:38+00:00",
    "latest": null
   },
   "https://alexpng.github.io/": {
@@ -1072,6 +1145,18 @@
    "updated": "2021-04-03T09:45:10+00:00",
    "latest": null
   },
+  "https://worksbybbs.github.io/": {
+   "status": "ok",
+   "packages": 44,
+   "updated": "2020-06-13T22:39:31+00:00",
+   "latest": null
+  },
+  "https://thealphastream.github.io/repo/": {
+   "status": "ok",
+   "packages": 20,
+   "updated": "2022-02-26T04:12:55+00:00",
+   "latest": null
+  },
   "https://amethyl.github.io/repo/": {
    "status": "ok",
    "packages": 1,
@@ -1102,64 +1187,10 @@
    "updated": "2024-06-07T21:32:27+00:00",
    "latest": null
   },
-  "https://apt.absidue.me/": {
+  "https://bluetr00p.github.io/repo/": {
    "status": "ok",
-   "packages": 3,
-   "updated": "2021-11-03T20:59:16+00:00",
-   "latest": null
-  },
-  "https://apt.cydiaabdullah.com/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2024-12-10T13:50:31+00:00",
-   "latest": null
-  },
-  "https://apt.cydiabc.top/": {
-   "status": "ok",
-   "packages": 3696,
-   "updated": "2026-10-26T02:56:14+00:00",
-   "latest": null
-  },
-  "https://apt.iosxj.com/": {
-   "status": "ok",
-   "packages": 107,
-   "updated": "2026-10-07T08:22:20+00:00",
-   "latest": null
-  },
-  "https://apt.ipawind.com/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2020-05-30T09:22:53+00:00",
-   "latest": null
-  },
-  "https://apt.razerxj.com/": {
-   "status": "ok",
-   "packages": 124,
-   "updated": "2026-10-07T08:21:50+00:00",
-   "latest": null
-  },
-  "https://apt.saadat.dev/": {
-   "status": "ok",
-   "packages": 12,
-   "updated": "2020-01-08T00:07:20+00:00",
-   "latest": null
-  },
-  "https://apt.touchsprite.com/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2026-06-18T07:26:49+00:00",
-   "latest": null
-  },
-  "https://apt.uar.no/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2026-10-02T18:38:42+00:00",
-   "latest": null
-  },
-  "https://aptso.cn/": {
-   "status": "ok",
-   "packages": 840,
-   "updated": "2026-10-23T15:30:46+00:00",
+   "packages": 6,
+   "updated": "2019-06-17T00:21:43+00:00",
    "latest": null
   },
   "https://arcetera.github.io/": {
@@ -1198,28 +1229,22 @@
    "updated": "2022-09-28T07:14:54+00:00",
    "latest": null
   },
+  "https://0xash.yourepo.com/": {
+   "status": "ok",
+   "packages": 32,
+   "updated": "2026-10-26T14:06:32+00:00",
+   "latest": null
+  },
   "https://ashenyx.github.io/cydia/projectblue/": {
    "status": "ok",
    "packages": 2,
    "updated": "2016-01-11T18:10:11+00:00",
    "latest": null
   },
-  "https://auxilium-development.github.io/repo/": {
-   "status": "ok",
-   "packages": 43,
-   "updated": "2018-07-12T01:03:55+00:00",
-   "latest": null
-  },
   "https://backup-tweaks.github.io/repo/": {
    "status": "ok",
    "packages": 3,
    "updated": "2025-04-18T06:08:07+00:00",
-   "latest": null
-  },
-  "https://bart172.github.io/repo/": {
-   "status": "ok",
-   "packages": 6,
-   "updated": "2019-12-04T18:58:20+00:00",
    "latest": null
   },
   "https://be-huge.github.io/repo/": {
@@ -1234,16 +1259,16 @@
    "updated": "2024-01-06T19:54:34+00:00",
    "latest": null
   },
-  "https://bluetr00p.github.io/repo/": {
+  "https://deb.hotbrainapp.com/": {
    "status": "ok",
-   "packages": 6,
-   "updated": "2019-06-17T00:21:43+00:00",
+   "packages": 10,
+   "updated": "2026-10-17T09:55:04+00:00",
    "latest": null
   },
-  "https://botlove.github.io/": {
+  "https://cydia.ceadd.ca/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2019-05-28T20:03:45+00:00",
+   "packages": 18,
+   "updated": null,
    "latest": null
   },
   "https://chikuwajb.github.io/repo/": {
@@ -1252,16 +1277,16 @@
    "updated": "2019-05-25T12:42:16+00:00",
    "latest": null
   },
+  "https://repo.chr1s.dev/": {
+   "status": "ok",
+   "packages": 10,
+   "updated": null,
+   "latest": null
+  },
   "https://cj81499.github.io/repo/": {
    "status": "ok",
    "packages": 17,
    "updated": "2026-10-22T00:48:27+00:00",
-   "latest": null
-  },
-  "https://cosmiccode.cc/repo/": {
-   "status": "ok",
-   "packages": 14,
-   "updated": "2026-07-22T13:22:36+00:00",
    "latest": null
   },
   "https://crctdd.github.io/repo/": {
@@ -1276,88 +1301,22 @@
    "updated": "2021-06-12T15:23:02+00:00",
    "latest": null
   },
-  "https://cydia.ceadd.ca/": {
-   "status": "ok",
-   "packages": 18,
-   "updated": null,
-   "latest": null
-  },
-  "https://cydia.dtathemes.com/repo/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2021-04-22T15:48:22+00:00",
-   "latest": null
-  },
-  "https://cydia.invoxiplaygames.uk/": {
-   "status": "ok",
-   "packages": 12,
-   "updated": "2026-10-20T22:39:15+00:00",
-   "latest": null
-  },
-  "https://cydia.invoxiplaygames.uk/beta/": {
-   "status": "ok",
-   "packages": 12,
-   "updated": "2026-10-20T22:39:16+00:00",
-   "latest": null
-  },
-  "https://cydia.joedj.net/": {
-   "status": "ok",
-   "packages": 4,
-   "updated": "2014-11-25T02:25:39+00:00",
-   "latest": null
-  },
-  "https://cydia.nixuge.me/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2024-08-04T20:16:20+00:00",
-   "latest": null
-  },
-  "https://cydia.oatmealdome.me/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2025-01-19T00:07:33+00:00",
-   "latest": null
-  },
-  "https://cydia.ppsspp.org/": {
+  "https://apt.cydiaabdullah.com/": {
    "status": "ok",
    "packages": 2,
-   "updated": "2019-01-30T14:39:32+00:00",
-   "latest": null
-  },
-  "https://cydia.r333d.com/": {
-   "status": "ok",
-   "packages": 9,
-   "updated": "2018-04-16T00:08:51+00:00",
-   "latest": null
-  },
-  "https://cydia.tapsharp.com/": {
-   "status": "ok",
-   "packages": 5,
-   "updated": "2020-04-13T16:56:36+00:00",
-   "latest": null
-  },
-  "https://cydia.touchelf.com/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2026-09-28T00:39:32+00:00",
-   "latest": null
-  },
-  "https://cydia.wuffs.org/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2019-11-27T03:13:20+00:00",
-   "latest": null
-  },
-  "https://deb.hotbrainapp.com/": {
-   "status": "ok",
-   "packages": 10,
-   "updated": "2026-10-17T09:55:04+00:00",
+   "updated": "2024-12-10T13:50:31+00:00",
    "latest": null
   },
   "https://denialpan.github.io/": {
    "status": "ok",
    "packages": 1,
    "updated": "2023-07-06T23:56:26+00:00",
+   "latest": null
+  },
+  "https://6gr8.github.io/deno.io/": {
+   "status": "ok",
+   "packages": 10,
+   "updated": "2026-10-12T12:36:05+00:00",
    "latest": null
   },
   "https://dev4i.yourepo.com/": {
@@ -1370,12 +1329,6 @@
    "status": "ok",
    "packages": 18,
    "updated": "2023-05-16T18:30:03+00:00",
-   "latest": null
-  },
-  "https://dobabaophuc1706.github.io/repo/": {
-   "status": "ok",
-   "packages": 41,
-   "updated": "2026-08-13T04:24:20+00:00",
    "latest": null
   },
   "https://doimty.github.io/": {
@@ -1402,10 +1355,22 @@
    "updated": "2026-09-23T07:07:28+00:00",
    "latest": null
   },
+  "https://repo.dynastic.co/": {
+   "status": "ok",
+   "packages": 106,
+   "updated": null,
+   "latest": null
+  },
   "https://easonwumac.github.io/repo/": {
    "status": "ok",
    "packages": 3,
    "updated": "2026-10-25T07:17:05+00:00",
+   "latest": null
+  },
+  "https://elor7824.github.io/": {
+   "status": "ok",
+   "packages": 34,
+   "updated": "2016-05-22T00:09:43+00:00",
    "latest": null
   },
   "https://eliteiiiskillz.github.io/": {
@@ -1414,10 +1379,16 @@
    "updated": "2021-03-14T21:26:52+00:00",
    "latest": null
   },
-  "https://elor7824.github.io/": {
+  "https://vxbakerxv.github.io/repo/": {
    "status": "ok",
-   "packages": 34,
-   "updated": "2016-05-22T00:09:43+00:00",
+   "packages": 6,
+   "updated": "2023-01-28T05:47:41+00:00",
+   "latest": null
+  },
+  "https://repo.eskimo.dev/": {
+   "status": "ok",
+   "packages": 9,
+   "updated": "2021-11-07T16:29:18+00:00",
    "latest": null
   },
   "https://eswick.github.io/": {
@@ -1438,22 +1409,16 @@
    "updated": "2024-09-19T16:08:39+00:00",
    "latest": null
   },
-  "https://evelyn-ynam.yourepo.com/": {
-   "status": "ok",
-   "packages": 23,
-   "updated": "2026-10-26T14:06:02+00:00",
-   "latest": null
-  },
   "https://evynw.github.io/": {
    "status": "ok",
    "packages": 505,
    "updated": "2023-04-29T11:23:45+00:00",
    "latest": null
   },
-  "https://extigy.github.io/repo/": {
+  "https://evelyn-ynam.yourepo.com/": {
    "status": "ok",
-   "packages": 2,
-   "updated": "2020-09-02T08:31:37+00:00",
+   "packages": 23,
+   "updated": "2026-10-26T14:06:02+00:00",
    "latest": null
   },
   "https://fidele007.github.io/": {
@@ -1462,10 +1427,10 @@
    "updated": "2026-07-13T14:54:33+00:00",
    "latest": null
   },
-  "https://flashbackios.github.io/": {
+  "https://kiiiuaaa.github.io/repo/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2018-12-11T04:51:51+00:00",
+   "packages": 2,
+   "updated": "2026-09-23T06:35:36+00:00",
    "latest": null
   },
   "https://frcoal.cfd/": {
@@ -1486,16 +1451,16 @@
    "updated": "2021-02-19T02:58:40+00:00",
    "latest": null
   },
+  "https://sleeper2009.github.io/fujb-repo/": {
+   "status": "ok",
+   "packages": 4,
+   "updated": "2026-08-23T21:50:28+00:00",
+   "latest": null
+  },
   "https://furoso.github.io/": {
    "status": "ok",
    "packages": 2,
    "updated": "2019-11-24T09:41:17+00:00",
-   "latest": null
-  },
-  "https://getzbra.com/beta/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2022-12-13T07:07:08+00:00",
    "latest": null
   },
   "https://gilesgc.github.io/repo/": {
@@ -1504,10 +1469,10 @@
    "updated": "2020-07-25T15:59:31+00:00",
    "latest": null
   },
-  "https://github.com/roothide/roothide.github.io/releases/download/1900/": {
+  "https://bart172.github.io/repo/": {
    "status": "ok",
-   "packages": 35,
-   "updated": "2026-04-24T08:56:01+00:00",
+   "packages": 6,
+   "updated": "2019-12-04T18:58:20+00:00",
    "latest": null
   },
   "https://gstpsk.github.io/cydia/": {
@@ -1516,16 +1481,22 @@
    "updated": "2019-05-06T15:34:40+00:00",
    "latest": null
   },
+  "https://repo.hhls.xyz/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2024-04-09T05:52:33+00:00",
+   "latest": null
+  },
   "https://halo-michael.github.io/repo/": {
    "status": "ok",
    "packages": 44,
    "updated": "2026-10-21T15:55:54+00:00",
    "latest": null
   },
-  "https://hang1888.github.io/": {
+  "https://zzhamzazz.github.io/": {
    "status": "ok",
-   "packages": 26,
-   "updated": "2026-10-21T11:39:57+00:00",
+   "packages": 3,
+   "updated": "2026-06-15T23:33:14+00:00",
    "latest": null
   },
   "https://haoict.github.io/cydia/": {
@@ -1570,6 +1541,12 @@
    "updated": "2016-01-26T22:01:26+00:00",
    "latest": null
   },
+  "https://marcoianne.github.io/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2019-04-28T19:08:16+00:00",
+   "latest": null
+  },
   "https://iapeiron.github.io/": {
    "status": "ok",
    "packages": 4,
@@ -1594,22 +1571,10 @@
    "updated": "2019-12-20T17:14:01+00:00",
    "latest": null
   },
-  "https://ikilledappl3.com/opalbeta/": {
+  "https://botlove.github.io/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2022-12-08T06:29:28+00:00",
-   "latest": null
-  },
-  "https://invalidunit.github.io/archive_25mao/": {
-   "status": "ok",
-   "packages": 31,
-   "updated": "2026-10-16T07:10:02+00:00",
-   "latest": null
-  },
-  "https://ios.tweaks.fun/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2020-08-13T19:21:43+00:00",
+   "updated": "2019-05-28T20:03:45+00:00",
    "latest": null
   },
   "https://iosdesigner.github.io/repo/": {
@@ -1618,16 +1583,28 @@
    "updated": "2020-04-03T21:12:46+00:00",
    "latest": null
   },
-  "https://iosdumpzzz.github.io/iosdump.repo/": {
-   "status": "ok",
-   "packages": 31,
-   "updated": "2026-10-24T15:45:39+00:00",
-   "latest": null
-  },
   "https://ioshacker.github.io/": {
    "status": "ok",
    "packages": 2,
    "updated": "2016-07-20T13:13:27+00:00",
+   "latest": null
+  },
+  "https://apt.ipawind.com/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2020-05-30T09:22:53+00:00",
+   "latest": null
+  },
+  "https://cydia.invoxiplaygames.uk/beta/": {
+   "status": "ok",
+   "packages": 12,
+   "updated": "2026-10-20T22:39:16+00:00",
+   "latest": null
+  },
+  "https://cydia.invoxiplaygames.uk/": {
+   "status": "ok",
+   "packages": 12,
+   "updated": "2026-10-20T22:39:15+00:00",
    "latest": null
   },
   "https://isecureos.idevicecentral.com/repo/": {
@@ -1648,10 +1625,10 @@
    "updated": "2021-03-09T20:54:47+00:00",
    "latest": null
   },
-  "https://jakeai.github.io/": {
+  "https://jb365.github.io/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2018-07-18T11:52:18+00:00",
+   "packages": 17,
+   "updated": "2021-03-16T23:48:50+00:00",
    "latest": null
   },
   "https://jammytea.github.io/": {
@@ -1672,16 +1649,16 @@
    "updated": "2019-03-17T17:10:15+00:00",
    "latest": null
   },
-  "https://jb365.github.io/": {
-   "status": "ok",
-   "packages": 17,
-   "updated": "2021-03-16T23:48:50+00:00",
-   "latest": null
-  },
   "https://jesperflodin1.github.io/": {
    "status": "ok",
    "packages": 5,
    "updated": "2026-03-24T15:50:45+00:00",
+   "latest": null
+  },
+  "https://cydia.joedj.net/": {
+   "status": "ok",
+   "packages": 4,
+   "updated": "2014-11-25T02:25:39+00:00",
    "latest": null
   },
   "https://joemerlino.github.io/repo/": {
@@ -1690,10 +1667,22 @@
    "updated": "2020-03-01T11:35:22+00:00",
    "latest": null
   },
+  "https://nyansatan.github.io/apt/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2026-10-07T18:17:01+00:00",
+   "latest": null
+  },
   "https://johnzaro.github.io/cydia/": {
    "status": "ok",
    "packages": 28,
    "updated": "2021-04-14T13:18:24+00:00",
+   "latest": null
+  },
+  "http://julioverne.github.io/": {
+   "status": "ok",
+   "packages": 113,
+   "updated": "2022-09-19T18:03:16+00:00",
    "latest": null
   },
   "https://karimo299.github.io/repo/": {
@@ -1726,12 +1715,6 @@
    "updated": "2025-08-04T11:06:39+00:00",
    "latest": null
   },
-  "https://kiiiuaaa.github.io/repo/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2026-09-23T06:35:36+00:00",
-   "latest": null
-  },
   "https://korboybeats.github.io/": {
    "status": "ok",
    "packages": 9,
@@ -1756,6 +1739,12 @@
    "updated": "2017-03-05T02:29:40+00:00",
    "latest": null
   },
+  "https://zhigang1992.github.io/cydia/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2018-03-09T13:27:40+00:00",
+   "latest": null
+  },
   "https://l3tobeta.yourepo.com/": {
    "status": "ok",
    "packages": 9,
@@ -1774,22 +1763,16 @@
    "updated": "2017-02-14T07:40:34+00:00",
    "latest": null
   },
-  "https://leftyfl1p.github.io/": {
-   "status": "ok",
-   "packages": 18,
-   "updated": "2020-06-01T20:22:38+00:00",
-   "latest": null
-  },
-  "https://legitcomputerwhisperer.github.io/": {
-   "status": "ok",
-   "packages": 29,
-   "updated": "2018-05-07T17:23:19+00:00",
-   "latest": null
-  },
   "https://lincorn.github.io/repo/": {
    "status": "ok",
    "packages": 101,
    "updated": "2026-01-25T14:16:36+00:00",
+   "latest": null
+  },
+  "https://repo.theodyssey.dev/libhooker-beta/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2022-01-04T05:56:53+00:00",
    "latest": null
   },
   "https://lineextender.github.io/": {
@@ -1810,10 +1793,16 @@
    "updated": "2018-08-20T12:14:41+00:00",
    "latest": null
   },
-  "https://lumartti.github.io/": {
+  "http://m156nrkvv.g2.xrea.com/repo/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2019-03-22T23:42:12+00:00",
+   "packages": 15,
+   "updated": "2022-04-12T05:10:06+00:00",
+   "latest": null
+  },
+  "https://obenchekroun.github.io/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2015-08-27T18:51:49+00:00",
    "latest": null
   },
   "https://manolzrepo.github.io/ios/": {
@@ -1822,22 +1811,16 @@
    "updated": "2019-05-04T09:07:20+00:00",
    "latest": null
   },
-  "https://marcoianne.github.io/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2019-04-28T19:08:16+00:00",
-   "latest": null
-  },
   "https://martinpham.gitlab.io/cydia/": {
    "status": "ok",
    "packages": 5,
    "updated": "2021-02-16T03:41:02+00:00",
    "latest": null
   },
-  "https://masonpawsey.github.io/": {
+  "https://yp261.github.io/repo/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2019-10-14T02:02:41+00:00",
+   "packages": 10,
+   "updated": "2019-09-23T19:42:53+00:00",
    "latest": null
   },
   "https://matranc.github.io/repo/": {
@@ -1888,6 +1871,12 @@
    "updated": "2020-01-02T21:48:32+00:00",
    "latest": null
   },
+  "https://repo.midnightchips.me/": {
+   "status": "ok",
+   "packages": 17,
+   "updated": "2022-01-11T16:12:54+00:00",
+   "latest": null
+  },
   "https://mieing.github.io/": {
    "status": "ok",
    "packages": 3,
@@ -1900,10 +1889,22 @@
    "updated": "2024-10-15T15:28:01+00:00",
    "latest": null
   },
-  "https://mirrors.kodi.tv/apt/ios/": {
+  "http://apt.mootjeuh.com/": {
    "status": "ok",
-   "packages": 2,
-   "updated": "2020-04-17T21:21:36+00:00",
+   "packages": 7,
+   "updated": "2015-11-08T18:39:54+00:00",
+   "latest": null
+  },
+  "http://hitoriblog.com/apt/": {
+   "status": "ok",
+   "packages": 117,
+   "updated": "2020-06-16T17:16:22+00:00",
+   "latest": null
+  },
+  "https://flashbackios.github.io/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2018-12-11T04:51:51+00:00",
    "latest": null
   },
   "https://mrmadjb.github.io/": {
@@ -1924,12 +1925,6 @@
    "updated": "2026-10-26T14:06:01+00:00",
    "latest": null
   },
-  "https://n-i-n-0.github.io/repo/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2025-10-29T16:55:03+00:00",
-   "latest": null
-  },
   "https://n0mar.github.io/": {
    "status": "ok",
    "packages": 11,
@@ -1942,16 +1937,34 @@
    "updated": "2020-12-10T02:04:40+00:00",
    "latest": null
   },
+  "https://nathanwhit.github.io/repo/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2019-06-20T21:30:17+00:00",
+   "latest": null
+  },
   "https://nathanaccidentally.github.io/": {
    "status": "ok",
    "packages": 8,
    "updated": "2019-09-11T00:59:17+00:00",
    "latest": null
   },
-  "https://nathanwhit.github.io/repo/": {
+  "https://sharman79.github.io/Netskao/": {
    "status": "ok",
-   "packages": 3,
-   "updated": "2019-06-20T21:30:17+00:00",
+   "packages": 221,
+   "updated": "2022-02-27T10:09:32+00:00",
+   "latest": null
+  },
+  "https://siieo.github.io/": {
+   "status": "ok",
+   "packages": 240,
+   "updated": "2025-08-20T16:21:11+00:00",
+   "latest": null
+  },
+  "https://nothereforthedong.github.io/": {
+   "status": "ok",
+   "packages": 14,
+   "updated": "2019-06-29T23:02:39+00:00",
    "latest": null
   },
   "https://nicho1asdev.github.io/repo/": {
@@ -1960,10 +1973,22 @@
    "updated": "2023-07-11T19:06:24+00:00",
    "latest": null
   },
-  "https://nothereforthedong.github.io/": {
+  "https://n-i-n-0.github.io/repo/": {
    "status": "ok",
-   "packages": 14,
-   "updated": "2019-06-29T23:02:39+00:00",
+   "packages": 1,
+   "updated": "2025-10-29T16:55:03+00:00",
+   "latest": null
+  },
+  "https://cydia.wuffs.org/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2019-11-27T03:13:20+00:00",
+   "latest": null
+  },
+  "https://cydia.nixuge.me/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2024-08-04T20:16:20+00:00",
    "latest": null
   },
   "https://nrepo.github.io/": {
@@ -1978,16 +2003,28 @@
    "updated": "2023-01-27T18:28:15+00:00",
    "latest": null
   },
-  "https://nyansatan.github.io/apt/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2026-10-07T18:17:01+00:00",
-   "latest": null
-  },
-  "https://obenchekroun.github.io/": {
+  "https://cydia.oatmealdome.me/": {
    "status": "ok",
    "packages": 3,
-   "updated": "2015-08-27T18:51:49+00:00",
+   "updated": "2025-01-19T00:07:33+00:00",
+   "latest": null
+  },
+  "https://repo.theodyssey.dev/": {
+   "status": "ok",
+   "packages": 13,
+   "updated": "2023-09-23T18:58:34+00:00",
+   "latest": null
+  },
+  "https://cydia.dtathemes.com/repo/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2021-04-22T15:48:22+00:00",
+   "latest": null
+  },
+  "https://lumartti.github.io/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2019-03-22T23:42:12+00:00",
    "latest": null
   },
   "https://ok95.yourepo.com/": {
@@ -2002,16 +2039,22 @@
    "updated": "2020-06-03T20:00:34+00:00",
    "latest": null
   },
+  "https://ikilledappl3.com/opalbeta/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2022-12-08T06:29:28+00:00",
+   "latest": null
+  },
   "https://overcookedfish.github.io/": {
    "status": "ok",
    "packages": 3,
    "updated": "2019-05-23T18:56:00+00:00",
    "latest": null
   },
-  "https://p3t3rpan.github.io/repo/": {
+  "https://repo.packix.com/": {
    "status": "ok",
-   "packages": 8,
-   "updated": "2019-05-24T19:10:21+00:00",
+   "packages": 1151,
+   "updated": "2023-07-24T23:12:58+00:00",
    "latest": null
   },
   "https://paparajote.github.io/": {
@@ -2026,16 +2069,22 @@
    "updated": "2022-03-09T07:13:05+00:00",
    "latest": null
   },
-  "https://paxcex.github.io/": {
-   "status": "ok",
-   "packages": 257,
-   "updated": "2020-07-28T15:29:32+00:00",
-   "latest": null
-  },
   "https://perrycucko.github.io/": {
    "status": "ok",
    "packages": 4,
    "updated": "2019-06-16T13:08:19+00:00",
+   "latest": null
+  },
+  "https://xxthepersonx.github.io/repo/": {
+   "status": "ok",
+   "packages": 19,
+   "updated": "2021-10-11T07:09:05+00:00",
+   "latest": null
+  },
+  "https://p3t3rpan.github.io/repo/": {
+   "status": "ok",
+   "packages": 8,
+   "updated": "2019-05-24T19:10:21+00:00",
    "latest": null
   },
   "https://pheuxdev.github.io/repo/": {
@@ -2054,6 +2103,12 @@
    "status": "ok",
    "packages": 10,
    "updated": "2020-11-19T23:15:37+00:00",
+   "latest": null
+  },
+  "https://dobabaophuc1706.github.io/repo/": {
+   "status": "ok",
+   "packages": 41,
+   "updated": "2026-08-13T04:24:20+00:00",
    "latest": null
   },
   "https://pikabucydia.github.io/": {
@@ -2080,6 +2135,18 @@
    "updated": "2025-08-28T18:27:57+00:00",
    "latest": null
   },
+  "https://repo.pixelomer.com/": {
+   "status": "ok",
+   "packages": 29,
+   "updated": "2025-09-14T19:32:53+00:00",
+   "latest": null
+  },
+  "https://rrnmrnm.github.io/": {
+   "status": "ok",
+   "packages": 4,
+   "updated": "2019-10-24T11:18:29+00:00",
+   "latest": null
+  },
   "https://polyphian.github.io/repo/": {
    "status": "ok",
    "packages": 103,
@@ -2092,10 +2159,34 @@
    "updated": "2026-10-16T22:38:40+00:00",
    "latest": null
   },
+  "https://cydia.ppsspp.org/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2019-01-30T14:39:32+00:00",
+   "latest": null
+  },
   "https://pr0crustes.github.io/repo/": {
    "status": "ok",
    "packages": 4,
    "updated": "2020-08-16T21:47:30+00:00",
+   "latest": null
+  },
+  "https://github.com/roothide/roothide.github.io/releases/download/1900/": {
+   "status": "ok",
+   "packages": 35,
+   "updated": "2026-04-24T08:56:01+00:00",
+   "latest": null
+  },
+  "http://xnu.science/repo/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2019-01-27T16:09:47+00:00",
+   "latest": null
+  },
+  "https://paxcex.github.io/": {
+   "status": "ok",
+   "packages": 257,
+   "updated": "2020-07-28T15:29:32+00:00",
    "latest": null
   },
   "https://rahwan3d.github.io/repo/": {
@@ -2128,6 +2219,18 @@
    "updated": "2024-05-26T04:06:44+00:00",
    "latest": null
   },
+  "https://yungspecht.github.io/": {
+   "status": "ok",
+   "packages": 8,
+   "updated": "2019-05-24T09:11:08+00:00",
+   "latest": null
+  },
+  "https://repo.rbtdigital.com/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2021-01-19T17:19:07+00:00",
+   "latest": null
+  },
   "https://reddestdream.github.io/": {
    "status": "ok",
    "packages": 2,
@@ -2146,112 +2249,10 @@
    "updated": "2025-05-08T16:22:08+00:00",
    "latest": null
   },
-  "https://repo.1conan.com/": {
-   "status": "ok",
-   "packages": 13,
-   "updated": "2021-06-28T03:51:42+00:00",
-   "latest": null
-  },
-  "https://repo.chr1s.dev/": {
-   "status": "ok",
-   "packages": 10,
-   "updated": null,
-   "latest": null
-  },
-  "https://repo.dynastic.co/": {
-   "status": "ok",
-   "packages": 106,
-   "updated": null,
-   "latest": null
-  },
-  "https://repo.eskimo.dev/": {
-   "status": "ok",
-   "packages": 9,
-   "updated": "2021-11-07T16:29:18+00:00",
-   "latest": null
-  },
-  "https://repo.hhls.xyz/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2024-04-09T05:52:33+00:00",
-   "latest": null
-  },
-  "https://repo.midnightchips.me/": {
-   "status": "ok",
-   "packages": 17,
-   "updated": "2022-01-11T16:12:54+00:00",
-   "latest": null
-  },
-  "https://repo.mogdan.xyz/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2022-08-06T06:03:01+00:00",
-   "latest": null
-  },
-  "https://repo.packix.com/": {
-   "status": "ok",
-   "packages": 1151,
-   "updated": "2023-07-24T23:12:58+00:00",
-   "latest": null
-  },
-  "https://repo.pixelomer.com/": {
-   "status": "ok",
-   "packages": 29,
-   "updated": "2025-09-14T19:32:53+00:00",
-   "latest": null
-  },
-  "https://repo.rbtdigital.com/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2021-01-19T17:19:07+00:00",
-   "latest": null
-  },
-  "https://repo.renai.me/": {
-   "status": "ok",
-   "packages": 2,
-   "updated": "2021-11-29T06:20:40+00:00",
-   "latest": null
-  },
-  "https://repo.shuga.co/": {
-   "status": "ok",
-   "packages": 15,
-   "updated": "2020-08-08T23:50:21+00:00",
-   "latest": null
-  },
-  "https://repo.supercharge.app/": {
+  "https://seatanners.github.io/repo/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2019-12-04T03:15:41+00:00",
-   "latest": null
-  },
-  "https://repo.susubaby.cn/": {
-   "status": "ok",
-   "packages": 12,
-   "updated": "2026-10-24T11:22:36+00:00",
-   "latest": null
-  },
-  "https://repo.theodyssey.dev/": {
-   "status": "ok",
-   "packages": 13,
-   "updated": "2023-09-23T18:58:34+00:00",
-   "latest": null
-  },
-  "https://repo.theodyssey.dev/libhooker-beta/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2022-01-04T05:56:53+00:00",
-   "latest": null
-  },
-  "https://repo.twickd.com/": {
-   "status": "ok",
-   "packages": 402,
-   "updated": "2026-02-13T09:00:03+00:00",
-   "latest": null
-  },
-  "https://repo.tylercasson.com/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2015-07-15T00:33:49+00:00",
+   "updated": "2015-07-17T18:37:13+00:00",
    "latest": null
   },
   "https://rishanan.github.io/": {
@@ -2266,6 +2267,12 @@
    "updated": "2017-05-14T17:14:50+00:00",
    "latest": null
   },
+  "https://susudear.github.io/roothides/": {
+   "status": "ok",
+   "packages": 769,
+   "updated": "2026-10-25T18:55:33+00:00",
+   "latest": null
+  },
   "https://rotanakpiseth.github.io/": {
    "status": "ok",
    "packages": 106,
@@ -2276,12 +2283,6 @@
    "status": "ok",
    "packages": 1,
    "updated": "2018-08-13T16:10:06+00:00",
-   "latest": null
-  },
-  "https://rrnmrnm.github.io/": {
-   "status": "ok",
-   "packages": 4,
-   "updated": "2019-10-24T11:18:29+00:00",
    "latest": null
   },
   "https://ruler225.github.io/": {
@@ -2306,6 +2307,12 @@
    "status": "ok",
    "packages": 8,
    "updated": "2020-08-24T06:26:21+00:00",
+   "latest": null
+  },
+  "https://apt.saadat.dev/": {
+   "status": "ok",
+   "packages": 12,
+   "updated": "2020-01-08T00:07:20+00:00",
    "latest": null
   },
   "https://saj0vie.github.io/": {
@@ -2344,12 +2351,6 @@
    "updated": "2013-09-07T07:40:03+00:00",
    "latest": null
   },
-  "https://seatanners.github.io/repo/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2015-07-17T18:37:13+00:00",
-   "latest": null
-  },
   "https://sectorus.github.io/cydia/": {
    "status": "ok",
    "packages": 4,
@@ -2360,12 +2361,6 @@
    "status": "ok",
    "packages": 24,
    "updated": "2020-12-13T05:40:18+00:00",
-   "latest": null
-  },
-  "https://sharman79.github.io/Netskao/": {
-   "status": "ok",
-   "packages": 221,
-   "updated": "2022-02-27T10:09:32+00:00",
    "latest": null
   },
   "https://shaundegr8.github.io/": {
@@ -2380,10 +2375,10 @@
    "updated": "2021-04-18T13:36:13+00:00",
    "latest": null
   },
-  "https://siieo.github.io/": {
+  "https://repo.shuga.co/": {
    "status": "ok",
-   "packages": 240,
-   "updated": "2025-08-20T16:21:11+00:00",
+   "packages": 15,
+   "updated": "2020-08-08T23:50:21+00:00",
    "latest": null
   },
   "https://sk37chi.github.io/": {
@@ -2416,12 +2411,6 @@
    "updated": "2019-06-16T02:11:57+00:00",
    "latest": null
   },
-  "https://sleeper2009.github.io/fujb-repo/": {
-   "status": "ok",
-   "packages": 4,
-   "updated": "2026-08-23T21:50:28+00:00",
-   "latest": null
-  },
   "https://slyfabi.github.io/": {
    "status": "ok",
    "packages": 2,
@@ -2434,16 +2423,16 @@
    "updated": "2022-09-07T00:05:24+00:00",
    "latest": null
   },
-  "https://sn0wcooder.github.io/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2017-09-18T12:55:05+00:00",
-   "latest": null
-  },
   "https://sn50repo.github.io/": {
    "status": "ok",
    "packages": 5,
    "updated": "2019-07-17T01:23:34+00:00",
+   "latest": null
+  },
+  "https://sn0wcooder.github.io/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2017-09-18T12:55:05+00:00",
    "latest": null
   },
   "https://spartacusdev.github.io/": {
@@ -2452,10 +2441,10 @@
    "updated": "2024-03-18T11:42:04+00:00",
    "latest": null
   },
-  "https://speedmx.github.io/": {
+  "https://auxilium-development.github.io/repo/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2019-06-07T20:24:46+00:00",
+   "packages": 43,
+   "updated": "2018-07-12T01:03:55+00:00",
    "latest": null
   },
   "https://starwarsfan2099.github.io/": {
@@ -2488,16 +2477,28 @@
    "updated": "2025-08-23T19:42:10+00:00",
    "latest": null
   },
-  "https://susudear.github.io/roothides/": {
+  "https://repo.supercharge.app/": {
    "status": "ok",
-   "packages": 769,
-   "updated": "2026-10-25T18:55:33+00:00",
+   "packages": 1,
+   "updated": "2019-12-04T03:15:41+00:00",
    "latest": null
   },
   "https://synnygr.dev/repo/": {
    "status": "ok",
    "packages": 2,
    "updated": "2025-11-14T14:10:58+00:00",
+   "latest": null
+  },
+  "https://repo.renai.me/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2021-11-29T06:20:40+00:00",
+   "latest": null
+  },
+  "https://cydia.tapsharp.com/": {
+   "status": "ok",
+   "packages": 5,
+   "updated": "2020-04-13T16:56:36+00:00",
    "latest": null
   },
   "https://tateu.net/repo/": {
@@ -2518,10 +2519,34 @@
    "updated": "2017-04-09T15:06:28+00:00",
    "latest": null
   },
+  "https://mirrors.kodi.tv/apt/ios/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2020-04-17T21:21:36+00:00",
+   "latest": null
+  },
+  "https://extigy.github.io/repo/": {
+   "status": "ok",
+   "packages": 2,
+   "updated": "2020-09-02T08:31:37+00:00",
+   "latest": null
+  },
   "https://ter4m.yourepo.com/": {
    "status": "ok",
    "packages": 2,
    "updated": "2026-10-26T14:06:04+00:00",
+   "latest": null
+  },
+  "https://masonpawsey.github.io/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2019-10-14T02:02:41+00:00",
+   "latest": null
+  },
+  "https://cydia.r333d.com/": {
+   "status": "ok",
+   "packages": 9,
+   "updated": "2018-04-16T00:08:51+00:00",
    "latest": null
   },
   "https://the-samminater.github.io/repo/": {
@@ -2530,10 +2555,10 @@
    "updated": "2026-04-07T03:25:48+00:00",
    "latest": null
   },
-  "https://thealphastream.github.io/repo/": {
+  "https://legitcomputerwhisperer.github.io/": {
    "status": "ok",
-   "packages": 20,
-   "updated": "2022-02-26T04:12:55+00:00",
+   "packages": 29,
+   "updated": "2018-05-07T17:23:19+00:00",
    "latest": null
   },
   "https://thenatis.github.io/repo/": {
@@ -2566,6 +2591,12 @@
    "updated": "2019-03-03T00:04:22+00:00",
    "latest": null
   },
+  "https://akebu.github.io/cydia/": {
+   "status": "ok",
+   "packages": 5,
+   "updated": "2018-12-19T13:36:37+00:00",
+   "latest": null
+  },
   "https://tonyk7.github.io/": {
    "status": "ok",
    "packages": 11,
@@ -2596,12 +2627,6 @@
    "updated": "2019-03-09T03:25:06+00:00",
    "latest": null
   },
-  "https://tweak.mario.net.in/": {
-   "status": "ok",
-   "packages": 17,
-   "updated": "2022-10-09T09:40:52+00:00",
-   "latest": null
-  },
   "https://tweakality.github.io/repo/": {
    "status": "ok",
    "packages": 2,
@@ -2614,10 +2639,40 @@
    "updated": "2017-08-21T21:36:38+00:00",
    "latest": null
   },
+  "https://ios.tweaks.fun/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2020-08-13T19:21:43+00:00",
+   "latest": null
+  },
+  "https://repo.twickd.com/": {
+   "status": "ok",
+   "packages": 402,
+   "updated": "2026-02-13T09:00:03+00:00",
+   "latest": null
+  },
+  "https://repo.tylercasson.com/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2015-07-15T00:33:49+00:00",
+   "latest": null
+  },
+  "https://apt.uar.no/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2026-10-02T18:38:42+00:00",
+   "latest": null
+  },
   "https://ud-team.github.io/repo/": {
    "status": "ok",
    "packages": 4,
    "updated": "2019-11-10T21:14:03+00:00",
+   "latest": null
+  },
+  "https://repo.mogdan.xyz/": {
+   "status": "ok",
+   "packages": 3,
+   "updated": "2022-08-06T06:03:01+00:00",
    "latest": null
   },
   "https://uroboro.github.io/repo/": {
@@ -2636,12 +2691,6 @@
    "status": "ok",
    "packages": 62,
    "updated": "2023-05-12T18:02:50+00:00",
-   "latest": null
-  },
-  "https://vxbakerxv.github.io/repo/": {
-   "status": "ok",
-   "packages": 6,
-   "updated": "2023-01-28T05:47:41+00:00",
    "latest": null
   },
   "https://wavelinkstudios.github.io/site/repo/": {
@@ -2686,22 +2735,16 @@
    "updated": "2017-02-07T13:57:16+00:00",
    "latest": null
   },
-  "https://worksbybbs.github.io/": {
+  "https://cosmiccode.cc/repo/": {
    "status": "ok",
-   "packages": 44,
-   "updated": "2020-06-13T22:39:31+00:00",
+   "packages": 14,
+   "updated": "2026-07-22T13:22:36+00:00",
    "latest": null
   },
   "https://wrp1002.github.io/": {
    "status": "ok",
    "packages": 9,
    "updated": "2024-04-14T05:11:47+00:00",
-   "latest": null
-  },
-  "https://wstclzy2010.github.io/repo/": {
-   "status": "ok",
-   "packages": 39,
-   "updated": "2022-03-20T05:25:28+00:00",
    "latest": null
   },
   "https://xavitec.github.io/": {
@@ -2716,40 +2759,10 @@
    "updated": "2018-10-28T18:52:36+00:00",
    "latest": null
   },
-  "https://xxthepersonx.github.io/repo/": {
-   "status": "ok",
-   "packages": 19,
-   "updated": "2021-10-11T07:09:05+00:00",
-   "latest": null
-  },
-  "https://yazeedot.github.io/": {
-   "status": "ok",
-   "packages": 1,
-   "updated": "2024-06-30T03:28:40+00:00",
-   "latest": null
-  },
-  "https://yilai.yttxcs.com/": {
-   "status": "ok",
-   "packages": 142,
-   "updated": "2024-06-20T13:42:33+00:00",
-   "latest": null
-  },
-  "https://yp261.github.io/repo/": {
-   "status": "ok",
-   "packages": 10,
-   "updated": "2019-09-23T19:42:53+00:00",
-   "latest": null
-  },
   "https://yulkytulky.com/": {
    "status": "ok",
    "packages": 15,
    "updated": null,
-   "latest": null
-  },
-  "https://yungspecht.github.io/": {
-   "status": "ok",
-   "packages": 8,
-   "updated": "2019-05-24T09:11:08+00:00",
    "latest": null
   },
   "https://yusufozgul.github.io/": {
@@ -2764,6 +2777,12 @@
    "updated": "2018-04-01T17:47:56+00:00",
    "latest": null
   },
+  "https://getzbra.com/beta/": {
+   "status": "ok",
+   "packages": 1,
+   "updated": "2022-12-13T07:07:08+00:00",
+   "latest": null
+  },
   "https://zeekforit.github.io/": {
    "status": "ok",
    "packages": 1,
@@ -2776,10 +2795,10 @@
    "updated": "2017-02-24T17:29:22+00:00",
    "latest": null
   },
-  "https://zhigang1992.github.io/cydia/": {
+  "https://yazeedot.github.io/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2018-03-09T13:27:40+00:00",
+   "updated": "2024-06-30T03:28:40+00:00",
    "latest": null
   },
   "https://zlxdike.github.io/repo/": {
@@ -2792,12 +2811,6 @@
    "status": "ok",
    "packages": 17,
    "updated": "2025-04-04T21:26:08+00:00",
-   "latest": null
-  },
-  "https://zzhamzazz.github.io/": {
-   "status": "ok",
-   "packages": 3,
-   "updated": "2026-06-15T23:33:14+00:00",
    "latest": null
   }
  }
