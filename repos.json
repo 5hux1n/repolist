@@ -1,0 +1,2274 @@
+[
+  {
+    "id": "pick",
+    "title": "精选常用",
+    "sources": [
+      {
+        "name": "Junhong's Repo",
+        "note": "番茄系净化、虚拟权限作者",
+        "url": "https://apt.mjh.im/"
+      },
+      {
+        "name": "opa334",
+        "note": "多巴胺越狱开发者",
+        "url": "https://opa334.github.io/"
+      },
+      {
+        "name": "刀刀源",
+        "note": "汉化、为爱发电",
+        "url": "https://xiangfeidexiaohuo.github.io/"
+      },
+      {
+        "name": "电话助手源",
+        "note": "电话助手、通话录音、T9 拨号经典插件",
+        "url": "http://apt.htv123.com/"
+      },
+      {
+        "name": "Netskao 新源",
+        "note": "DumpDecrypter、AppData 等插件",
+        "url": "https://jailrepo.initnil.com/"
+      },
+      {
+        "name": "真皮源",
+        "note": "Hello 系列插件",
+        "url": "https://rootless.002599.xyz/"
+      },
+      {
+        "name": "来了老弟源",
+        "note": "FT、ST 等",
+        "url": "https://laileld.github.io/repo/"
+      },
+      {
+        "name": "乌贼力量源",
+        "note": "锤子、剪切板、DockX 等",
+        "url": "https://lclrc.github.io/repo/"
+      },
+      {
+        "name": "冷冷雨源",
+        "note": "防追踪、虚拟定位、综合汉化插件",
+        "url": "https://lenglengyu.com/"
+      },
+      {
+        "name": "aReo 源",
+        "note": "AppTools 官方源",
+        "url": "https://flex2areo.github.io/"
+      },
+      {
+        "name": "赵楠源",
+        "note": "赵楠自制系统增强脚本与实用小工具",
+        "url": "https://invalidunit.github.io/repo/"
+      },
+      {
+        "name": "老牌猫源",
+        "note": "微信助手",
+        "url": "https://apt.25mao.com/"
+      },
+      {
+        "name": "82Flex",
+        "note": "乌龙工作室",
+        "url": "https://apt.82flex.com/"
+      },
+      {
+        "name": "Chariz",
+        "note": "国外主流综合商业软件源",
+        "url": "https://repo.chariz.com/"
+      },
+      {
+        "name": "Zebra 官方源",
+        "note": "斑马包管理器官方源",
+        "url": "https://getzbra.com/repo/"
+      },
+      {
+        "name": "ElleKit",
+        "note": "无根越狱核心 Hook 注入框架官方源",
+        "url": "https://ellekit.space/"
+      },
+      {
+        "name": "Havoc",
+        "note": "主流付费与知名插件软件源",
+        "url": "https://havoc.app/"
+      },
+      {
+        "name": "RootHide",
+        "note": "RootHide 隐蔽越狱与兼容层官方源",
+        "url": "https://roothide.github.io/"
+      },
+      {
+        "name": "Cypwn",
+        "note": "经典越狱插件归档与社区源",
+        "url": "https://repo.cypwn.xyz/"
+      },
+      {
+        "name": "Frida",
+        "note": "动态插桩与安全分析工具官方源",
+        "url": "https://build.frida.re/"
+      },
+      {
+        "name": "Rocket APT",
+        "note": "Rocket for Instagram 官方源",
+        "url": "https://apt.alfhaily.me/"
+      },
+      {
+        "name": "Fouad's Repo",
+        "note": "WhatsApp tweaks and more",
+        "url": "https://apt.fouadraheb.com/"
+      },
+      {
+        "name": "palera1n",
+        "note": "palera1n 越狱官方基础源",
+        "url": "https://repo.palera.in/"
+      },
+      {
+        "name": "壹筒天下源",
+        "note": "常用实用插件源",
+        "url": "https://yttxcs.com/"
+      },
+      {
+        "name": "c1d3r",
+        "note": "PullOver Pro 分屏悬浮窗插件作者源",
+        "url": "https://c1d3r.com/repo/"
+      },
+      {
+        "name": "Delta",
+        "note": "Flex 3 补丁制作工具作者源",
+        "url": "http://getdelta.co/"
+      },
+      {
+        "name": "rpetrich",
+        "note": "RocketBootstrap 等核心依赖作者源",
+        "url": "https://rpetri.ch/repo/"
+      },
+      {
+        "name": "akusio",
+        "note": "MilkyWay 窗口多任务分屏插件作者源",
+        "url": "https://akusio.github.io/"
+      },
+      {
+        "name": "Ryley Angus",
+        "note": "Liberty Lite 屏蔽越狱检测作者源",
+        "url": "https://ryleyangus.com/repo/"
+      },
+      {
+        "name": "CokePokes",
+        "note": "AppStore++、CrashReporter 作者源",
+        "url": "https://cokepokes.github.io/"
+      },
+      {
+        "name": "小苹果源",
+        "note": "国内知名常用插件源",
+        "url": "http://repo.cydiabc.top/"
+      },
+      {
+        "name": "蜗牛源",
+        "note": "微信助手等功能优化插件",
+        "url": "https://repo.snailovet.com/"
+      },
+      {
+        "name": "搬运工源",
+        "note": "搬运工精选插件源",
+        "url": "https://byg.iosios.net/"
+      },
+      {
+        "name": "巨魔源",
+        "note": "TrollStore 巨魔常用应用与插件",
+        "url": "https://trollstorex.github.io/repo/"
+      },
+      {
+        "name": "M哥源",
+        "note": "wwg135 自用插件分享",
+        "url": "https://wwg135.github.io/"
+      },
+      {
+        "name": "zhaonan's Repo2",
+        "note": "这是一个自用源2",
+        "url": "https://invalidunit.github.io/repo2/"
+      },
+      {
+        "name": "真皮源",
+        "note": "Hello 系列无根插件",
+        "url": "https://rootless.zq666.eu.org/"
+      },
+      {
+        "name": "季伯之家",
+        "note": "源内插件仅为自用备份。",
+        "url": "https://sini921.github.io/"
+      },
+      {
+        "name": "锤子软件源",
+        "note": "DumpApp 官方源",
+        "url": "https://cydia.dumpapp.com/"
+      },
+      {
+        "name": "贾队长",
+        "note": "自用插件分享，有问题请卸载！！！",
+        "url": "https://qi-ting-zhang.github.io/sileo/"
+      },
+      {
+        "name": "小猫🐱 Repo",
+        "note": "小猫源",
+        "url": "https://ketty0725.github.io/repo/"
+      },
+      {
+        "name": "Axs Repo",
+        "note": "自用插件分享，有问题请卸载！！！",
+        "url": "https://axs66.github.io/pro/"
+      },
+      {
+        "name": "自由的风",
+        "note": "自由的风软件源",
+        "url": "https://zlw555.github.io/repo/"
+      },
+      {
+        "name": "Dopamine Repo",
+        "note": "多巴胺 Cydia 越狱源 by Colorblack",
+        "url": "https://colorblack-c.github.io/repo/"
+      },
+      {
+        "name": "AutoTouch",
+        "note": "AutoTouch 触动精灵自动化脚本官方源",
+        "url": "https://apt.autotouch.net/"
+      },
+      {
+        "name": "Tinyapps",
+        "note": "Fake GPS Pro、360虚拟定位官方源",
+        "url": "https://apt.tinyapps.cn/"
+      },
+      {
+        "name": "Ai-小苹果",
+        "note": "",
+        "url": "https://apt.cydiabc.top/"
+      },
+      {
+        "name": "ios插件源",
+        "note": "",
+        "url": "https://apt.razerxj.com/"
+      },
+      {
+        "name": "ios新机源",
+        "note": "",
+        "url": "https://apt.iosxj.com/"
+      },
+      {
+        "name": "UCFake官方源",
+        "note": "",
+        "url": "http://apt.ucfake.com/"
+      },
+      {
+        "name": "一切从简",
+        "note": "",
+        "url": "https://abc07968695-a11y.github.io/Sileo/"
+      },
+      {
+        "name": "壹筒天下依赖源",
+        "note": "",
+        "url": "https://yilai.yttxcs.com/"
+      },
+      {
+        "name": "排骨的个人源",
+        "note": "",
+        "url": "https://wstclzy2010.github.io/repo/"
+      },
+      {
+        "name": "氵刀八木源",
+        "note": "",
+        "url": "https://aptso.cn/"
+      },
+      {
+        "name": "老牌猫源 Archive",
+        "note": "老牌猫插件归档",
+        "url": "https://invalidunit.github.io/archive_25mao/"
+      },
+      {
+        "name": "航",
+        "note": "",
+        "url": "https://hang1888.github.io/"
+      },
+      {
+        "name": "苏苏源",
+        "note": "",
+        "url": "https://repo.susubaby.cn/"
+      },
+      {
+        "name": "触动精灵",
+        "note": "触动精灵自动化工具",
+        "url": "https://apt.touchsprite.com/"
+      },
+      {
+        "name": "触摸精灵",
+        "note": "触摸精灵自动化工具",
+        "url": "https://cydia.touchelf.com/"
+      }
+    ]
+  },
+  {
+    "id": "dev",
+    "title": "开发者源",
+    "sources": [
+      {
+        "name": "Skypain",
+        "note": "控制中心模块",
+        "url": "https://skypain.github.io/repo/"
+      },
+      {
+        "name": "34306",
+        "note": "越南开发者",
+        "url": "https://34306.github.io/"
+      },
+      {
+        "name": "PoomSmart",
+        "note": "YTUHD、YouPiP 开发者",
+        "url": "https://poomsmart.github.io/repo/"
+      },
+      {
+        "name": "alias20",
+        "note": "曾经的 FlyJB 开发者",
+        "url": "https://alias20.gitlab.io/apt/"
+      },
+      {
+        "name": "SparkDev",
+        "note": "Snowboard 滑雪板",
+        "url": "http://sparkdev.me/"
+      },
+      {
+        "name": "Dcsyhi1998",
+        "note": "Zetsu 作者个人源",
+        "url": "https://dcsyhi1998.github.io/"
+      },
+      {
+        "name": "Amy",
+        "note": "Sileo 维护者、Aemulo",
+        "url": "https://repo.anamy.gay/"
+      },
+      {
+        "name": "CydiaGeek",
+        "note": "各种小功能",
+        "url": "https://cydiageek.yourepo.com/"
+      },
+      {
+        "name": "0xkuj",
+        "note": "SafariX 插件",
+        "url": "https://0xkuj.yourepo.com/"
+      },
+      {
+        "name": "Filza 官方源",
+        "note": "iOS 最强文件管理器 Filza 官方源",
+        "url": "http://tigisoftware.com/repo/"
+      },
+      {
+        "name": "jjolano",
+        "note": "Shadow 插件",
+        "url": "https://ios.jjolano.me/"
+      },
+      {
+        "name": "Lizynz",
+        "note": "FolderX 插件",
+        "url": "https://lizynz.github.io/"
+      },
+      {
+        "name": "Nathan",
+        "note": "NathanLR 半越狱开发者",
+        "url": "https://nathan4s.lol/repo/"
+      },
+      {
+        "name": "Safari Plus",
+        "note": "opa334's Cydia Beta Repository",
+        "url": "https://opa334.github.io/beta/"
+      },
+      {
+        "name": "Sylph ",
+        "note": "Maxwell Dausch's Repo",
+        "url": "https://repo.daus.ch/"
+      },
+      {
+        "name": "ichitaso",
+        "note": "OTADisabler 屏蔽更新、PowerSelector",
+        "url": "http://cydia.ichitaso.com/"
+      },
+      {
+        "name": "xeninfo",
+        "note": "JunesiPhone SuperSecret Repo",
+        "url": "http://junesiphone.com/supersecret/"
+      },
+      {
+        "name": "NiceiOS",
+        "note": "NiceBarX、NiceCaller 等精品状态栏电话插件",
+        "url": "https://repo.niceios.com/"
+      },
+      {
+        "name": "iCraze's Repo",
+        "note": "Repo for some of my smaller tweaks",
+        "url": "https://repo.icrazeios.com/"
+      },
+      {
+        "name": "dhinakg",
+        "note": "dhinakg repo",
+        "url": "https://dhinakg.github.io/repo/"
+      },
+      {
+        "name": "TTJB Repo",
+        "note": "越南越狱社区常用实用插件合集",
+        "url": "http://repo.thuthuatjb.com/"
+      },
+      {
+        "name": "Snoolie's repo",
+        "note": "Rootless) Repository for my tweaks",
+        "url": "https://0xilis.github.io/rootless/"
+      },
+      {
+        "name": "iKarwan Repo",
+        "note": "Official iKGHD Repo's",
+        "url": "https://repo.ikghd.me/"
+      },
+      {
+        "name": "rob311",
+        "note": "rob311's beta repo",
+        "url": "https://cydia.rob311.com/repo/"
+      },
+      {
+        "name": "Hi客",
+        "note": "Hi客微信助手与实用插件分享",
+        "url": "http://repo.qqtlr.com/"
+      },
+      {
+        "name": "CreatureCoding",
+        "note": "Shuffle、Fabric 等精品插件",
+        "url": "https://creaturecoding.com/repo/"
+      },
+      {
+        "name": "Liam - oldabi",
+        "note": "iOS 旧版 ABI 兼容层与功能小插件",
+        "url": "https://liam.page/oldabi/"
+      },
+      {
+        "name": "YouRepo",
+        "note": "Main source for YouRepo",
+        "url": "https://yourepo.com/"
+      },
+      {
+        "name": "Brend0n's repo",
+        "note": "电池健康显示、通话状态栏增强小插件",
+        "url": "https://brendonjkding.github.io/"
+      },
+      {
+        "name": "Sugiuta's Repo",
+        "note": "iOS Tweak dev.",
+        "url": "https://sugiuta.github.io/repo/"
+      },
+      {
+        "name": "lans233's repo",
+        "note": "QQ交流群：主群157289939，2群212155893，欢迎进群！",
+        "url": "https://lans233.github.io/"
+      },
+      {
+        "name": "-TrollStore",
+        "note": "不要为了越狱放弃升级的快乐！",
+        "url": "https://axs.yourepo.com/"
+      },
+      {
+        "name": "Bitilly hanxin",
+        "note": "This is a self-use software source",
+        "url": "https://apt.bitilly.cn/"
+      },
+      {
+        "name": "mlgm",
+        "note": "My go-to iOS jailbreak packages",
+        "url": "https://mlgm66.github.io/"
+      },
+      {
+        "name": "Huayuarc",
+        "note": "QQ交流群：797075691",
+        "url": "https://huayuarc.github.io/"
+      },
+      {
+        "name": "IArrays",
+        "note": "BioProtect 面容指纹应用锁、CallLogPro 官方源",
+        "url": "http://apt.iarrays.com/"
+      },
+      {
+        "name": "KingPuffdaddi",
+        "note": "KingPuffdaddi's Repo",
+        "url": "https://kingpuffdaddi.github.io/"
+      },
+      {
+        "name": "Limneos",
+        "note": "Limneos Distribution Repo",
+        "url": "http://limneos.net/repo/"
+      },
+      {
+        "name": "Luki120's Repo",
+        "note": "Aestea、April 等精美开源锁屏美化插件",
+        "url": "https://luki120.github.io/"
+      },
+      {
+        "name": "lzsxcl's Repo",
+        "note": "lzsxcl's Repository",
+        "url": "https://lzsxcl.github.io/repo/"
+      },
+      {
+        "name": "mafu's repo",
+        "note": "A tweak repository of @m4fn3",
+        "url": "https://m4fn3.github.io/repo/"
+      },
+      {
+        "name": "Merona Repository",
+        "note": "The best tweaks are here.",
+        "url": "http://repo.rpgfarm.com/"
+      },
+      {
+        "name": "Michael Melita's Repo",
+        "note": "A repo for simple well built tweaks",
+        "url": "https://michaelmelita1.github.io/"
+      },
+      {
+        "name": "Misty",
+        "note": "Nope ;",
+        "url": "https://repo.misty.moe/apt/"
+      },
+      {
+        "name": "nathanlr",
+        "note": "NathanLR 半越狱与无根引导工具官方源",
+        "url": "https://nathan4s.lol/nathanlr/"
+      },
+      {
+        "name": "Nebbs' Repo",
+        "note": "Collection of my free packages!",
+        "url": "https://itznebbs.github.io/"
+      },
+      {
+        "name": "p0358's Repo",
+        "note": "bfdecrypt 砸壳工具、TVLock 电视锁屏特效",
+        "url": "https://repo.p0358.net/"
+      },
+      {
+        "name": "Sileo",
+        "note": "Sileo for Checkra1n and Unc0ver",
+        "url": "https://repo.getsileo.app/"
+      },
+      {
+        "name": "Skitty's Repo",
+        "note": "Skitty's iOS APT Repository",
+        "url": "https://skitty.xyz/repo/"
+      },
+      {
+        "name": "uz.ra",
+        "note": "uz.ra's tweak",
+        "url": "https://uz-ra.github.io/"
+      },
+      {
+        "name": "WilsontheWolf's Repo",
+        "note": "WilsontheWolf's repo for his tweaks.",
+        "url": "https://wilson.antti.codes/repo/"
+      },
+      {
+        "name": "ZX02",
+        "note": "This is the repository for my tweaks!",
+        "url": "https://zerui18.github.io/zx02/"
+      },
+      {
+        "name": "wkk's 🏠",
+        "note": "QQ1772773799",
+        "url": "https://wkkyy00.github.io/"
+      },
+      {
+        "name": "level3tjg's repo",
+        "note": "Ablaze 音乐流光背景、自适应滚动条插件",
+        "url": "https://level3tjg.me/repo/"
+      },
+      {
+        "name": "iVintageRepo",
+        "note": "经典复古 iOS 锁屏与时钟美化插件",
+        "url": "https://ivintagelover.github.io/repo/"
+      },
+      {
+        "name": "huamidev",
+        "note": "微信净化与功能增强插件作者源",
+        "url": "https://huami1314.github.io/devrepo/"
+      },
+      {
+        "name": "Paisseon's Repo",
+        "note": "My personal repo for jailbreak tweaks",
+        "url": "https://paisseon.github.io/"
+      },
+      {
+        "name": "NoW's repo",
+        "note": "Mooner 实用系统辅助工具",
+        "url": "https://nowisdev.github.io/"
+      },
+      {
+        "name": "AnthoPak's Repo",
+        "note": "AnthoPak Tweak Repository",
+        "url": "https://repo.anthopak.dev/"
+      },
+      {
+        "name": "OwnGoal Packages",
+        "note": "TrollStoreLite 巨魔精简版、Crane 修复组件",
+        "url": "https://apt.owngoal.dev/"
+      },
+      {
+        "name": "tellmyfriends",
+        "note": "有个朋友-repo",
+        "url": "https://biucheung.github.io/tellmyfriends/"
+      },
+      {
+        "name": "Deon",
+        "note": "Deon's Repo",
+        "url": "https://deontw.github.io/repo/"
+      },
+      {
+        "name": "DTCalabro's Repo",
+        "note": "ColorBar 状态栏自定义、PageDotsBegone",
+        "url": "https://dtcalabro.github.io/repo/"
+      },
+      {
+        "name": "DXcool223 Repo",
+        "note": "Flex 3 补丁与多功能实用小插件",
+        "url": "https://dxcool223-repo.github.io/repo/"
+      },
+      {
+        "name": "Editornah Repo",
+        "note": "Editornah repo",
+        "url": "https://cydia.editornah.top/"
+      },
+      {
+        "name": "Favware",
+        "note": "Darkcons 精美深色主题图标包",
+        "url": "https://favna.github.io/cydia/"
+      },
+      {
+        "name": "fiore's repo",
+        "note": "控制中心边框美化、锁屏提示隐藏小插件",
+        "url": "https://donato-fiore.github.io/repo/"
+      },
+      {
+        "name": "Foxfort Repo",
+        "note": "Repo for Foxfort tweaks",
+        "url": "https://foxfort.yourepo.com/"
+      },
+      {
+        "name": "German's Rootless Repo",
+        "note": "Garbage rootless tweaks",
+        "url": "https://repo.igerman.cc/"
+      },
+      {
+        "name": "hAcx",
+        "note": "hAcx's official repo",
+        "url": "https://hacx.org/repo/"
+      },
+      {
+        "name": "i0s-tweak3r-betas Source",
+        "note": "去除 App 资源库、音乐控制增强插件",
+        "url": "https://i0s-tweak3r-betas.yourepo.com/"
+      },
+      {
+        "name": "ichitaso",
+        "note": "OTADisabler 屏蔽更新、PowerSelector",
+        "url": "https://ichitaso.com/apt/"
+      },
+      {
+        "name": "iGG source",
+        "note": "iGameGuardian 游戏内存修改器官方源",
+        "url": "http://aquawu.github.io/igg/"
+      },
+      {
+        "name": "iOSGods Repo",
+        "note": "iOSGods.com Repo",
+        "url": "https://iosgods.com/repo/"
+      },
+      {
+        "name": "Liam",
+        "note": "步数修改器、动态依赖库等个人插件",
+        "url": "https://liam.page/apt/"
+      },
+      {
+        "name": "Merona Repository",
+        "note": "The best tweaks are here.",
+        "url": "https://repo.co.kr/"
+      },
+      {
+        "name": "miticollo's Repo",
+        "note": "My personal repository",
+        "url": "https://miticollo.github.io/repos/my/"
+      },
+      {
+        "name": "MTAC's Repo",
+        "note": "Lynx 系统全功能增强、Aperture 灵动岛特效",
+        "url": "https://mtac.app/repo/"
+      },
+      {
+        "name": "NiceiOS",
+        "note": "NiceBarX、NiceCaller 等精品状态栏电话插件",
+        "url": "https://global.niceios.com/"
+      },
+      {
+        "name": "Nightwind's Repo",
+        "note": "My personal repo where I host tweaks!",
+        "url": "https://nightwinddev.github.io/"
+      },
+      {
+        "name": "sourcelocation's repo",
+        "note": "A repo for those who love Swift",
+        "url": "https://sourcelocation.github.io/repo/"
+      },
+      {
+        "name": "Sudo's Repo",
+        "note": "A place for iOS Jailbreak Tweaks.",
+        "url": "https://sudo9000.github.io/"
+      },
+      {
+        "name": "TweakHub",
+        "note": "Xinamine patched tweaks",
+        "url": "https://tweakhub.github.io/"
+      },
+      {
+        "name": "udevs",
+        "note": "udevs' Cydia repository",
+        "url": "https://udevsharold.github.io/repo/"
+      },
+      {
+        "name": "XinaA15 Repo",
+        "note": "XinaA15 jailbreak Repository",
+        "url": "http://zhuxinlang.github.io/"
+      },
+      {
+        "name": "骚达美化源",
+        "note": "欢迎添加 微信公众号:阿布怪达。微信号：ZRD080",
+        "url": "https://dada.yourepo.com/"
+      },
+      {
+        "name": "苏达微信美化源",
+        "note": "By Soda",
+        "url": "https://soda-ldz.yourepo.com/"
+      },
+      {
+        "name": "苏兔源",
+        "note": "常用美化与汉化插件源",
+        "url": "https://apt.sutuplus.com/"
+      },
+      {
+        "name": "ETHN's Repo",
+        "note": "iOS Tweaks/Themes",
+        "url": "https://nahtedetihw.github.io/"
+      },
+      {
+        "name": "A Check0ver",
+        "note": " All Themes in One Repo ",
+        "url": "https://check0ver.com/"
+      },
+      {
+        "name": "Alo's Repo",
+        "note": "Themes, Widgets, and more Themes",
+        "url": "https://alo.works/"
+      },
+      {
+        "name": "ThemePro Source",
+        "note": "Bolo Themes",
+        "url": "https://themepro.yourepo.com/"
+      },
+      {
+        "name": "/u/rllb",
+        "note": "",
+        "url": "https://tweak.mario.net.in/"
+      },
+      {
+        "name": "/u/SHIVADOC's beta repo",
+        "note": "测试版源",
+        "url": "https://akeaswaran.me/repo/"
+      },
+      {
+        "name": "1Conan",
+        "note": "",
+        "url": "https://repo.1conan.com/"
+      },
+      {
+        "name": "3omartech Repo",
+        "note": "",
+        "url": "https://3omartech.github.io/"
+      },
+      {
+        "name": "AAA's iosdump",
+        "note": "",
+        "url": "https://iosdumpzzz.github.io/iosdump.repo/"
+      },
+      {
+        "name": "Abdullah Repo",
+        "note": "",
+        "url": "https://ajbbodev.github.io/"
+      },
+      {
+        "name": "absidue's repo",
+        "note": "",
+        "url": "https://apt.absidue.me/"
+      },
+      {
+        "name": "Acreson's Chimera/Cydia Modify Repo",
+        "note": "",
+        "url": "https://acreson.github.io/chimeracydia/"
+      },
+      {
+        "name": "Acreson「Mirror-Rootless」",
+        "note": "",
+        "url": "https://acreson.github.io/mirror-rootless/"
+      },
+      {
+        "name": "AdventureOwl",
+        "note": "",
+        "url": "https://adventureowl.github.io/"
+      },
+      {
+        "name": "aEk's Official Repo",
+        "note": "",
+        "url": "https://speedmx.github.io/"
+      },
+      {
+        "name": "AeonLucid",
+        "note": "",
+        "url": "https://aeonlucid.com/cydia/"
+      },
+      {
+        "name": "affimbr",
+        "note": "",
+        "url": "https://affimbr.github.io/repo/"
+      },
+      {
+        "name": "AgentEpsilon's Repo",
+        "note": "",
+        "url": "https://agentepsilon.github.io/repo/"
+      },
+      {
+        "name": "AhmadNagy's Repo",
+        "note": "",
+        "url": "https://ahmadnagy.github.io/"
+      },
+      {
+        "name": "AidsRepo",
+        "note": "",
+        "url": "https://jakeai.github.io/"
+      },
+      {
+        "name": "al3raQe Repo",
+        "note": "",
+        "url": "https://al3raqe.github.io/"
+      },
+      {
+        "name": "Alex's Repo",
+        "note": "",
+        "url": "https://leftyfl1p.github.io/"
+      },
+      {
+        "name": "alex_png's Repository",
+        "note": "",
+        "url": "https://alexpng.github.io/"
+      },
+      {
+        "name": "ALHG Safe Team Repo",
+        "note": "",
+        "url": "https://alhgteam.github.io/repo/"
+      },
+      {
+        "name": "aliencillo",
+        "note": "",
+        "url": "https://aliencillo.github.io/repo/"
+      },
+      {
+        "name": "Alierya's Repo",
+        "note": "",
+        "url": "https://alierya.github.io/"
+      },
+      {
+        "name": "Alierya's Repo",
+        "note": "",
+        "url": "https://alierya.github.io/repo/"
+      },
+      {
+        "name": "Alo's Repo",
+        "note": "",
+        "url": "https://worksbybbs.github.io/"
+      },
+      {
+        "name": "alpha's repo",
+        "note": "",
+        "url": "https://thealphastream.github.io/repo/"
+      },
+      {
+        "name": "Amethyl Repo",
+        "note": "",
+        "url": "https://amethyl.github.io/repo/"
+      },
+      {
+        "name": "amooose",
+        "note": "",
+        "url": "https://amooose.github.io/repo/"
+      },
+      {
+        "name": "Antique's Official Repo",
+        "note": "",
+        "url": "https://antiquedev.github.io/"
+      },
+      {
+        "name": "AnubisTweaks Repo",
+        "note": "",
+        "url": "https://anubistweaks.github.io/"
+      },
+      {
+        "name": "AppleVegas Repo",
+        "note": "",
+        "url": "https://applevegas.github.io/"
+      },
+      {
+        "name": "Aqua Packages",
+        "note": "",
+        "url": "https://bluetr00p.github.io/repo/"
+      },
+      {
+        "name": "arcetera",
+        "note": "",
+        "url": "https://arcetera.github.io/"
+      },
+      {
+        "name": "arm64 - arm64e",
+        "note": "",
+        "url": "https://arm64-debs.yourepo.com/"
+      },
+      {
+        "name": "ARM64e",
+        "note": "",
+        "url": "https://arm64e.com/repo/rootless/"
+      },
+      {
+        "name": "Arthur da Paz",
+        "note": "",
+        "url": "https://arthurdapaz.github.io/"
+      },
+      {
+        "name": "ArtikusHG repo",
+        "note": "",
+        "url": "https://artikushg.github.io/"
+      },
+      {
+        "name": "Artillect",
+        "note": "",
+        "url": "https://artillect.github.io/repo/"
+      },
+      {
+        "name": "Ash Source",
+        "note": "",
+        "url": "https://0xash.yourepo.com/"
+      },
+      {
+        "name": "ashenyx-projectblue",
+        "note": "",
+        "url": "https://ashenyx.github.io/cydia/projectblue/"
+      },
+      {
+        "name": "Backup Tweaks",
+        "note": "",
+        "url": "https://backup-tweaks.github.io/repo/"
+      },
+      {
+        "name": "be-huge's Repo",
+        "note": "",
+        "url": "https://be-huge.github.io/repo/"
+      },
+      {
+        "name": "biDev",
+        "note": "",
+        "url": "https://bid3v.github.io/repo/"
+      },
+      {
+        "name": "Bruce Repo",
+        "note": "",
+        "url": "https://deb.hotbrainapp.com/"
+      },
+      {
+        "name": "Ceadd's Repo",
+        "note": "",
+        "url": "https://cydia.ceadd.ca/"
+      },
+      {
+        "name": "Chikuwa repo",
+        "note": "",
+        "url": "https://chikuwajb.github.io/repo/"
+      },
+      {
+        "name": "Chr1s' Repo",
+        "note": "",
+        "url": "https://repo.chr1s.dev/"
+      },
+      {
+        "name": "cj81499's Cydia Repo",
+        "note": "",
+        "url": "https://cj81499.github.io/repo/"
+      },
+      {
+        "name": "crctdd",
+        "note": "",
+        "url": "https://crctdd.github.io/repo/"
+      },
+      {
+        "name": "CreatureSurvive's Repo",
+        "note": "",
+        "url": "https://creaturesurvive.github.io/"
+      },
+      {
+        "name": "cydiaabdullah",
+        "note": "",
+        "url": "https://apt.cydiaabdullah.com/"
+      },
+      {
+        "name": "denial's plain repo",
+        "note": "",
+        "url": "https://denialpan.github.io/"
+      },
+      {
+        "name": "Deno Repo",
+        "note": "",
+        "url": "https://6gr8.github.io/deno.io/"
+      },
+      {
+        "name": "Dev4i Source",
+        "note": "",
+        "url": "https://dev4i.yourepo.com/"
+      },
+      {
+        "name": "DirtyBeans",
+        "note": "",
+        "url": "https://dirtybeans.github.io/"
+      },
+      {
+        "name": "Doimty's Repo",
+        "note": "",
+        "url": "https://doimty.github.io/"
+      },
+      {
+        "name": "DroomOne",
+        "note": "",
+        "url": "https://droomone.github.io/"
+      },
+      {
+        "name": "dunkston's repo",
+        "note": "",
+        "url": "https://dunkston.github.io/repo/"
+      },
+      {
+        "name": "Dylicious Repo",
+        "note": "",
+        "url": "https://dylbin.github.io/"
+      },
+      {
+        "name": "Dynastic Repo",
+        "note": "Dynastic 插件与主题源",
+        "url": "https://repo.dynastic.co/"
+      },
+      {
+        "name": "easonwumac",
+        "note": "",
+        "url": "https://easonwumac.github.io/repo/"
+      },
+      {
+        "name": "Elias' Public Repo",
+        "note": "",
+        "url": "https://elor7824.github.io/"
+      },
+      {
+        "name": "ELiTEiiiSkillz",
+        "note": "",
+        "url": "https://eliteiiiskillz.github.io/"
+      },
+      {
+        "name": "EmojiPort Fonts Repo",
+        "note": "",
+        "url": "https://vxbakerxv.github.io/repo/"
+      },
+      {
+        "name": "eskimo",
+        "note": "",
+        "url": "https://repo.eskimo.dev/"
+      },
+      {
+        "name": "eswick's Repo",
+        "note": "",
+        "url": "https://eswick.github.io/"
+      },
+      {
+        "name": "Ethan's stuff",
+        "note": "",
+        "url": "https://ethanrdoesmc.com/repo/"
+      },
+      {
+        "name": "ethxnn88",
+        "note": "",
+        "url": "https://ethxnn88.github.io/repo/"
+      },
+      {
+        "name": "Evelyn's Collection",
+        "note": "",
+        "url": "https://evynw.github.io/"
+      },
+      {
+        "name": "Evelyn's Paid Repo",
+        "note": "",
+        "url": "https://evelyn-ynam.yourepo.com/"
+      },
+      {
+        "name": "fidele007 Repo",
+        "note": "",
+        "url": "https://fidele007.github.io/"
+      },
+      {
+        "name": "Floating-View",
+        "note": "Floating-View 悬浮窗插件",
+        "url": "https://kiiiuaaa.github.io/repo/"
+      },
+      {
+        "name": "frcoal",
+        "note": "",
+        "url": "https://frcoal.cfd/"
+      },
+      {
+        "name": "Frozen Penguin's Repo",
+        "note": "",
+        "url": "https://frozen-penguin.github.io/"
+      },
+      {
+        "name": "Froztz",
+        "note": "",
+        "url": "https://froztz.gitlab.io/cydia/"
+      },
+      {
+        "name": "Fujb",
+        "note": "",
+        "url": "https://sleeper2009.github.io/fujb-repo/"
+      },
+      {
+        "name": "Furoso",
+        "note": "",
+        "url": "https://furoso.github.io/"
+      },
+      {
+        "name": "gilesgc repo",
+        "note": "",
+        "url": "https://gilesgc.github.io/repo/"
+      },
+      {
+        "name": "Giulio Smedile's repo",
+        "note": "",
+        "url": "https://bart172.github.io/repo/"
+      },
+      {
+        "name": "gstpsk",
+        "note": "",
+        "url": "https://gstpsk.github.io/cydia/"
+      },
+      {
+        "name": "HAHALOSAH's Repo",
+        "note": "",
+        "url": "https://repo.hhls.xyz/"
+      },
+      {
+        "name": "Halo_Michael’s Cydia Repo",
+        "note": "",
+        "url": "https://halo-michael.github.io/repo/"
+      },
+      {
+        "name": "Hamza",
+        "note": "",
+        "url": "https://zzhamzazz.github.io/"
+      },
+      {
+        "name": "Haoict Repository",
+        "note": "",
+        "url": "https://haoict.github.io/cydia/"
+      },
+      {
+        "name": "Hende",
+        "note": "",
+        "url": "https://hende101.github.io/repo/"
+      },
+      {
+        "name": "henrikssonbrothers",
+        "note": "",
+        "url": "https://henrikssonbrothers.com/cydia/repo/"
+      },
+      {
+        "name": "Hiko’s Repo",
+        "note": "",
+        "url": "https://hikohub.github.io/"
+      },
+      {
+        "name": "Huayuarc",
+        "note": "",
+        "url": "https://huayuarc.yourepo.com/"
+      },
+      {
+        "name": "iakd's Repo",
+        "note": "",
+        "url": "https://iakd.github.io/"
+      },
+      {
+        "name": "iamjamieq's Theme Repo",
+        "note": "",
+        "url": "https://iamjamieq.github.io/repo/"
+      },
+      {
+        "name": "ianne's repo",
+        "note": "",
+        "url": "https://marcoianne.github.io/"
+      },
+      {
+        "name": "iApeiron’s Repo",
+        "note": "",
+        "url": "https://iapeiron.github.io/"
+      },
+      {
+        "name": "iconomatic Source",
+        "note": "",
+        "url": "https://iconomatic.yourepo.com/"
+      },
+      {
+        "name": "iDiddy's Repo",
+        "note": "",
+        "url": "https://ididdy.github.io/"
+      },
+      {
+        "name": "if0x’s beta repo",
+        "note": "测试版源",
+        "url": "https://if0x.github.io/"
+      },
+      {
+        "name": "iOS Setups",
+        "note": "",
+        "url": "https://botlove.github.io/"
+      },
+      {
+        "name": "iOSDesigner Repo",
+        "note": "",
+        "url": "https://iosdesigner.github.io/repo/"
+      },
+      {
+        "name": "iOSHacker",
+        "note": "",
+        "url": "https://ioshacker.github.io/"
+      },
+      {
+        "name": "iPAWiND",
+        "note": "iPAWiND 工具",
+        "url": "https://apt.ipawind.com/"
+      },
+      {
+        "name": "IPG's Beta Repo",
+        "note": "测试版源",
+        "url": "https://cydia.invoxiplaygames.uk/beta/"
+      },
+      {
+        "name": "IPG's Repo",
+        "note": "",
+        "url": "https://cydia.invoxiplaygames.uk/"
+      },
+      {
+        "name": "iSecureOS Security Repo For iOS",
+        "note": "iSecureOS 安全工具",
+        "url": "https://isecureos.idevicecentral.com/repo/"
+      },
+      {
+        "name": "iTrickzGG’s REPO",
+        "note": "",
+        "url": "https://itrickzgg.github.io/"
+      },
+      {
+        "name": "itsjafer",
+        "note": "",
+        "url": "https://itsjafer.com/repo/"
+      },
+      {
+        "name": "jailbreak365's Repo",
+        "note": "",
+        "url": "https://jb365.github.io/"
+      },
+      {
+        "name": "Jammytea's repo",
+        "note": "",
+        "url": "https://jammytea.github.io/"
+      },
+      {
+        "name": "Janis' Repo",
+        "note": "",
+        "url": "https://janisbtw.github.io/repo/"
+      },
+      {
+        "name": "Jarxy Repo",
+        "note": "",
+        "url": "https://jarxy.github.io/"
+      },
+      {
+        "name": "JesperFlodin",
+        "note": "",
+        "url": "https://jesperflodin1.github.io/"
+      },
+      {
+        "name": "joedj's beta repo",
+        "note": "测试版源",
+        "url": "https://cydia.joedj.net/"
+      },
+      {
+        "name": "joemerlino Public Repository",
+        "note": "",
+        "url": "https://joemerlino.github.io/repo/"
+      },
+      {
+        "name": "john",
+        "note": "Way Out 与双系统工具",
+        "url": "https://nyansatan.github.io/apt/"
+      },
+      {
+        "name": "Johnzaro's Repo",
+        "note": "",
+        "url": "https://johnzaro.github.io/cydia/"
+      },
+      {
+        "name": "julioverne",
+        "note": "",
+        "url": "http://julioverne.github.io/"
+      },
+      {
+        "name": "Kaurux",
+        "note": "",
+        "url": "https://karimo299.github.io/repo/"
+      },
+      {
+        "name": "kdog0598.github.com",
+        "note": "",
+        "url": "https://kdog0598.github.io/"
+      },
+      {
+        "name": "Kenji Bailly's Repo",
+        "note": "",
+        "url": "https://kenjibailly.github.io/repo/"
+      },
+      {
+        "name": "khanhduytran0's repo",
+        "note": "",
+        "url": "https://khanhduytran0.github.io/repo/"
+      },
+      {
+        "name": "kid1carus d3sign",
+        "note": "",
+        "url": "https://kid1carus.github.io/repo/"
+      },
+      {
+        "name": "Korboy's Repo",
+        "note": "",
+        "url": "https://korboybeats.github.io/"
+      },
+      {
+        "name": "Kotyan Repo",
+        "note": "",
+        "url": "https://kotyanlife.info/cydiarepo/"
+      },
+      {
+        "name": "Kunderscore",
+        "note": "",
+        "url": "https://kunderscore.gitlab.io/repo/"
+      },
+      {
+        "name": "Kurt1277's Official Repo",
+        "note": "",
+        "url": "https://kurt1277.github.io/"
+      },
+      {
+        "name": "KyleFang",
+        "note": "",
+        "url": "https://zhigang1992.github.io/cydia/"
+      },
+      {
+        "name": "L3to Beta Repo",
+        "note": "测试版源",
+        "url": "https://l3tobeta.yourepo.com/"
+      },
+      {
+        "name": "Lacertosus's Private Repository",
+        "note": "",
+        "url": "https://lacertosusrepo.github.io/"
+      },
+      {
+        "name": "LaughingQuoll's Repo",
+        "note": "",
+        "url": "https://laughingquoll.net/repo/"
+      },
+      {
+        "name": "Lemonas's Repo",
+        "note": "",
+        "url": "https://lincorn.github.io/repo/"
+      },
+      {
+        "name": "LibHooker Beta Repo",
+        "note": "libhooker 测试版源",
+        "url": "https://repo.theodyssey.dev/libhooker-beta/"
+      },
+      {
+        "name": "LINEExtender",
+        "note": "",
+        "url": "https://lineextender.github.io/"
+      },
+      {
+        "name": "lint.github.io/repo",
+        "note": "",
+        "url": "https://lint.github.io/repo/"
+      },
+      {
+        "name": "luharepo",
+        "note": "",
+        "url": "https://luharepo.github.io/repo/"
+      },
+      {
+        "name": "m156@nrkvv",
+        "note": "",
+        "url": "http://m156nrkvv.g2.xrea.com/repo/"
+      },
+      {
+        "name": "Manof's Public Repository",
+        "note": "",
+        "url": "https://obenchekroun.github.io/"
+      },
+      {
+        "name": "manolz",
+        "note": "",
+        "url": "https://manolzrepo.github.io/ios/"
+      },
+      {
+        "name": "Martin Pham Cydia",
+        "note": "",
+        "url": "https://martinpham.gitlab.io/cydia/"
+      },
+      {
+        "name": "mati",
+        "note": "",
+        "url": "https://yp261.github.io/repo/"
+      },
+      {
+        "name": "MatRanc's Repo",
+        "note": "",
+        "url": "https://matranc.github.io/repo/"
+      },
+      {
+        "name": "Matthew Pierson",
+        "note": "",
+        "url": "https://matthewpierson.github.io/"
+      },
+      {
+        "name": "Max Armin's Repo",
+        "note": "",
+        "url": "https://maxarmin.github.io/"
+      },
+      {
+        "name": "mbo42's repo",
+        "note": "",
+        "url": "https://mbo42.com/repo/"
+      },
+      {
+        "name": "Megadev",
+        "note": "",
+        "url": "https://megadevios.github.io/repo/"
+      },
+      {
+        "name": "Mehul",
+        "note": "",
+        "url": "https://mehulrao.github.io/"
+      },
+      {
+        "name": "Menard iOS Designs",
+        "note": "",
+        "url": "https://menardiosdesigns.github.io/repo/"
+      },
+      {
+        "name": "Mercury",
+        "note": "",
+        "url": "https://mercuryiosdev.github.io/"
+      },
+      {
+        "name": "MidnightChips Repo",
+        "note": "",
+        "url": "https://repo.midnightchips.me/"
+      },
+      {
+        "name": "Mieing",
+        "note": "",
+        "url": "https://mieing.github.io/"
+      },
+      {
+        "name": "Miro-PPB",
+        "note": "",
+        "url": "https://miroppb.com/repo/"
+      },
+      {
+        "name": "Mootjeuh's Repo",
+        "note": "",
+        "url": "http://apt.mootjeuh.com/"
+      },
+      {
+        "name": "moyashi repository",
+        "note": "",
+        "url": "http://hitoriblog.com/apt/"
+      },
+      {
+        "name": "MPG13",
+        "note": "",
+        "url": "https://flashbackios.github.io/"
+      },
+      {
+        "name": "Mrmad",
+        "note": "",
+        "url": "https://mrmadjb.github.io/"
+      },
+      {
+        "name": "mrvayga Beta Repo",
+        "note": "测试版源",
+        "url": "https://mrvaygaflex.github.io/"
+      },
+      {
+        "name": "MtKDes1gn Repo",
+        "note": "",
+        "url": "https://mtkdes1gn.yourepo.com/"
+      },
+      {
+        "name": "n0mar's Public Repo",
+        "note": "",
+        "url": "https://n0mar.github.io/"
+      },
+      {
+        "name": "nahum365’s repo",
+        "note": "",
+        "url": "https://nahum365.github.io/"
+      },
+      {
+        "name": "NathanW's Repo",
+        "note": "",
+        "url": "https://nathanwhit.github.io/repo/"
+      },
+      {
+        "name": "Nathan’s Repo",
+        "note": "",
+        "url": "https://nathanaccidentally.github.io/"
+      },
+      {
+        "name": "Netskao Backup Repo",
+        "note": "Netskao 插件备份",
+        "url": "https://sharman79.github.io/Netskao/"
+      },
+      {
+        "name": "Nezuko's Repo",
+        "note": "",
+        "url": "https://siieo.github.io/"
+      },
+      {
+        "name": "NHFTD Repo",
+        "note": "",
+        "url": "https://nothereforthedong.github.io/"
+      },
+      {
+        "name": "nicho1asdev",
+        "note": "",
+        "url": "https://nicho1asdev.github.io/repo/"
+      },
+      {
+        "name": "NIN0's Repo",
+        "note": "",
+        "url": "https://n-i-n-0.github.io/repo/"
+      },
+      {
+        "name": "Ninji's Repo",
+        "note": "",
+        "url": "https://cydia.wuffs.org/"
+      },
+      {
+        "name": "Nixuge's Repo",
+        "note": "NetworkManager 插件",
+        "url": "https://cydia.nixuge.me/"
+      },
+      {
+        "name": "Nrepo",
+        "note": "",
+        "url": "https://nrepo.github.io/"
+      },
+      {
+        "name": "NSCake",
+        "note": "",
+        "url": "https://nscake.github.io/"
+      },
+      {
+        "name": "OatmealDome's Repo",
+        "note": "",
+        "url": "https://cydia.oatmealdome.me/"
+      },
+      {
+        "name": "Odyssey Repo",
+        "note": "Odyssey 越狱基础源",
+        "url": "https://repo.theodyssey.dev/"
+      },
+      {
+        "name": "Official dtathemes Repo",
+        "note": "",
+        "url": "https://cydia.dtathemes.com/repo/"
+      },
+      {
+        "name": "Official LuMartti's Public Repo",
+        "note": "",
+        "url": "https://lumartti.github.io/"
+      },
+      {
+        "name": "ok95 Source",
+        "note": "",
+        "url": "https://ok95.yourepo.com/"
+      },
+      {
+        "name": "OneLessLagger",
+        "note": "",
+        "url": "https://onelesslagger.github.io/repo/"
+      },
+      {
+        "name": "Opal Beta Repo",
+        "note": "测试版源",
+        "url": "https://ikilledappl3.com/opalbeta/"
+      },
+      {
+        "name": "OvercookedFish's Repo",
+        "note": "",
+        "url": "https://overcookedfish.github.io/"
+      },
+      {
+        "name": "Packix",
+        "note": "归档源，自 2022 年 8 月起停止运营",
+        "url": "https://repo.packix.com/"
+      },
+      {
+        "name": "Paparajote's Official Repo",
+        "note": "",
+        "url": "https://paparajote.github.io/"
+      },
+      {
+        "name": "ParrotGeek Software (Archive)",
+        "note": "归档源",
+        "url": "https://parrotgeek.com/repo/"
+      },
+      {
+        "name": "Perry Cucko's Official Repo",
+        "note": "",
+        "url": "https://perrycucko.github.io/"
+      },
+      {
+        "name": "Person's Repo",
+        "note": "",
+        "url": "https://xxthepersonx.github.io/repo/"
+      },
+      {
+        "name": "Peter Pan's Repo",
+        "note": "",
+        "url": "https://p3t3rpan.github.io/repo/"
+      },
+      {
+        "name": "Pheux Repository",
+        "note": "",
+        "url": "https://pheuxdev.github.io/repo/"
+      },
+      {
+        "name": "phil-highrez.github.io",
+        "note": "",
+        "url": "https://phil-highrez.github.io/repo/"
+      },
+      {
+        "name": "pholic",
+        "note": "",
+        "url": "https://pholic.github.io/repo/"
+      },
+      {
+        "name": "PhucDo's Repo",
+        "note": "",
+        "url": "https://dobabaophuc1706.github.io/repo/"
+      },
+      {
+        "name": "Pikabu Repo",
+        "note": "",
+        "url": "https://pikabucydia.github.io/"
+      },
+      {
+        "name": "pillowbear's repo",
+        "note": "",
+        "url": "https://pillowbear.github.io/"
+      },
+      {
+        "name": "PiniponSelvagem",
+        "note": "",
+        "url": "https://piniponselvagem.github.io/cydia/"
+      },
+      {
+        "name": "PINPAL's Repo",
+        "note": "",
+        "url": "https://pinpal.github.io/"
+      },
+      {
+        "name": "pixelomer",
+        "note": "",
+        "url": "https://repo.pixelomer.com/"
+      },
+      {
+        "name": "POLLAPO's Repo",
+        "note": "",
+        "url": "https://rrnmrnm.github.io/"
+      },
+      {
+        "name": "Polyphian",
+        "note": "",
+        "url": "https://polyphian.github.io/repo/"
+      },
+      {
+        "name": "PostBox Repo",
+        "note": "PostBox 应用测试版源",
+        "url": "https://postbox.news/"
+      },
+      {
+        "name": "PPSSPP Repo",
+        "note": "PPSSPP 模拟器",
+        "url": "https://cydia.ppsspp.org/"
+      },
+      {
+        "name": "Pr0crustes",
+        "note": "",
+        "url": "https://pr0crustes.github.io/repo/"
+      },
+      {
+        "name": "Procursus (RootHide ALT 1900)",
+        "note": "RootHide 基础工具包，1900 分支",
+        "url": "https://github.com/roothide/roothide.github.io/releases/download/1900/"
+      },
+      {
+        "name": "Pwn20wnd’s Cydia Repo",
+        "note": "",
+        "url": "http://xnu.science/repo/"
+      },
+      {
+        "name": "pxcex Official Repo",
+        "note": "",
+        "url": "https://paxcex.github.io/"
+      },
+      {
+        "name": "rahwan3d",
+        "note": "",
+        "url": "https://rahwan3d.github.io/repo/"
+      },
+      {
+        "name": "Rain",
+        "note": "",
+        "url": "https://rain1-d1l.pages.dev/"
+      },
+      {
+        "name": "Ramen Repo",
+        "note": "",
+        "url": "https://ramenrepo.github.io/"
+      },
+      {
+        "name": "Randomblock1's Repo",
+        "note": "",
+        "url": "https://randomblock1.github.io/repo/"
+      },
+      {
+        "name": "Randy420's Official Repo",
+        "note": "",
+        "url": "https://randy-420.github.io/"
+      },
+      {
+        "name": "Rango’s Repo",
+        "note": "",
+        "url": "https://yungspecht.github.io/"
+      },
+      {
+        "name": "RBT Digital Beta",
+        "note": "测试版源",
+        "url": "https://repo.rbtdigital.com/"
+      },
+      {
+        "name": "ReddestDream's Repo",
+        "note": "",
+        "url": "https://reddestdream.github.io/"
+      },
+      {
+        "name": "Redzrex's Repo",
+        "note": "",
+        "url": "https://redzrex.github.io/"
+      },
+      {
+        "name": "ReJail Repo",
+        "note": "",
+        "url": "https://rejail.ru/"
+      },
+      {
+        "name": "repo de seatanners",
+        "note": "",
+        "url": "https://seatanners.github.io/repo/"
+      },
+      {
+        "name": "Rishanan's Repo",
+        "note": "",
+        "url": "https://rishanan.github.io/"
+      },
+      {
+        "name": "Rival Dev's Public Repo",
+        "note": "",
+        "url": "https://rival-dev.github.io/"
+      },
+      {
+        "name": "RootHide-Procursus-Backup",
+        "note": "",
+        "url": "https://susudear.github.io/roothides/"
+      },
+      {
+        "name": "Rotanakpiseth Love Sina",
+        "note": "",
+        "url": "https://rotanakpiseth.github.io/"
+      },
+      {
+        "name": "roymakestuff",
+        "note": "",
+        "url": "https://roymakestuff.github.io/"
+      },
+      {
+        "name": "Ruler225's Repo",
+        "note": "",
+        "url": "https://ruler225.github.io/"
+      },
+      {
+        "name": "Ryan Nair's Repo",
+        "note": "Cylinder Remade 动画插件测试版",
+        "url": "https://ryannair05.github.io/repo/"
+      },
+      {
+        "name": "S0MECoder",
+        "note": "",
+        "url": "https://s0mecoder.github.io/repo/"
+      },
+      {
+        "name": "s1ris",
+        "note": "",
+        "url": "https://s1ris.github.io/repo/"
+      },
+      {
+        "name": "Saadat's Repository",
+        "note": "",
+        "url": "https://apt.saadat.dev/"
+      },
+      {
+        "name": "saj0vie Repo",
+        "note": "",
+        "url": "https://saj0vie.github.io/"
+      },
+      {
+        "name": "Samg_is_a_Ninja's Repo",
+        "note": "",
+        "url": "https://samgisaninja.github.io/"
+      },
+      {
+        "name": "Samg_is_a_Ninja's unstable tweaks",
+        "note": "作者个人不稳定测试源",
+        "url": "https://samgisaninja.github.io/test/"
+      },
+      {
+        "name": "Sammy's Repo",
+        "note": "",
+        "url": "https://sammydentino.github.io/repo/"
+      },
+      {
+        "name": "Samplasion's Repository",
+        "note": "",
+        "url": "https://samplasion.github.io/cydia/"
+      },
+      {
+        "name": "Sarim's Repo",
+        "note": "",
+        "url": "https://sarim.github.io/cydia/"
+      },
+      {
+        "name": "Sectorus Cydia Repo",
+        "note": "",
+        "url": "https://sectorus.github.io/cydia/"
+      },
+      {
+        "name": "Shade’s Repo",
+        "note": "",
+        "url": "https://shade-zepheri.github.io/"
+      },
+      {
+        "name": "Shaundegr8's Beta Repo",
+        "note": "测试版源",
+        "url": "https://shaundegr8.github.io/"
+      },
+      {
+        "name": "shiftcmdk",
+        "note": "",
+        "url": "https://shiftcmdk.github.io/repo/"
+      },
+      {
+        "name": "Shuga's Repo",
+        "note": "",
+        "url": "https://repo.shuga.co/"
+      },
+      {
+        "name": "Sk37cH’s Repo",
+        "note": "",
+        "url": "https://sk37chi.github.io/"
+      },
+      {
+        "name": "sk8r",
+        "note": "",
+        "url": "https://sk8rdev.github.io/"
+      },
+      {
+        "name": "Skebby Repo #TEST",
+        "note": "",
+        "url": "https://skebby11.github.io/cydia-repo/"
+      },
+      {
+        "name": "SkyFrost Beta Repository",
+        "note": "测试版源",
+        "url": "https://skyfrost.github.io/repo/"
+      },
+      {
+        "name": "Skylerk99",
+        "note": "",
+        "url": "https://skylerk99.github.io/"
+      },
+      {
+        "name": "SlyFabi´s Repo",
+        "note": "",
+        "url": "https://slyfabi.github.io/"
+      },
+      {
+        "name": "Smacpats’ Repo",
+        "note": "",
+        "url": "https://smacpats.github.io/repo/"
+      },
+      {
+        "name": "Sn",
+        "note": "",
+        "url": "https://sn50repo.github.io/"
+      },
+      {
+        "name": "Sn0wCooder repo",
+        "note": "",
+        "url": "https://sn0wcooder.github.io/"
+      },
+      {
+        "name": "Sparcave",
+        "note": "",
+        "url": "https://spartacusdev.github.io/"
+      },
+      {
+        "name": "Stable Auxilium Repo",
+        "note": "",
+        "url": "https://auxilium-development.github.io/repo/"
+      },
+      {
+        "name": "Starwarsfan2099's Repo",
+        "note": "",
+        "url": "https://starwarsfan2099.github.io/"
+      },
+      {
+        "name": "stek29",
+        "note": "",
+        "url": "https://stek29.rocks/cyrepo/"
+      },
+      {
+        "name": "stemgrades Repo",
+        "note": "",
+        "url": "https://stemgrade.github.io/"
+      },
+      {
+        "name": "subdiox's Repo",
+        "note": "",
+        "url": "https://subdiox.com/cydia/"
+      },
+      {
+        "name": "submanifold",
+        "note": "",
+        "url": "https://submanifold.be/cydia/"
+      },
+      {
+        "name": "Supercharge",
+        "note": "",
+        "url": "https://repo.supercharge.app/"
+      },
+      {
+        "name": "synnygr",
+        "note": "",
+        "url": "https://synnygr.dev/repo/"
+      },
+      {
+        "name": "Tale",
+        "note": "",
+        "url": "https://repo.renai.me/"
+      },
+      {
+        "name": "TapSharp",
+        "note": "",
+        "url": "https://cydia.tapsharp.com/"
+      },
+      {
+        "name": "tateu",
+        "note": "",
+        "url": "https://tateu.net/repo/"
+      },
+      {
+        "name": "tdmd repo",
+        "note": "",
+        "url": "https://tdmd.github.io/"
+      },
+      {
+        "name": "Team CoolApple's Official Repo",
+        "note": "",
+        "url": "https://teamcoolapple.github.io/"
+      },
+      {
+        "name": "team Kodi",
+        "note": "Kodi 媒体播放器 iOS 源",
+        "url": "https://mirrors.kodi.tv/apt/ios/"
+      },
+      {
+        "name": "Teggers Repo",
+        "note": "",
+        "url": "https://extigy.github.io/repo/"
+      },
+      {
+        "name": "ter4m Source",
+        "note": "Patreon 会员源",
+        "url": "https://ter4m.yourepo.com/"
+      },
+      {
+        "name": "The Real Australian's Repo",
+        "note": "",
+        "url": "https://masonpawsey.github.io/"
+      },
+      {
+        "name": "The Reedpo",
+        "note": "",
+        "url": "https://cydia.r333d.com/"
+      },
+      {
+        "name": "The-SamminAter's repo",
+        "note": "Go 工具包",
+        "url": "https://the-samminater.github.io/repo/"
+      },
+      {
+        "name": "TheComputerWhisperer's Repo",
+        "note": "",
+        "url": "https://legitcomputerwhisperer.github.io/"
+      },
+      {
+        "name": "Thenatis",
+        "note": "",
+        "url": "https://thenatis.github.io/repo/"
+      },
+      {
+        "name": "TheonlyGermanGuy's repo",
+        "note": "",
+        "url": "https://theonlygermanguy.github.io/repo/"
+      },
+      {
+        "name": "TheRasPiGuy's Repo",
+        "note": "",
+        "url": "https://theraspiguy.github.io/"
+      },
+      {
+        "name": "Thomz's repo",
+        "note": "",
+        "url": "https://thomz07.github.io/"
+      },
+      {
+        "name": "ToneCat's Repo",
+        "note": "",
+        "url": "https://tonecat.github.io/"
+      },
+      {
+        "name": "Tony Ciroussel repo",
+        "note": "",
+        "url": "https://akebu.github.io/cydia/"
+      },
+      {
+        "name": "Tonyk7",
+        "note": "",
+        "url": "https://tonyk7.github.io/"
+      },
+      {
+        "name": "Tools4cydia",
+        "note": "",
+        "url": "https://tools4cydia.github.io/Bootstrap/"
+      },
+      {
+        "name": "Tr1Fecta Repo",
+        "note": "",
+        "url": "https://tr1fecta-7.github.io/repo/"
+      },
+      {
+        "name": "trop's litten mirror",
+        "note": "Litten 插件归档镜像",
+        "url": "https://troppp.github.io/litten-repo-mirror/"
+      },
+      {
+        "name": "TurntTonsils' Repo",
+        "note": "",
+        "url": "https://turnttonsils.github.io/"
+      },
+      {
+        "name": "Tweakality's Repo",
+        "note": "",
+        "url": "https://tweakality.github.io/repo/"
+      },
+      {
+        "name": "Tweaking's Repo",
+        "note": "",
+        "url": "https://tweakings.github.io/"
+      },
+      {
+        "name": "Tweaks.fun",
+        "note": "",
+        "url": "https://ios.tweaks.fun/"
+      },
+      {
+        "name": "Twickd",
+        "note": "Twickd 插件与主题源",
+        "url": "https://repo.twickd.com/"
+      },
+      {
+        "name": "tyler",
+        "note": "",
+        "url": "https://repo.tylercasson.com/"
+      },
+      {
+        "name": "uar",
+        "note": "",
+        "url": "https://apt.uar.no/"
+      },
+      {
+        "name": "UD-Team's official repo",
+        "note": "",
+        "url": "https://ud-team.github.io/repo/"
+      },
+      {
+        "name": "Unicorn's Repo",
+        "note": "",
+        "url": "https://repo.mogdan.xyz/"
+      },
+      {
+        "name": "uroboro's repo",
+        "note": "",
+        "url": "https://uroboro.github.io/repo/"
+      },
+      {
+        "name": "Vincent's Repo",
+        "note": "",
+        "url": "https://vincent-520.github.io/repo/"
+      },
+      {
+        "name": "Viren’s Repo",
+        "note": "",
+        "url": "https://virenmohindra.me/"
+      },
+      {
+        "name": "Wavelink Studios Public Repo",
+        "note": "",
+        "url": "https://wavelinkstudios.github.io/site/repo/"
+      },
+      {
+        "name": "Wendigo´s Repository",
+        "note": "",
+        "url": "https://wendigotv.github.io/repo/"
+      },
+      {
+        "name": "Wh0ba",
+        "note": "",
+        "url": "https://wh0ba.github.io/repo/"
+      },
+      {
+        "name": "WhyIsItReal's Repo",
+        "note": "",
+        "url": "https://whyisitreal.github.io/"
+      },
+      {
+        "name": "Wiety beta repo",
+        "note": "测试版源",
+        "url": "https://wiety.github.io/cydia/"
+      },
+      {
+        "name": "William Muff's Repo",
+        "note": "",
+        "url": "https://williammuff.github.io/repo/"
+      },
+      {
+        "name": "wolfposd Beta Repository",
+        "note": "测试版源",
+        "url": "https://wolfposd.github.io/"
+      },
+      {
+        "name": "wrp1002",
+        "note": "",
+        "url": "https://cosmiccode.cc/repo/"
+      },
+      {
+        "name": "wrp1002",
+        "note": "",
+        "url": "https://wrp1002.github.io/"
+      },
+      {
+        "name": "XaviTec",
+        "note": "",
+        "url": "https://xavitec.github.io/"
+      },
+      {
+        "name": "XMB5",
+        "note": "",
+        "url": "https://xmb5.github.io/cydia/"
+      },
+      {
+        "name": "YulkyTulky",
+        "note": "",
+        "url": "https://yulkytulky.com/"
+      },
+      {
+        "name": "Yusuf's Repository",
+        "note": "",
+        "url": "https://yusufozgul.github.io/"
+      },
+      {
+        "name": "ZaneH",
+        "note": "",
+        "url": "https://zaneh.github.io/repo/"
+      },
+      {
+        "name": "Zebra",
+        "note": "Zebra 测试版源",
+        "url": "https://getzbra.com/beta/"
+      },
+      {
+        "name": "ZeeK's Repo",
+        "note": "",
+        "url": "https://zeekforit.github.io/"
+      },
+      {
+        "name": "zEstLabs Repo",
+        "note": "",
+        "url": "https://zestlabs.github.io/"
+      },
+      {
+        "name": "ZezBlog Repo",
+        "note": "",
+        "url": "https://yazeedot.github.io/"
+      },
+      {
+        "name": "zlxdike's Repo",
+        "note": "",
+        "url": "https://zlxdike.github.io/repo/"
+      },
+      {
+        "name": "zSaaiq's Repo",
+        "note": "",
+        "url": "https://zsaaiq.github.io/jailbreakrepo/"
+      }
+    ]
+  }
+]
