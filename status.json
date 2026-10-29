@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-28T23:13:55+00:00",
+ "generated": "2026-10-29T23:18:11+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "hongguofn 2.0.6",
-    "hongguofn.roothide 2.0.6"
+    "hongguofn 2.1.0",
+    "hongguofn.roothide 2.1.0"
    ]
   },
   "https://opa334.github.io/": {
@@ -19,21 +19,21 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 969,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.hades.locktouchx 2.0",
-    "com.dao.neofreebird.bht 7.2.2-1+debug",
-    "com.hades.storeswitchaccounts 2.1"
+    "com.hades.locktouchx 2.2",
+    "com.dao.neofreebird.bht 7.3.0+debug",
+    "com.dao.ryukgram 1.5.1"
    ]
   },
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.xybp888.callassist16.dopamine 3.2.9",
-    "com.xybp888.callassist16.dopamine.roothide 3.2.9",
-    "com.xybp888.callassist17.dopamine 2.3.8"
+    "com.xybp888.callassist16.dopamine 3.3.1",
+    "com.xybp888.callassist16.dopamine.roothide 3.3.1",
+    "com.xybp888.callassist17.dopamine 2.4.0"
    ]
   },
   "https://jailrepo.initnil.com/": {
@@ -44,10 +44,10 @@
   },
   "https://rootless.002599.xyz/": {
    "status": "ok",
-   "packages": 35,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 36,
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "cn.zqbb.hello.quick.panel 1.2.0-9"
+    "cn.zqbb.hello.jailport 1.0.2"
    ]
   },
   "https://laileld.github.io/repo/": {
@@ -65,11 +65,9 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1332,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.lenglengyu.damapro-rootless 1.1.0",
-    "com.lenglengyu.happydayspro-rootless 0.0.1",
-    "com.lenglengyu.hpscqpro-rootless 0.0.2"
+    "com.lenglengyu.wodemengpro-rootless 0.0.2"
    ]
   },
   "https://flex2areo.github.io/": {
@@ -105,9 +103,12 @@
   },
   "https://repo.chariz.com/": {
    "status": "ok",
-   "packages": 182,
-   "updated": "2026-10-20T09:25:29+00:00",
-   "latest": null
+   "packages": 184,
+   "updated": "2026-10-29T23:18:11+00:00",
+   "latest": [
+    "com.antonym.easyswipe 1.0.2",
+    "com.antonym.glint 1.6.3"
+   ]
   },
   "https://getzbra.com/repo/": {
    "status": "ok",
@@ -124,11 +125,11 @@
   "https://havoc.app/": {
    "status": "ok",
    "packages": 531,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.dvntm.showmytouches 2.0",
-    "com.t4mag0.powertrace 1.0.3b",
-    "com.ichitaso.horythia 1.1.0"
+    "com.ichitaso.horythia 1.1.1",
+    "com.ichitaso.primalfolderpro 1.0.1",
+    "com.besiktasliseba.macstatusbaranddock 1.6.1"
    ]
   },
   "https://roothide.github.io/": {
@@ -223,10 +224,11 @@
   "http://repo.cydiabc.top/": {
    "status": "ok",
    "packages": 3726,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.cydiabc.czzswechat 2.7.4",
-    "com.cydiabc.czzswechat-rootless 2.7.4"
+    "com.cydiabc.callassist16-roothide 3.3.1",
+    "com.cydiabc.callassist16.dopamine 3.3.1",
+    "com.cydiabc.callassist17-roothide 2.4.0"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -238,9 +240,9 @@
   "https://byg.iosios.net/": {
    "status": "ok",
    "packages": 958,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "byg.iosios.net.dumpapp.wechat-rootless 2.7.4"
+    "byg.iosios.net.dumpapp.wechat-rootless 2.7.5"
    ]
   },
   "https://trollstorex.github.io/repo/": {
@@ -252,9 +254,9 @@
   "https://wwg135.github.io/": {
    "status": "ok",
    "packages": 353,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "wiki.qaq.irisin 5.0.3"
+    "wiki.qaq.irisin 5.0.4"
    ]
   },
   "https://invalidunit.github.io/repo2/": {
@@ -265,10 +267,10 @@
   },
   "https://rootless.zq666.eu.org/": {
    "status": "ok",
-   "packages": 35,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 36,
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "cn.zqbb.hello.quick.panel 1.2.0-9"
+    "cn.zqbb.hello.jailport 1.0.2"
    ]
   },
   "https://sini921.github.io/": {
@@ -337,10 +339,11 @@
   "https://apt.cydiabc.top/": {
    "status": "ok",
    "packages": 3726,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.cydiabc.czzswechat 2.7.4",
-    "com.cydiabc.czzswechat-rootless 2.7.4"
+    "com.cydiabc.callassist16-roothide 3.3.1",
+    "com.cydiabc.callassist16.dopamine 3.3.1",
+    "com.cydiabc.callassist17-roothide 2.4.0"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -397,9 +400,11 @@
   },
   "https://hang1888.github.io/": {
    "status": "ok",
-   "packages": 26,
-   "updated": "2026-10-21T11:39:57+00:00",
-   "latest": null
+   "packages": 27,
+   "updated": "2026-10-29T23:18:11+00:00",
+   "latest": [
+    "com.hang.douyinsearchfix 1.0"
+   ]
   },
   "https://repo.susubaby.cn/": {
    "status": "ok",
@@ -518,9 +523,9 @@
   "http://cydia.ichitaso.com/": {
    "status": "ok",
    "packages": 106,
-   "updated": "2026-10-27T22:57:33+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.ichitaso.primalfolderpro 0.0.2~beta7"
+    "com.kdt.aintuitweak 0.0.2"
    ]
   },
   "http://junesiphone.com/supersecret/": {
@@ -564,9 +569,9 @@
   "https://repo.ikghd.me/": {
    "status": "ok",
    "packages": 4,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "me.ikghd.ytkplus 6.7.9"
+    "me.ikghd.inkplus 5.3.5"
    ]
   },
   "https://cydia.rob311.com/repo/": {
@@ -635,19 +640,21 @@
   },
   "https://mlgm66.github.io/": {
    "status": "ok",
-   "packages": 19,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 20,
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.mlgm.actra 1.3.2",
-    "com.mlgm.kayoko 5.0.4"
+    "com.mlgm.clone 0.1",
+    "com.mlgm.taploom 1.1.7"
    ]
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 874,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 886,
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.snapbackup 3.6.5"
+    "wiki.qaq.irisin 5.1.1",
+    "com.cracklock.7513 1.0.4",
+    "com.cydiageek.hapticsleep 1.0.2"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -754,10 +761,10 @@
   },
   "https://wkkyy00.github.io/": {
    "status": "ok",
-   "packages": 465,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 466,
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.wkk.wechatx 2.4-5"
+    "com.82flex.touchvis2 4.2"
    ]
   },
   "https://level3tjg.me/repo/": {
@@ -799,11 +806,11 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 44,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "wiki.qaq.apelin 0.2.5",
-    "wiki.qaq.claude 2.1.312",
-    "wiki.qaq.ighostvt 1.6.20"
+    "owngoal-bootstrap-vphone 1.2.0",
+    "wiki.qaq.apelin.dev.app 0.1.1",
+    "wiki.qaq.apelin.dev.cli 0.1.2"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -877,9 +884,9 @@
   "https://ichitaso.com/apt/": {
    "status": "ok",
    "packages": 106,
-   "updated": "2026-10-27T22:57:33+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.ichitaso.primalfolderpro 0.0.2~beta7"
+    "com.kdt.aintuitweak 0.0.2"
    ]
   },
   "http://aquawu.github.io/igg/": {
@@ -1108,11 +1115,9 @@
   "https://al3raqe.github.io/": {
    "status": "ok",
    "packages": 181,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
-    "com.galacticdev.isponsorblock 1.3.3",
-    "com.ps.ytx 1.7.24",
-    "com.ryannair05.cylinder 1.2.0"
+    "com.fahd.twitterdownloader 1.3.3"
    ]
   },
   "https://leftyfl1p.github.io/": {
@@ -2168,7 +2173,7 @@
    "latest": null
   },
   "https://cydia.ppsspp.org/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 2,
    "updated": "2019-01-30T14:39:32+00:00",
    "latest": null
