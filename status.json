@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T22:58:39+00:00",
+ "generated": "2026-10-31T22:31:02+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
@@ -28,11 +28,11 @@
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.xybp888.callassist16.dopamine 3.3.2",
-    "com.xybp888.callassist16.dopamine.roothide 3.3.2",
-    "com.xybp888.callassist17.dopamine 2.4.1"
+    "com.xybp888.callassist16.dopamine 3.3.3",
+    "com.xybp888.callassist16.dopamine.roothide 3.3.3",
+    "com.xybp888.callassist17.dopamine 2.4.2"
    ]
   },
   "https://jailrepo.initnil.com/": {
@@ -66,11 +66,11 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1335,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.lenglengyu.gloampro-rootless 0.0.1",
-    "com.lenglengyu.hamhubpro-rootless 1.2.6",
-    "com.lenglengyu.hpscqpro-rootless 0.0.3"
+    "com.lenglengyu.audiorecorderxs-rootless 5.1-12",
+    "com.lenglengyu.cepaidspro-rootless 0.0.2",
+    "com.lenglengyu.chepiaopiao-rootless 0.0.5"
    ]
   },
   "https://flex2areo.github.io/": {
@@ -126,11 +126,11 @@
   "https://havoc.app/": {
    "status": "ok",
    "packages": 532,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.ichitaso.horythia 1.1.2",
-    "com.maxghani.bladient 1.3",
-    "com.whoops.dynamicseth 1.0.1"
+    "com.emp0ry.flickkey 1.0.3",
+    "com.fizz.ripple 0.1.1",
+    "com.besiktasliseba.macstatusbaranddock 1.7.2"
    ]
   },
   "https://roothide.github.io/": {
@@ -143,12 +143,12 @@
   },
   "https://repo.cypwn.xyz/": {
    "status": "ok",
-   "packages": 1142,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "packages": 1145,
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "xyz.cypwn.lucent 2.3",
-    "xyz.cypwn.lucient 1.3.0-1",
-    "xyz.cypwn.luv 1.1"
+    "xyz.cypwn.lana 1.3",
+    "xyz.cypwn.narpill 1.4.0-2",
+    "xyz.cypwn.prysmic 1.0.0"
    ]
   },
   "https://build.frida.re/": {
@@ -226,11 +226,11 @@
   "http://repo.cydiabc.top/": {
    "status": "ok",
    "packages": 3726,
-   "updated": "2026-10-29T23:18:11+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.3.1",
-    "com.cydiabc.callassist16.dopamine 3.3.1",
-    "com.cydiabc.callassist17-roothide 2.4.0"
+    "com.cydiabc.callassist16-roothide 3.3.3",
+    "com.cydiabc.callassist16.dopamine 3.3.3",
+    "com.cydiabc.callassist17-roothide 2.4.2"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -346,11 +346,11 @@
   "https://apt.cydiabc.top/": {
    "status": "ok",
    "packages": 3726,
-   "updated": "2026-10-29T23:18:11+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.3.1",
-    "com.cydiabc.callassist16.dopamine 3.3.1",
-    "com.cydiabc.callassist17-roothide 2.4.0"
+    "com.cydiabc.callassist16-roothide 3.3.3",
+    "com.cydiabc.callassist16.dopamine 3.3.3",
+    "com.cydiabc.callassist17-roothide 2.4.2"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -420,7 +420,7 @@
    "latest": null
   },
   "https://apt.touchsprite.com/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 2,
    "updated": "2026-06-18T07:26:49+00:00",
    "latest": null
@@ -448,11 +448,10 @@
   "https://poomsmart.github.io/repo/": {
    "status": "ok",
    "packages": 182,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.ps.emojidarkstyle 1.1.0",
-    "com.ps.emojiportpe 1.8.3",
-    "com.ps.emojiportwt 1.4.3"
+    "com.ps.polyfills 2.36.1",
+    "com.ps.sfsymbols 1.2.0"
    ]
   },
   "https://alias20.gitlab.io/apt/": {
@@ -656,12 +655,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 895,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "packages": 898,
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.local.mygestures 0.11.13",
-    "com.mlgm.clone 0.1.6",
-    "com.ntm.privacymanager 1.1.0"
+    "wiki.qaq.irisin 5.1.4",
+    "com.muzi.mutool 2.2.50",
+    "com.ntm.notifymanager 2.3.50"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -813,11 +812,11 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 44,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "updated": "2026-10-31T22:31:02+00:00",
    "latest": [
-    "com.opa334.choicy 1.5.4",
-    "wiki.qaq.apelin.dev.preferences 0.1.3",
-    "wiki.qaq.apelin 0.3.2"
+    "wiki.qaq.apelin 0.3.3",
+    "wiki.qaq.claude 2.1.316",
+    "wiki.qaq.ighostvt 1.6.24"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -1354,8 +1353,10 @@
   "https://doimty.github.io/": {
    "status": "ok",
    "packages": 43,
-   "updated": "2026-10-17T10:43:43+00:00",
-   "latest": null
+   "updated": "2026-10-31T22:31:02+00:00",
+   "latest": [
+    "com.doimty.vedette 1.1.14-9"
+   ]
   },
   "https://droomone.github.io/": {
    "status": "ok",
@@ -1739,9 +1740,11 @@
   },
   "https://korboybeats.github.io/": {
    "status": "ok",
-   "packages": 9,
-   "updated": "2026-08-31T18:55:28+00:00",
-   "latest": null
+   "packages": 10,
+   "updated": "2026-10-31T22:31:02+00:00",
+   "latest": [
+    "com.korboy.testpackage3 1.0"
+   ]
   },
   "https://kotyanlife.info/cydiarepo/": {
    "status": "ok",
@@ -2182,7 +2185,7 @@
    "latest": null
   },
   "https://cydia.ppsspp.org/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 2,
    "updated": "2019-01-30T14:39:32+00:00",
    "latest": null
