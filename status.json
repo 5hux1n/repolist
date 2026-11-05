@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-03T23:59:36+00:00",
+ "generated": "2026-11-05T00:22:56+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-11-03T01:37:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "uuhelper 1.0.3",
-    "uuhelper.roothide 1.0.3",
-    "hongguofn 2.2.0"
+    "im.mjh.doleo 1.0.3",
+    "im.mjh.doleo.roothide 1.0.3",
+    "hongguofn 2.2.1"
    ]
   },
   "https://opa334.github.io/": {
@@ -20,14 +20,15 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 968,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.dao.prefnest 1.2.3"
+    "com.dao.neofreebird.bht 7.3.1+debug",
+    "com.dao.ytkace 1.1.5"
    ]
   },
   "http://apt.htv123.com/": {
    "status": "ok",
-   "packages": 25,
+   "packages": 23,
    "updated": "2026-11-03T01:37:32+00:00",
    "latest": [
     "com.xybp888.callassist16.dopamine 3.3.4",
@@ -44,9 +45,9 @@
   "https://rootless.002599.xyz/": {
    "status": "ok",
    "packages": 37,
-   "updated": "2026-11-03T01:37:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "cn.zqbb.hello.jailport 1.0.6"
+    "cn.zqbb.hello.jailport 1.0.6-1"
    ]
   },
   "https://laileld.github.io/repo/": {
@@ -63,20 +64,20 @@
   },
   "https://lenglengyu.com/": {
    "status": "ok",
-   "packages": 1345,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 1347,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.lenglengyu.hamhubpro-rootless 1.2.7",
-    "com.lenglengyu.jryoujiapro-rootless 0.0.2",
-    "com.lenglengyu.pixelsensepro-rootless 0.0.1"
+    "com.lenglengyu.jufengxjpro-rootless 0.0.6",
+    "com.lenglengyu.readorapro-rootless 0.0.2",
+    "com.lenglengyu.shankapro-rootless 0.0.5"
    ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
    "packages": 9,
-   "updated": "2026-10-30T22:58:39+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.flex2areo.appprotect 2.4.9"
+    "com.flex2areo.appprotect 2.5.0"
    ]
   },
   "https://invalidunit.github.io/repo/": {
@@ -160,9 +161,9 @@
   "https://apt.alfhaily.me/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-10-25T21:47:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "me.alfhaily.rocket 4.25.0"
+    "me.alfhaily.rocket 4.26.0"
    ]
   },
   "https://apt.fouadraheb.com/": {
@@ -223,12 +224,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3736,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 3742,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.cydiabc.laicaipro-roothide 5.0-1",
-    "com.cydiabc.laicaipro-rootless 5.0-1",
-    "com.cydiabc.prefnest-roothide 1.2.3"
+    "com.cydiabc.idata-roothide 1.3.5",
+    "com.cydiabc.idata-rootless 1.3.5",
+    "com.cydiabc.tixingripro-roothide 5.0-1"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -238,7 +239,7 @@
    "latest": null
   },
   "https://byg.iosios.net/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 958,
    "updated": "2026-11-03T23:59:36+00:00",
    "latest": [
@@ -254,11 +255,9 @@
   "https://wwg135.github.io/": {
    "status": "ok",
    "packages": 356,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.huami.dyyy 2.3-0",
-    "hongguofn 2.2.0",
-    "hongguofn.roothide 2.2.0"
+    "com.mg.adskip 1.0.4"
    ]
   },
   "https://invalidunit.github.io/repo2/": {
@@ -270,9 +269,9 @@
   "https://rootless.zq666.eu.org/": {
    "status": "ok",
    "packages": 37,
-   "updated": "2026-11-03T01:37:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "cn.zqbb.hello.jailport 1.0.6"
+    "cn.zqbb.hello.jailport 1.0.6-1"
    ]
   },
   "https://sini921.github.io/": {
@@ -309,11 +308,9 @@
   "https://axs66.github.io/pro/": {
    "status": "ok",
    "packages": 427,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.Axs.appstoreupdateblock 0.1.0",
-    "com.axs.clean 5.2.0-10",
-    "com.axs.touchtrail 5.2.0-62"
+    "com.axs.clean 5.2.0-14"
    ]
   },
   "https://zlw555.github.io/repo/": {
@@ -342,12 +339,12 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3736,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 3742,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.cydiabc.laicaipro-roothide 5.0-1",
-    "com.cydiabc.laicaipro-rootless 5.0-1",
-    "com.cydiabc.prefnest-roothide 1.2.3"
+    "com.cydiabc.idata-roothide 1.3.5",
+    "com.cydiabc.idata-rootless 1.3.5",
+    "com.cydiabc.tixingripro-roothide 5.0-1"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -433,9 +430,9 @@
   "https://cydia.touchelf.com/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-10-26T23:07:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.touchelf.app 7.8.2"
+    "com.touchelf.app 7.8.3"
    ]
   },
   "https://skypain.github.io/repo/": {
@@ -534,10 +531,11 @@
   },
   "http://cydia.ichitaso.com/": {
    "status": "ok",
-   "packages": 108,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 109,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.opa334.ccsupport 1.3.13.1"
+    "com.ichitaso.quickcc2 2.0.1",
+    "com.sahinkaa.blockappupdates 1.0.5"
    ]
   },
   "http://junesiphone.com/supersecret/": {
@@ -640,11 +638,9 @@
   "https://axs.yourepo.com/": {
    "status": "ok",
    "packages": 303,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.yourepo.axs.axsclean 5.2.0-10",
-    "com.yourepo.axs.keyboardtools 5.2.0-206",
-    "com.yourepo.axs.touchtrail 5.2.0-62"
+    "com.yourepo.axs.axsclean 5.2.0-14"
    ]
   },
   "https://apt.bitilly.cn/": {
@@ -665,12 +661,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 907,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 900,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "wiki.qaq.irisin 5.1.6",
-    "cn.qwq.wxrelay 1.4.0",
-    "com.banana.trollpadex 2.0.7"
+    "com.cracklock.7513 1.0.5",
+    "com.crctdd.memtrim 0.0.3",
+    "com.huayuarc.ccsimfix 1.0-2"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -822,11 +818,10 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 45,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.roothide.patchloader 0.0.8",
-    "wiki.qaq.apelin 0.3.5",
-    "wiki.qaq.claude 2.1.317"
+    "wiki.qaq.apelin 0.3.7",
+    "wiki.qaq.claude 2.1.318"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -899,10 +894,11 @@
   },
   "https://ichitaso.com/apt/": {
    "status": "ok",
-   "packages": 108,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "packages": 109,
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.opa334.ccsupport 1.3.13.1"
+    "com.ichitaso.quickcc2 2.0.1",
+    "com.sahinkaa.blockappupdates 1.0.5"
    ]
   },
   "http://aquawu.github.io/igg/": {
@@ -1033,7 +1029,7 @@
    "latest": null
   },
   "https://tweak.mario.net.in/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 17,
    "updated": "2022-10-09T09:40:52+00:00",
    "latest": null
@@ -1321,10 +1317,9 @@
   "https://crctdd.github.io/repo/": {
    "status": "ok",
    "packages": 140,
-   "updated": "2026-11-03T01:37:32+00:00",
+   "updated": "2026-11-05T00:22:56+00:00",
    "latest": [
-    "com.udevs.vedette 1.1.5-1",
-    "re.frida.server 17.25.1"
+    "com.crctdd.memtrim 0.0.3"
    ]
   },
   "https://creaturesurvive.github.io/": {
@@ -2520,7 +2515,7 @@
    "latest": null
   },
   "https://repo.supercharge.app/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 1,
    "updated": "2019-12-04T03:15:41+00:00",
    "latest": null
