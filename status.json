@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-06T00:16:37+00:00",
+ "generated": "2026-11-07T22:45:46+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
    "packages": 25,
-   "updated": "2026-11-05T00:22:56+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "im.mjh.doleo 1.0.3",
-    "im.mjh.doleo.roothide 1.0.3",
-    "hongguofn 2.2.1"
+    "im.mjh.xianyuadblock 3.2.3",
+    "im.mjh.xianyuadblock.roothide 3.2.3",
+    "hongguofn 2.2.2"
    ]
   },
   "https://opa334.github.io/": {
@@ -20,19 +20,20 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 969,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.dao.asjtiktok 1.4"
+    "com.dao.asjtiktok 1.4.1",
+    "com.dao.ytkace 1.1.5.1"
    ]
   },
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 23,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.xybp888.callassist16.dopamine 3.3.6",
-    "com.xybp888.callassist16.dopamine.roothide 3.3.6",
-    "com.xybp888.callassist17.dopamine 2.4.5"
+    "com.xybp888.callassist16.dopamine 3.3.9",
+    "com.xybp888.callassist16.dopamine.roothide 3.3.9",
+    "com.xybp888.callassist17.dopamine 2.4.8"
    ]
   },
   "https://jailrepo.initnil.com/": {
@@ -43,10 +44,11 @@
   },
   "https://rootless.002599.xyz/": {
    "status": "ok",
-   "packages": 37,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 38,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.netskao.wcdisablehotupdates 8.0.80"
+    "cn.zqbb.hello.keyboardport 1.0.2",
+    "cn.zqbb.hello.quick.panel 1.3.0-2"
    ]
   },
   "https://laileld.github.io/repo/": {
@@ -64,11 +66,11 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1347,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.lenglengyu.fenbeiyipro-rootless 0.0.3",
-    "com.lenglengyu.mhjiaonangpro-rootless 0.0.2",
-    "com.lenglengyu.mmreaderpro-rootless 0.0.2"
+    "com.lenglengyu.hamhubpro-rootless 1.2.8",
+    "com.lenglengyu.kedaydqpro-rootless 0.0.4",
+    "com.lenglengyu.scriptingpro-rootless 0.0.2"
    ]
   },
   "https://flex2areo.github.io/": {
@@ -90,8 +92,10 @@
   "https://apt.25mao.com/": {
    "status": "ok",
    "packages": 26,
-   "updated": "2026-10-16T06:54:02+00:00",
-   "latest": null
+   "updated": "2026-11-07T22:45:46+00:00",
+   "latest": [
+    "com.tencent.themebox 3.0.8"
+   ]
   },
   "https://apt.82flex.com/": {
    "status": "ok",
@@ -124,12 +128,12 @@
   },
   "https://havoc.app/": {
    "status": "ok",
-   "packages": 535,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 536,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.joshuaseltzer.ytholdforspeed 1.3.0",
-    "com.foxfort.akino 1.0.6",
-    "com.besiktasliseba.macstatusbaranddock 1.7.9"
+    "com.yan.bloom 1.6",
+    "com.yan.anitime 1.2",
+    "com.moondr1.quickring 1.2.2"
    ]
   },
   "https://roothide.github.io/": {
@@ -153,9 +157,9 @@
   "https://build.frida.re/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "re.frida.server 17.26.0"
+    "re.frida.server 17.26.2"
    ]
   },
   "https://apt.alfhaily.me/": {
@@ -224,12 +228,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3744,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 3748,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.3.6",
-    "com.cydiabc.callassist16.dopamine 3.3.6",
-    "com.cydiabc.callassist17-roothide 2.4.5"
+    "com.cydiabc.callassist16-roothide 3.3.8",
+    "com.cydiabc.callassist16.dopamine 3.3.8",
+    "com.cydiabc.callassist17-roothide 2.4.7"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -268,10 +272,11 @@
   },
   "https://rootless.zq666.eu.org/": {
    "status": "ok",
-   "packages": 37,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 38,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.netskao.wcdisablehotupdates 8.0.80"
+    "cn.zqbb.hello.keyboardport 1.0.2",
+    "cn.zqbb.hello.quick.panel 1.3.0-2"
    ]
   },
   "https://sini921.github.io/": {
@@ -285,25 +290,27 @@
   "https://cydia.dumpapp.com/": {
    "status": "ok",
    "packages": 2,
-   "updated": "2026-10-28T23:13:55+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.dumpapp.wechat-rootless 2.7.5",
-    "com.dumpapp.wechat 2.7.5"
+    "com.dumpapp.wechat-rootless 2.8.1",
+    "com.dumpapp.wechat 2.8.1"
    ]
   },
   "https://qi-ting-zhang.github.io/sileo/": {
    "status": "ok",
-   "packages": 108,
-   "updated": "2026-10-23T22:10:14+00:00",
+   "packages": 109,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.qtz.volumepage 0.0.1"
+    "local.amap.twotabs 1.1"
    ]
   },
   "https://ketty0725.github.io/repo/": {
    "status": "ok",
-   "packages": 1,
-   "updated": "2024-04-21T07:57:14+00:00",
-   "latest": null
+   "packages": 2,
+   "updated": "2026-11-07T22:45:46+00:00",
+   "latest": [
+    "con.ketty.piiico-for-clippa 1.0.1"
+   ]
   },
   "https://axs66.github.io/pro/": {
    "status": "ok",
@@ -339,12 +346,12 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3744,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 3748,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.3.6",
-    "com.cydiabc.callassist16.dopamine 3.3.6",
-    "com.cydiabc.callassist17-roothide 2.4.5"
+    "com.cydiabc.callassist16-roothide 3.3.8",
+    "com.cydiabc.callassist16.dopamine 3.3.8",
+    "com.cydiabc.callassist17-roothide 2.4.7"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -404,8 +411,10 @@
   "https://invalidunit.github.io/archive_25mao/": {
    "status": "ok",
    "packages": 31,
-   "updated": "2026-10-16T07:10:02+00:00",
-   "latest": null
+   "updated": "2026-11-07T22:45:46+00:00",
+   "latest": [
+    "com.tencent.themebox 3.0.8"
+   ]
   },
   "https://hang1888.github.io/": {
    "status": "ok",
@@ -430,9 +439,9 @@
   "https://cydia.touchelf.com/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-11-05T00:22:56+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.touchelf.app 7.8.3"
+    "com.touchelf.app 7.8.4"
    ]
   },
   "https://skypain.github.io/repo/": {
@@ -496,8 +505,10 @@
   "http://tigisoftware.com/repo/": {
    "status": "ok",
    "packages": 4,
-   "updated": "2023-04-09T17:32:51+00:00",
-   "latest": null
+   "updated": "2026-11-07T22:45:46+00:00",
+   "latest": [
+    "com.tigisoftware.filza64bit 5.0.1"
+   ]
   },
   "https://ios.jjolano.me/": {
    "status": "ok",
@@ -578,10 +589,11 @@
   "https://repo.ikghd.me/": {
    "status": "ok",
    "packages": 4,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "me.ikghd.inkplus 5.4",
-    "me.ikghd.ytkplus 6.8"
+    "me.ikghd.inkplus 5.4.1",
+    "me.ikghd.ttkplus 2.3.7",
+    "me.ikghd.ytkplus 6.8.1"
    ]
   },
   "https://cydia.rob311.com/repo/": {
@@ -591,7 +603,7 @@
    "latest": null
   },
   "http://repo.qqtlr.com/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 765,
    "updated": "2026-02-02T06:43:09+00:00",
    "latest": null
@@ -651,21 +663,21 @@
   "https://mlgm66.github.io/": {
    "status": "ok",
    "packages": 23,
-   "updated": "2026-11-03T23:59:36+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.mlgm.actra 1.3.4",
-    "com.mlgm.clippa 1.0.4",
-    "com.mlgm.idata 1.3.5"
+    "com.mlgm.actra 1.3.5",
+    "com.mlgm.appdata 1.3.9",
+    "com.mlgm.clippa 1.1"
    ]
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 902,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 905,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.banana.trollpadex 2.0.8",
-    "com.netskao.wcdisablehotupdates 8.0.80",
-    "com.quicklaunch.tweak 0.1.94"
+    "com.crctdd.stayalivelite 0.4.3",
+    "com.mlgm.appdata 1.3.9",
+    "com.mlgm.clippa 1.1"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -772,11 +784,12 @@
   },
   "https://wkkyy00.github.io/": {
    "status": "ok",
-   "packages": 469,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "packages": 468,
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.wkk.roothidealertsilencer 1.0-2",
-    "com.wkk.sileodebbackupx 1.0-1"
+    "com.wkk.ktck11188 1.0-1",
+    "re.frida.server 17.26.1",
+    "ws.hbang.alderis 2.2"
    ]
   },
   "https://level3tjg.me/repo/": {
@@ -818,9 +831,11 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 45,
-   "updated": "2026-11-06T00:16:37+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "wiki.qaq.kk 0.1.111"
+    "wiki.qaq.apelin 0.4.0",
+    "wiki.qaq.claude 2.1.319",
+    "wiki.qaq.fastfetch 2.71.0"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -1027,7 +1042,7 @@
    "latest": null
   },
   "https://tweak.mario.net.in/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 17,
    "updated": "2022-10-09T09:40:52+00:00",
    "latest": null
@@ -1123,7 +1138,7 @@
    "latest": null
   },
   "https://al3raqe.github.io/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 181,
    "updated": "2026-10-29T23:18:11+00:00",
    "latest": [
@@ -1315,9 +1330,9 @@
   "https://crctdd.github.io/repo/": {
    "status": "ok",
    "packages": 140,
-   "updated": "2026-11-05T00:22:56+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "com.crctdd.memtrim 0.0.3"
+    "com.crctdd.stayalivelite 0.4.3"
    ]
   },
   "https://creaturesurvive.github.io/": {
@@ -1519,9 +1534,9 @@
   "https://halo-michael.github.io/repo/": {
    "status": "ok",
    "packages": 44,
-   "updated": "2026-10-27T22:57:33+00:00",
+   "updated": "2026-11-07T22:45:46+00:00",
    "latest": [
-    "org.ppsspp.ppsspp-dev-latest 0v1.20.4-4013-g57161a245e"
+    "org.ppsspp.ppsspp-dev-latest 0v1.20.4-4634-g9f286ee4ca"
    ]
   },
   "https://zzhamzazz.github.io/": {
@@ -2193,7 +2208,7 @@
    "latest": null
   },
   "https://cydia.ppsspp.org/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 2,
    "updated": "2019-01-30T14:39:32+00:00",
    "latest": null
@@ -2513,7 +2528,7 @@
    "latest": null
   },
   "https://repo.supercharge.app/": {
-   "status": "warn",
+   "status": "dead",
    "packages": 1,
    "updated": "2019-12-04T03:15:41+00:00",
    "latest": null
