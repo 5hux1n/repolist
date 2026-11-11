@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-10T02:08:39+00:00",
+ "generated": "2026-11-11T00:02:37+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
-   "packages": 25,
-   "updated": "2026-11-08T22:53:31+00:00",
+   "packages": 27,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "im.mjh.xianyuadblock 3.2.4",
-    "im.mjh.xianyuadblock.roothide 3.2.4"
+    "im.mjh.myeyeclean 0.1.0",
+    "im.mjh.myeyeclean.roothide 0.1.0"
    ]
   },
   "https://opa334.github.io/": {
@@ -19,19 +19,21 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 967,
-   "updated": "2026-11-08T22:53:31+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.dao.neofreebird.bht 7.3.1.1+debug"
+    "com.dao.appprotect 2.5.0",
+    "com.dao.apptools15 2.9.3",
+    "com.dao.pogr 0.5.5"
    ]
   },
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 23,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.xybp888.callassist16.dopamine 3.4.2",
-    "com.xybp888.callassist16.dopamine.roothide 3.4.2",
-    "com.xybp888.callassist17.dopamine 2.5.0"
+    "com.xybp888.callassist16.dopamine 3.4.5",
+    "com.xybp888.callassist16.dopamine.roothide 3.4.5",
+    "com.xybp888.callassist17.dopamine 2.5.3"
    ]
   },
   "https://jailrepo.initnil.com/": {
@@ -64,19 +66,20 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1348,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.lenglengyu.hamhubpro-rootless 1.3.0",
-    "com.lenglengyu.ios.fakegps 4.0.2",
-    "com.lenglengyu.ios.fakegps-rootless 4.0.2"
+    "com.lenglengyu.dazzpro-rootless 1.0.8",
+    "com.lenglengyu.jikehlpro-rootless 0.0.2",
+    "com.lenglengyu.tubepippro-rootless 0.0.3"
    ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
    "packages": 9,
-   "updated": "2026-11-05T00:22:56+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.flex2areo.appprotect 2.5.0"
+    "com.flex2areo.apptools15rootless 2.9.3",
+    "com.flex2areo.apptools15roothide 2.9.3"
    ]
   },
   "https://invalidunit.github.io/repo/": {
@@ -211,7 +214,7 @@
    "latest": null
   },
   "https://ryleyangus.com/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 6,
    "updated": "2022-03-22T07:51:05+00:00",
    "latest": null
@@ -224,12 +227,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3749,
-   "updated": "2026-11-08T22:53:31+00:00",
+   "packages": 3750,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.4.1",
-    "com.cydiabc.callassist16.dopamine 3.4.1",
-    "com.cydiabc.callassist17-roothide 2.4.9"
+    "com.cydiabc.callassist16-roothide 3.4.3",
+    "com.cydiabc.callassist16.dopamine 3.4.3",
+    "com.cydiabc.callassist17-roothide 2.5.1"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -312,10 +315,10 @@
   },
   "https://axs66.github.io/pro/": {
    "status": "ok",
-   "packages": 429,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "packages": 430,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.axs.animate 5.2.0-7"
+    "com.jumping.thermaldetect 1.0.32"
    ]
   },
   "https://zlw555.github.io/repo/": {
@@ -344,12 +347,12 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3749,
-   "updated": "2026-11-08T22:53:31+00:00",
+   "packages": 3750,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.4.1",
-    "com.cydiabc.callassist16.dopamine 3.4.1",
-    "com.cydiabc.callassist17-roothide 2.4.9"
+    "com.cydiabc.callassist16-roothide 3.4.3",
+    "com.cydiabc.callassist16.dopamine 3.4.3",
+    "com.cydiabc.callassist17-roothide 2.5.1"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -416,10 +419,10 @@
   },
   "https://hang1888.github.io/": {
    "status": "ok",
-   "packages": 28,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "packages": 29,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.hang.qlkaimenadblock 1.0.2"
+    "com.hang.gdqj 1.0"
    ]
   },
   "https://repo.susubaby.cn/": {
@@ -589,15 +592,15 @@
   "https://repo.ikghd.me/": {
    "status": "ok",
    "packages": 4,
-   "updated": "2026-11-07T22:45:46+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "me.ikghd.inkplus 5.4.1",
-    "me.ikghd.ttkplus 2.3.7",
-    "me.ikghd.ytkplus 6.8.1"
+    "me.ikghd.inkplus 5.4.2",
+    "me.ikghd.ttkplus 2.4.2",
+    "me.ikghd.ytkplus 6.8.2"
    ]
   },
   "https://cydia.rob311.com/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 45,
    "updated": "2026-08-30T19:44:58+00:00",
    "latest": null
@@ -649,10 +652,9 @@
   "https://axs.yourepo.com/": {
    "status": "ok",
    "packages": 306,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.yourepo.axs.animateios27 5.2.0-7",
-    "com.yourepo.axs.thermaldetect 1.0.32"
+    "com.yourepo.axs.notifyisland 1.1.0"
    ]
   },
   "https://apt.bitilly.cn/": {
@@ -674,12 +676,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 911,
-   "updated": "2026-11-10T02:08:39+00:00",
+   "packages": 915,
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "com.dy778.douyin 1.0-1",
-    "com.hierarch.dykiller 0.7.1",
-    "com.huayuarc.insulation 1.0"
+    "wiki.qaq.irisin 5.1.8",
+    "com.dao.pogr 0.5.5",
+    "com.hang.gdqj 1.0"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -833,11 +835,11 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 45,
-   "updated": "2026-11-07T22:45:46+00:00",
+   "updated": "2026-11-11T00:02:37+00:00",
    "latest": [
-    "wiki.qaq.apelin 0.4.0",
-    "wiki.qaq.claude 2.1.319",
-    "wiki.qaq.fastfetch 2.71.0"
+    "com.icli.icli 1.0.0",
+    "wiki.qaq.apelin 0.4.1",
+    "wiki.qaq.claude 2.1.322"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -2298,7 +2300,7 @@
    "latest": null
   },
   "https://rejail.ru/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 888,
    "updated": "2025-05-08T16:22:08+00:00",
    "latest": null
@@ -2682,7 +2684,7 @@
    "latest": null
   },
   "https://tweakality.github.io/repo/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 2,
    "updated": "2019-05-15T19:25:14+00:00",
    "latest": null
