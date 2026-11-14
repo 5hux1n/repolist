@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-14T00:19:58+00:00",
+ "generated": "2026-11-14T22:58:39+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
-   "packages": 27,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "packages": 31,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "hongguofn 2.2.4",
-    "hongguofn.roothide 2.2.4",
-    "fanqiefn 3.5.2"
+    "fanqiefn 3.5.3",
+    "fanqiefn.roothide 3.5.3",
+    "im.mjh.xiaoyingclean 0.1.0"
    ]
   },
   "https://opa334.github.io/": {
@@ -20,11 +20,9 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 967,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.dao.apptools15 2.9.4",
-    "com.dao.spotify 7.0.1",
-    "com.dao.ytkace 1.1.7"
+    "com.dao.apptools15 2.9.5"
    ]
   },
   "http://apt.htv123.com/": {
@@ -66,19 +64,21 @@
   },
   "https://lenglengyu.com/": {
    "status": "ok",
-   "packages": 1346,
-   "updated": "2026-11-13T00:23:00+00:00",
+   "packages": 1353,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.lenglengyu.jikehlpro-rootless 0.0.3"
+    "com.lenglengyu.aichatbotpro-rootless 0.0.1",
+    "com.lenglengyu.boonpro-rootless 0.0.1",
+    "com.lenglengyu.flighttrackerpro-rootless 0.0.1"
    ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
    "packages": 9,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.flex2areo.apptools15rootless 2.9.4",
-    "com.flex2areo.apptools15roothide 2.9.4"
+    "com.flex2areo.apptools15rootless 2.9.5",
+    "com.flex2areo.apptools15roothide 2.9.5"
    ]
   },
   "https://invalidunit.github.io/repo/": {
@@ -145,10 +145,10 @@
   },
   "https://repo.cypwn.xyz/": {
    "status": "ok",
-   "packages": 1146,
-   "updated": "2026-11-13T00:23:00+00:00",
+   "packages": 1147,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "xyz.cypwn.squidforcer 1.0.0"
+    "xyz.cypwn.icleanerproenhanced 1.0.0"
    ]
   },
   "https://build.frida.re/": {
@@ -170,9 +170,9 @@
   "https://apt.fouadraheb.com/": {
    "status": "ok",
    "packages": 8,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.fouadraheb.watusi 1.0.1"
+    "com.f0u4d.onlinenotify 3.5.5"
    ]
   },
   "https://repo.palera.in/": {
@@ -225,12 +225,11 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3756,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "packages": 3758,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.4.9",
-    "com.cydiabc.callassist16.dopamine 3.4.9",
-    "com.cydiabc.callassist17-roothide 2.5.7"
+    "com.cydiabc.kongkongxcpro-roothide 5.0-1",
+    "com.cydiabc.kongkongxcpro-rootless 5.0-1"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -347,12 +346,11 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3756,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "packages": 3758,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.4.9",
-    "com.cydiabc.callassist16.dopamine 3.4.9",
-    "com.cydiabc.callassist17-roothide 2.5.7"
+    "com.cydiabc.kongkongxcpro-roothide 5.0-1",
+    "com.cydiabc.kongkongxcpro-rootless 5.0-1"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -424,7 +422,7 @@
    ]
   },
   "https://repo.susubaby.cn/": {
-   "status": "warn",
+   "status": "ok",
    "packages": 12,
    "updated": "2026-10-24T11:22:36+00:00",
    "latest": null
@@ -498,8 +496,10 @@
   "https://0xkuj.yourepo.com/": {
    "status": "ok",
    "packages": 52,
-   "updated": "2026-10-21T15:01:25+00:00",
-   "latest": null
+   "updated": "2026-11-14T22:58:39+00:00",
+   "latest": [
+    "com.0xkuj.iparanger 2.8.1"
+   ]
   },
   "http://tigisoftware.com/repo/": {
    "status": "ok",
@@ -622,9 +622,10 @@
   "https://yourepo.com/": {
    "status": "ok",
    "packages": 2609,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.5"
+    "com.0xkuj.iparanger 2.8.1",
+    "com.i0stweak3r.ezcompleteui 7.2.6"
    ]
   },
   "https://brendonjkding.github.io/": {
@@ -664,9 +665,10 @@
   "https://mlgm66.github.io/": {
    "status": "ok",
    "packages": 27,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.mlgm.clone 0.4"
+    "com.mlgm.clone 0.5",
+    "com.mlgm.filzapatch 1.1.2"
    ]
   },
   "https://huayuarc.github.io/": {
@@ -787,9 +789,9 @@
   "https://wkkyy00.github.io/": {
    "status": "ok",
    "packages": 470,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "cn.llld.ql 1.3.5"
+    "com.wkk.wechatx 2.5-2"
    ]
   },
   "https://level3tjg.me/repo/": {
@@ -831,11 +833,10 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 45,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "wiki.qaq.claude 2.1.323",
-    "wiki.qaq.ighostvt 1.6.28",
-    "wiki.qaq.kk 0.1.121"
+    "wiki.qaq.apelin 0.4.7",
+    "wiki.qaq.claude 2.1.325"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -901,9 +902,9 @@
   "https://i0s-tweak3r-betas.yourepo.com/": {
    "status": "ok",
    "packages": 73,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.5"
+    "com.i0stweak3r.ezcompleteui 7.2.6"
    ]
   },
   "https://ichitaso.com/apt/": {
@@ -1140,11 +1141,9 @@
   "https://al3raqe.github.io/": {
    "status": "ok",
    "packages": 180,
-   "updated": "2026-11-14T00:19:58+00:00",
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.nfb.tweak 7.3.1",
-    "com.itzzace.ytkace 1.1.7",
-    "com.JafarAli.jafarmasks 1.2"
+    "com.na9.tiktok 1.0.1"
    ]
   },
   "https://leftyfl1p.github.io/": {
@@ -1767,10 +1766,10 @@
   },
   "https://korboybeats.github.io/": {
    "status": "ok",
-   "packages": 10,
-   "updated": "2026-11-12T01:32:27+00:00",
+   "packages": 11,
+   "updated": "2026-11-14T22:58:39+00:00",
    "latest": [
-    "com.korboy.speedy 1.0.0"
+    "com.korboy.icleanerproenhanced 1.0.0"
    ]
   },
   "https://kotyanlife.info/cydiarepo/": {
