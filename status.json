@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T23:48:00+00:00",
+ "generated": "2026-11-23T00:19:11+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
@@ -20,9 +20,9 @@
   "https://xiangfeidexiaohuo.github.io/": {
    "status": "ok",
    "packages": 967,
-   "updated": "2026-11-20T01:16:17+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.dao.infuseplus 2.6.1"
+    "com.dao.neofreebird.bht 7.3.1.3"
    ]
   },
   "http://apt.htv123.com/": {
@@ -64,11 +64,11 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1361,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.lenglengyu.chaohuisuanpro-rootless 0.0.3",
-    "com.lenglengyu.geshizhpro-rootless 0.0.1",
-    "com.lenglengyu.jryoujiapro-rootless 0.0.3"
+    "com.lenglengyu.hamhubpro-rootless 1.3.2",
+    "com.lenglengyu.jrjinjiapro-rootless 0.0.2",
+    "com.lenglengyu.mmreaderpro-rootless 0.0.4"
    ]
   },
   "https://flex2areo.github.io/": {
@@ -98,10 +98,10 @@
   },
   "https://apt.82flex.com/": {
    "status": "ok",
-   "packages": 33,
-   "updated": "2026-11-13T00:23:00+00:00",
+   "packages": 34,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.fizz.ripple 0.1.2"
+    "com.82flex.panoramicview 1.0.16"
    ]
   },
   "https://repo.chariz.com/": {
@@ -127,12 +127,12 @@
   },
   "https://havoc.app/": {
    "status": "ok",
-   "packages": 541,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "packages": 542,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "app.catscript.pro 1.7.0",
-    "com.saihgupr.remotecompanion 4.4.0",
-    "com.besiktasliseba.macstatusbaranddock 1.8.7.8"
+    "com.sergy.replyactions 3.0.2",
+    "app.catscript.pro 1.8.0",
+    "app.catscript.lite 1.8.0"
    ]
   },
   "https://roothide.github.io/": {
@@ -162,17 +162,17 @@
   "https://apt.alfhaily.me/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-11-17T02:28:50+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "me.alfhaily.rocket 4.27.1"
+    "me.alfhaily.rocket 4.27.2"
    ]
   },
   "https://apt.fouadraheb.com/": {
    "status": "ok",
    "packages": 8,
-   "updated": "2026-11-20T01:16:17+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.fouadraheb.contactsync 1.1.16"
+    "com.fouadraheb.watusi 1.0.2"
    ]
   },
   "https://repo.palera.in/": {
@@ -225,12 +225,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3768,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "packages": 3770,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.5.6",
-    "com.cydiabc.callassist16.dopamine 3.5.6",
-    "com.cydiabc.callassist17-roothide 2.6.4"
+    "com.cydiabc.icostpro-roothide 5.0-3",
+    "com.cydiabc.icostpro-rootless 5.0-3",
+    "com.cydiabc.taoxiaoshuopro-roothide 5.0-1"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -241,10 +241,12 @@
   },
   "https://byg.iosios.net/": {
    "status": "ok",
-   "packages": 960,
-   "updated": "2026-11-15T23:23:11+00:00",
+   "packages": 961,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "byg.iosios.net.cputhermal.zl 2.0.500"
+    "byg.iosios.net.oakstheawesome.solo 1.0.2",
+    "byg.iosios.net.xhshook 2.1.5",
+    "byg.iosios.net.mutool 2.2.94"
    ]
   },
   "https://trollstorex.github.io/repo/": {
@@ -311,9 +313,9 @@
   "https://axs66.github.io/pro/": {
    "status": "ok",
    "packages": 431,
-   "updated": "2026-11-17T02:28:50+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.axs.touchtrail 5.2.0-64"
+    "com.axs.snapper4 5.2.0-60"
    ]
   },
   "https://zlw555.github.io/repo/": {
@@ -342,12 +344,12 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3768,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "packages": 3770,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.cydiabc.callassist16-roothide 3.5.6",
-    "com.cydiabc.callassist16.dopamine 3.5.6",
-    "com.cydiabc.callassist17-roothide 2.6.4"
+    "com.cydiabc.icostpro-roothide 5.0-3",
+    "com.cydiabc.icostpro-rootless 5.0-3",
+    "com.cydiabc.taoxiaoshuopro-roothide 5.0-1"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -541,10 +543,10 @@
   "http://cydia.ichitaso.com/": {
    "status": "ok",
    "packages": 111,
-   "updated": "2026-11-21T00:47:51+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.ichitaso.regitela 1.0.6",
-    "com.rileytestut.altdaemon 1.2.3"
+    "com.ichitaso.regitela 1.0.7",
+    "com.rileytestut.altdaemon 1.2.4"
    ]
   },
   "http://junesiphone.com/supersecret/": {
@@ -600,7 +602,7 @@
    "latest": null
   },
   "http://repo.qqtlr.com/": {
-   "status": "dead",
+   "status": "warn",
    "packages": 765,
    "updated": "2026-02-02T06:43:09+00:00",
    "latest": null
@@ -620,9 +622,9 @@
   "https://yourepo.com/": {
    "status": "ok",
    "packages": 2609,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.17"
+    "com.yourepo.i0s-tweak3r-betas.homegestureios1315 0.0.4"
    ]
   },
   "https://brendonjkding.github.io/": {
@@ -646,9 +648,9 @@
   "https://axs.yourepo.com/": {
    "status": "ok",
    "packages": 306,
-   "updated": "2026-11-17T02:28:50+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.yourepo.axs.touchtrail 5.2.0-64"
+    "com.yourepo.axs.snapper4 5.2.0-60"
    ]
   },
   "https://apt.bitilly.cn/": {
@@ -672,12 +674,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 941,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "packages": 944,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.deepseek.dualguard 3.24.0",
-    "com.hang.kayoko 4.7.3",
-    "com.muzi.mutool 2.2.94"
+    "com.404.facelock 1.0.0",
+    "com.muzi.mutool 2.2.95",
+    "com.susudear.screencore 2.0.3+windowscheduler.12-79.duo3.148"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -784,7 +786,7 @@
    "latest": null
   },
   "https://zerui18.github.io/zx02/": {
-   "status": "dead",
+   "status": "warn",
    "packages": 8,
    "updated": "2023-05-10T05:42:00+00:00",
    "latest": null
@@ -835,12 +837,12 @@
   },
   "https://apt.owngoal.dev/": {
    "status": "ok",
-   "packages": 45,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "packages": 46,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "wiki.qaq.apelin 0.4.8",
-    "wiki.qaq.ighostvt 1.6.35",
-    "wiki.qaq.kk 0.1.126"
+    "wiki.qaq.apelin 0.4.9",
+    "wiki.qaq.devicehubenabler 0.1.0",
+    "wiki.qaq.kk 0.1.128"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -893,9 +895,11 @@
   },
   "https://repo.igerman.cc/": {
    "status": "ok",
-   "packages": 4,
-   "updated": "2024-07-28T15:04:24+00:00",
-   "latest": null
+   "packages": 5,
+   "updated": "2026-11-23T00:19:11+00:00",
+   "latest": [
+    "cc.igerman.nibblez 0.1.3"
+   ]
   },
   "https://hacx.org/repo/": {
    "status": "ok",
@@ -906,18 +910,18 @@
   "https://i0s-tweak3r-betas.yourepo.com/": {
    "status": "ok",
    "packages": 73,
-   "updated": "2026-11-21T23:48:00+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.17"
+    "com.yourepo.i0s-tweak3r-betas.homegestureios1315 0.0.4"
    ]
   },
   "https://ichitaso.com/apt/": {
    "status": "ok",
    "packages": 111,
-   "updated": "2026-11-21T00:47:51+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.ichitaso.regitela 1.0.6",
-    "com.rileytestut.altdaemon 1.2.3"
+    "com.ichitaso.regitela 1.0.7",
+    "com.rileytestut.altdaemon 1.2.4"
    ]
   },
   "http://aquawu.github.io/igg/": {
@@ -1146,11 +1150,9 @@
   "https://al3raqe.github.io/": {
    "status": "ok",
    "packages": 208,
-   "updated": "2026-11-21T00:47:51+00:00",
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.tigisoftware.appdatamanager 2.0.0-3",
-    "com.albrhi 1.113.0",
-    "com.albrhi.tiktok 0.30.0"
+    "com.albrhi.roothide 1.113.1"
    ]
   },
   "https://leftyfl1p.github.io/": {
@@ -1337,10 +1339,10 @@
   },
   "https://crctdd.github.io/repo/": {
    "status": "ok",
-   "packages": 143,
-   "updated": "2026-11-19T01:13:08+00:00",
+   "packages": 144,
+   "updated": "2026-11-23T00:19:11+00:00",
    "latest": [
-    "com.crctdd.tailscaleactive 0.0.2"
+    "com.crctdd.frida-switch 0.0.1"
    ]
   },
   "https://creaturesurvive.github.io/": {
@@ -1942,7 +1944,7 @@
    "latest": null
   },
   "https://miroppb.com/repo/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 1,
    "updated": "2024-10-15T15:28:01+00:00",
    "latest": null
@@ -2218,7 +2220,7 @@
    "latest": null
   },
   "https://cydia.ppsspp.org/": {
-   "status": "dead",
+   "status": "warn",
    "packages": 2,
    "updated": "2019-01-30T14:39:32+00:00",
    "latest": null
