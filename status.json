@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T02:10:23+00:00",
+ "generated": "2026-11-28T02:00:45+00:00",
  "repos": {
   "https://apt.mjh.im/": {
    "status": "ok",
@@ -27,11 +27,11 @@
   "http://apt.htv123.com/": {
    "status": "ok",
    "packages": 23,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.xybp888.callassist16.dopamine 3.5.8",
-    "com.xybp888.callassist16.dopamine.roothide 3.5.8",
-    "com.xybp888.callassist17.dopamine 2.6.6"
+    "com.xybp888.callassist16.dopamine 3.6.0",
+    "com.xybp888.callassist16.dopamine.roothide 3.6.0",
+    "com.xybp888.callassist17.dopamine 2.6.8"
    ]
   },
   "https://jailrepo.initnil.com/": {
@@ -43,9 +43,9 @@
   "https://rootless.002599.xyz/": {
    "status": "ok",
    "packages": 39,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "cn.zqbb.hello.quick.panel 1.3.0-9"
+    "cn.zqbb.hello.quick.panel 1.5.0-2"
    ]
   },
   "https://laileld.github.io/repo/": {
@@ -63,20 +63,19 @@
   "https://lenglengyu.com/": {
    "status": "ok",
    "packages": 1371,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.lenglengyu.hamhubpro-rootless 1.3.3",
-    "com.lenglengyu.retouchpro-rootless 0.0.1",
-    "com.lenglengyu.translatorpro 0.0.1"
+    "com.lenglengyu.fileboxpro-rootless 1.0.0",
+    "com.lenglengyu.ysbrowserpro-rootless 1.1.7"
    ]
   },
   "https://flex2areo.github.io/": {
    "status": "ok",
-   "packages": 9,
-   "updated": "2026-11-18T01:39:00+00:00",
+   "packages": 7,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.flex2areo.apptools15rootless 2.9.7",
-    "com.flex2areo.apptools15roothide 2.9.7"
+    "com.flex2areo.apptools15rootless 2.9.8",
+    "com.flex2areo.apptools15roothide 2.9.8"
    ]
   },
   "https://invalidunit.github.io/repo/": {
@@ -127,11 +126,11 @@
   "https://havoc.app/": {
    "status": "ok",
    "packages": 542,
-   "updated": "2026-11-26T02:13:02+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.cercube.ios 6.6.1",
-    "com.moondr1.quickring 1.2.3",
-    "com.c3x14n.nowlyrics 1.3.1"
+    "com.reo.mystery 4.3.0",
+    "com.leftyfl1p.carbridge13 2.1.1",
+    "com.mystery.lslyrics 2.2"
    ]
   },
   "https://roothide.github.io/": {
@@ -144,20 +143,20 @@
   },
   "https://repo.cypwn.xyz/": {
    "status": "ok",
-   "packages": 1159,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 1160,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "xyz.cypwn.akinopatcher 0.3.2",
-    "xyz.cypwn.dynamicseth 1.0.2k",
-    "xyz.cypwn.solidglass27dark 2.0"
+    "xyz.cypwn.1617 1.0.0",
+    "xyz.cypwn.reo 4.2.0",
+    "xyz.cypwn.tethera 1.3.0k"
    ]
   },
   "https://build.frida.re/": {
    "status": "ok",
    "packages": 1,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "re.frida.server 17.28.0"
+    "re.frida.server 17.28.1"
    ]
   },
   "https://apt.alfhaily.me/": {
@@ -183,7 +182,7 @@
    "latest": null
   },
   "https://yttxcs.com/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 3546,
    "updated": "2025-05-07T01:20:05+00:00",
    "latest": null
@@ -226,12 +225,12 @@
   },
   "http://repo.cydiabc.top/": {
    "status": "ok",
-   "packages": 3781,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 3789,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.cydiabc.aerial-rootless 5.1",
-    "com.cydiabc.anxietea-rootless 1.0.6",
-    "com.cydiabc.bezelifypro-rootless 1.2.3"
+    "com.cydiabc.abcjailbreakbypass-roothide 1.0.0",
+    "com.cydiabc.abcjailbreakbypass-rootless 1.0.0",
+    "com.cydiabc.callassist16-roothide 3.6.0"
    ]
   },
   "https://repo.snailovet.com/": {
@@ -273,17 +272,18 @@
   "https://rootless.zq666.eu.org/": {
    "status": "ok",
    "packages": 39,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "cn.zqbb.hello.quick.panel 1.3.0-9"
+    "cn.zqbb.hello.quick.panel 1.5.0-2"
    ]
   },
   "https://sini921.github.io/": {
    "status": "ok",
-   "packages": 208,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 209,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.sini921.appstoretroller 0.1.2-8"
+    "com.doubao.weatherclock 2.2.3",
+    "com.sini921.appstoretroller 0.1.2-10"
    ]
   },
   "https://cydia.dumpapp.com/": {
@@ -345,12 +345,12 @@
   },
   "https://apt.cydiabc.top/": {
    "status": "ok",
-   "packages": 3781,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 3789,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.cydiabc.aerial-rootless 5.1",
-    "com.cydiabc.anxietea-rootless 1.0.6",
-    "com.cydiabc.bezelifypro-rootless 1.2.3"
+    "com.cydiabc.abcjailbreakbypass-roothide 1.0.0",
+    "com.cydiabc.abcjailbreakbypass-rootless 1.0.0",
+    "com.cydiabc.callassist16-roothide 3.6.0"
    ]
   },
   "https://apt.razerxj.com/": {
@@ -386,7 +386,7 @@
    "latest": null
   },
   "https://yilai.yttxcs.com/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 142,
    "updated": "2024-06-20T13:42:33+00:00",
    "latest": null
@@ -428,7 +428,7 @@
    "latest": null
   },
   "https://apt.touchsprite.com/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 2,
    "updated": "2026-11-19T01:13:08+00:00",
    "latest": [
@@ -622,11 +622,10 @@
   },
   "https://yourepo.com/": {
    "status": "ok",
-   "packages": 2610,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 2608,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.30",
-    "com.i0stweak3r.midnightterrarium.theme 1.0.4"
+    "com.i0stweak3r.ezcompleteui 7.2.32"
    ]
   },
   "https://brendonjkding.github.io/": {
@@ -675,12 +674,12 @@
   },
   "https://huayuarc.github.io/": {
    "status": "ok",
-   "packages": 958,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 963,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.0xkuj.ccbackgrounder17 1.0.0",
-    "com.dy778.douyin 1.1-2",
-    "com.mjh.spdbadblock 0.2.0"
+    "com.charlieleung.watchpairingcompat 0.1.0",
+    "com.doubao.weatherclock 2.2.3",
+    "com.example.noticelisttweak 1.0.21+h2l1"
    ]
   },
   "http://apt.iarrays.com/": {
@@ -841,9 +840,9 @@
   "https://apt.owngoal.dev/": {
    "status": "ok",
    "packages": 46,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "wiki.qaq.kk 0.1.135"
+    "wiki.qaq.kk 0.1.138"
    ]
   },
   "https://biucheung.github.io/tellmyfriends/": {
@@ -910,11 +909,10 @@
   },
   "https://i0s-tweak3r-betas.yourepo.com/": {
    "status": "ok",
-   "packages": 74,
-   "updated": "2026-11-27T02:10:23+00:00",
+   "packages": 72,
+   "updated": "2026-11-28T02:00:45+00:00",
    "latest": [
-    "com.i0stweak3r.ezcompleteui 7.2.30",
-    "com.i0stweak3r.midnightterrarium.theme 1.0.4"
+    "com.i0stweak3r.ezcompleteui 7.2.32"
    ]
   },
   "https://ichitaso.com/apt/": {
@@ -1602,7 +1600,7 @@
    "latest": null
   },
   "https://marcoianne.github.io/": {
-   "status": "ok",
+   "status": "warn",
    "packages": 2,
    "updated": "2019-04-28T19:08:16+00:00",
    "latest": null
@@ -2723,7 +2721,7 @@
   },
   "https://apt.uar.no/": {
    "status": "ok",
-   "packages": 4,
+   "packages": 3,
    "updated": "2026-11-27T02:10:23+00:00",
    "latest": [
     "gtavport 1.6.3",
